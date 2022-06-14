@@ -1,9 +1,9 @@
-@echo off
+@echo on
 set realpath=%~dp0
 cd %realpath%
 set retroboxroot=%realpath%\..\..
 if "%1"=="" goto :ERROR
-set plataforma=%2
+set plataforma=%1
 set rom=%2
 rem if "%2"=="" goto :ERROR
 set CONFIGFILE=%retroboxroot%\old-defaults.conf
@@ -33,6 +33,12 @@ echo %emu% | findstr libretro >NUL && (
 )
 
 :LOADRETROARCH
+if exist "E:\Juegos\saves\%plataforma%" ( 
+	echo a
+) else (
+	mkdir "E:\Juegos\saves\%plataforma%"
+)
+
 echo %plataforma% | findstr "saturn" >NUL && (
     goto :LOADRETROARCHSATURN
 ) || (
@@ -58,34 +64,45 @@ for /R %rom% %%f in (*.scummvm,*.scummvm2) do (
 goto :EOF 
 
 :LOADRETROARCHNORMAL
-%EMUDIR%\retroarch\retroarch.exe -L %EMUDIR%\retroarch\cores\%emu%.dll %rom%
+del %EMUDIR%\retroarch\retroarch-config.cfg
+copy %EMUDIR%\retroarch\retroarch-original.cfg %EMUDIR%\retroarch\retroarch-config.cfg
+cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "directorio" "E:\Juegos\saves\%plataforma%"
+%EMUDIR%\retroarch\retroarch.exe -c %EMUDIR%\retroarch\retroarch-config.cfg -L %EMUDIR%\retroarch\cores\%emu%.dll %rom%
 goto :EOF
 
 :LOADRETROARCHPS1
-%EMUDIR%\retroarch-old\retroarch.exe -L %EMUDIR%\retroarch-old\cores\%emu%.dll %rom%
+del %EMUDIR%\retroarch-old\retroarch-config.cfg
+copy %EMUDIR%\retroarch-old\retroarch-original.cfg %EMUDIR%\retroarch-old\retroarch-config.cfg
+cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch-old\retroarch-config.cfg "directorio" "E:\Juegos\saves\%plataforma%"
+%EMUDIR%\retroarch-old\retroarch.exe -c %EMUDIR%\retroarch-old\retroarch-config.cfg -L %EMUDIR%\retroarch-old\cores\%emu%.dll %rom%
 goto :EOF
 
 :LOADRETROARCHSATURN
+del %EMUDIR%\retroarch-old\retroarch-config.cfg
+copy %EMUDIR%\retroarch-old\retroarch-original.cfg %EMUDIR%\retroarch-old\retroarch-config.cfg
+cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch-old\retroarch-config.cfg "directorio" "E:\Juegos\saves\%plataforma%"
+
 for /R %rom% %%f in (*.cue) do (
-    %EMUDIR%\retroarch\retroarch.exe -L %EMUDIR%\retroarch\cores\%emu%.dll "%%f"
+    %EMUDIR%\retroarch-old\retroarch.exe -c %EMUDIR%\retroarch-old\retroarch-config.cfg -L %EMUDIR%\retroarch-old\cores\%emu%.dll "%%f"
     goto :EOF
 )
 goto :EOF
 
 :LOADRETROARCHN64
+del %EMUDIR%\retroarch-old\retroarch-config.cfg
+rem copy %EMUDIR%\retroarch-old\retroarch-n64-original.cfg %EMUDIR%\retroarch-old\retroarch-n64.cfg
+rem cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch-old\retroarch-n64.cfg "directorio" "E:\Juegos\saves\%plataforma%"
+
 for %%i in (%rom%) do set baserom="%%~nxi"
 FOR /F "tokens=* USEBACKQ" %%F IN (`findstr /C:%baserom% %retroboxroot%\romconfig\n64.txt`) DO (SET var=%%F )
 ECHO %var% | findstr mupen64plus_next_libretro && (
 	set emu=mupen64plus_next_libretro
 )
-timeout /t 1
-ECHO %%var%% | findstr intel && (
-	rem %retroboxroot%\misc\nircmd.exe win hide class Shell_TrayWnd
+rem timeout /t 1
+ECHO %var% | findstr intel && (
 	%EMUDIR%\retroarch-old\retroarch.exe -c %EMUDIR%\retroarch-old\retroarch-n64.cfg -L %EMUDIR%\retroarch-old\cores\%emu%.dll %rom%
-	rem %EMUDIR%\retroarch\retroarch-intel.exe -c %EMUDIR%\retroarch\retroarch-n64.cfg -L %EMUDIR%\retroarch\cores\%emu%.dll %rom%
-	goto :EOF
 ) || (
-    %EMUDIR%\retroarch-old\retroarch-old-nvidia.exe -c %EMUDIR%\retroarch-old\retroarch-n64.cfg -L %EMUDIR%\retroarch-old\cores\%emu%.dll %rom%
+	%EMUDIR%\retroarch-old\retroarch-old-nvidia.exe -c %EMUDIR%\retroarch-old\retroarch-n64.cfg -L %EMUDIR%\retroarch-old\cores\%emu%.dll %rom%
 )
 goto :EOF
 

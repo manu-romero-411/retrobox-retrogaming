@@ -83,20 +83,6 @@
 		<lang>jp</lang>
 	</game>
 	<game>
-		<path>./Twitch.apptv</path>
-		<name>Twitch</name>
-		<image>./app-logos/Twitch.png</image>
-		<rating>0.8</rating>
-		<releasedate>20110606T000000</releasedate>
-		<publisher>Amazon</publisher>
-		<genre>Directos</genre>
-		<players>1</players>
-		<playcount>5</playcount>
-		<lastplayed>20211227T004349</lastplayed>
-		<gametime>501</gametime>
-		<lang>es</lang>
-	</game>
-	<game>
 		<path>./Atresplayer.apptv</path>
 		<name>Atresplayer</name>
 		<image>./app-logos/atresplayer.png</image>
@@ -147,34 +133,6 @@
 		<lang>es</lang>
 	</game>
 	<game>
-		<path>./kodi.apptv</path>
-		<name>Kodi</name>
-		<image>./app-logos/Kodi.png</image>
-		<rating>0.9</rating>
-		<releasedate>20040629T000000</releasedate>
-		<publisher>The XBMC Project</publisher>
-		<genre>Series / Películas / TV / Música / Fotos / Vídeos / Directos</genre>
-		<players>1</players>
-		<playcount>31</playcount>
-		<lastplayed>20220430T010757</lastplayed>
-		<gametime>10769</gametime>
-		<lang>eu</lang>
-	</game>
-	<game>
-		<path>./RTVE play.apptv</path>
-		<name>RTVE Play</name>
-		<image>./app-logos/rtveplay.png</image>
-		<rating>0.8</rating>
-		<releasedate>20080501T000000</releasedate>
-		<publisher>Radiotelevisión Española - RTVE</publisher>
-		<genre>TV / Directos</genre>
-		<players>1</players>
-		<playcount>16</playcount>
-		<lastplayed>20220517T232828</lastplayed>
-		<gametime>1662</gametime>
-		<lang>es</lang>
-	</game>
-	<game>
 		<path>./Spotify.apptv</path>
 		<name>Spotify</name>
 		<image>./app-logos/Spotify.png</image>
@@ -189,35 +147,6 @@
 		<lang>es</lang>
 	</game>
 	<game>
-		<path>./Google Chrome.apptv</path>
-		<name>Google Chrome</name>
-		<image>./app-logos/google-chrome.png</image>
-		<rating>1</rating>
-		<releasedate>20080902T195133</releasedate>
-		<developer>Google Inc</developer>
-		<publisher>Google Inc</publisher>
-		<players>1</players>
-		<playcount>19</playcount>
-		<lastplayed>20220519T151801</lastplayed>
-		<gametime>6377</gametime>
-		<lang>eu</lang>
-		<region>eu</region>
-	</game>
-	<game>
-		<path>./Amazon Prime Video.apptv</path>
-		<name>Amazon Prime Video</name>
-		<image>./app-logos/AmazonPrimeVideo.png</image>
-		<rating>0.9</rating>
-		<releasedate>20161214T000000</releasedate>
-		<publisher>Amazon</publisher>
-		<genre>Series / Películas</genre>
-		<players>1</players>
-		<playcount>38</playcount>
-		<lastplayed>20220525T205026</lastplayed>
-		<gametime>5132</gametime>
-		<lang>es</lang>
-	</game>
-	<game>
 		<path>./YouTube.apptv</path>
 		<name>YouTube</name>
 		<image>./app-logos/YouTube.png</image>
@@ -229,6 +158,91 @@
 		<playcount>35</playcount>
 		<lastplayed>20220525T233919</lastplayed>
 		<gametime>17307</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./kodi.apptv</path>
+		<name>Kodi</name>
+		<image>./app-logos/Kodi.png</image>
+		<rating>0.9</rating>
+		<releasedate>20040629T000000</releasedate>
+		<publisher>The XBMC Project</publisher>
+		<genre>Series / Películas / TV / Música / Fotos / Vídeos / Directos</genre>
+		<players>1</players>
+		<playcount>36</playcount>
+		<lastplayed>20220602T173604</lastplayed>
+		<gametime>12758</gametime>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./RTVE play.apptv</path>
+		<name>RTVE Play</name>
+		<image>./app-logos/rtveplay.png</image>
+		<rating>0.8</rating>
+		<releasedate>20080501T000000</releasedate>
+		<publisher>Radiotelevisión Española - RTVE</publisher>
+		<genre>TV / Directos</genre>
+		<players>1</players>
+		<playcount>17</playcount>
+		<lastplayed>20220602T173927</lastplayed>
+		<gametime>1679</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Amazon Prime Video.apptv</path>
+		<name>Amazon Prime Video</name>
+		<image>./app-logos/AmazonPrimeVideo.png</image>
+		<rating>0.9</rating>
+		<releasedate>20161214T000000</releasedate>
+		<publisher>Amazon</publisher>
+		<genre>Series / Películas</genre>
+		<players>1</players>
+		<playcount>43</playcount>
+		<lastplayed>20220602T180424</lastplayed>
+		<gametime>6430</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./msedge.apptv</path>
+		<name>Microsoft Edge</name>
+		<image>./app-logos/msedge.png</image>
+		<rating>1</rating>
+		<releasedate>20200115T195133</releasedate>
+		<developer>Microsoft</developer>
+		<publisher>Microsoft</publisher>
+		<players>1</players>
+		<playcount>24</playcount>
+		<lastplayed>20220602T180240</lastplayed>
+		<gametime>6551</gametime>
+		<lang>eu</lang>
+		<region>eu</region>
+	</game>
+	<game>
+		<path>./canalSurMas.apptv</path>
+		<name>Canal Sur Más</name>
+		<image>./app-logos/canalSurMas.png</image>
+		<rating>0.8</rating>
+		<releasedate>20220315T101010</releasedate>
+		<publisher>RTVA</publisher>
+		<genre>TV / Directos</genre>
+		<players>1</players>
+		<playcount>6</playcount>
+		<lastplayed>20220614T124705</lastplayed>
+		<gametime>2851</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Twitch.apptv</path>
+		<name>Twitch</name>
+		<image>./app-logos/Twitch.png</image>
+		<rating>0.8</rating>
+		<releasedate>20110606T000000</releasedate>
+		<publisher>Amazon</publisher>
+		<genre>Directos</genre>
+		<players>1</players>
+		<playcount>7</playcount>
+		<lastplayed>20220614T140230</lastplayed>
+		<gametime>3620</gametime>
 		<lang>es</lang>
 	</game>
 </gameList>

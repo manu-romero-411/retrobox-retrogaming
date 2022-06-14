@@ -1,0 +1,5 @@
+#!/bin/bash
+
+touch /mnt/winC/.winboot
+#systemctl reboot -i
+xfce4-session-logout -rf

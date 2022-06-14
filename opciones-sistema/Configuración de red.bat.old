@@ -1,0 +1,3 @@
+@echo off
+
+start /wait ms-settings:network-wifi

@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="306838">
+		<path>./HoratioGoesSnowboarding.bat.lnk</path>
+		<name>Horatio Goes Snowboarding</name>
+		<image>./images/Horatio Goes Snowboarding-image.png</image>
+		<playcount>16</playcount>
+		<lastplayed>20220430T152640</lastplayed>
+		<md5>873d2737c5c3ddd4ffde52cd2dad756d</md5>
+		<gametime>167</gametime>
+		<lang>en</lang>
+	</game>
+	<game id="295542">
+		<path>./EnterTheGungeon.bat.lnk</path>
+		<name>Enter the Gungeon</name>
+		<desc>Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past. Select a hero [or team up in co-op] and battle your way to the bottom of the Gungeon by surviving a challenging and evolving series of floors filled with the dangerously adorable Gundead and fearsome Gungeon bosses armed to the teeth. Gather precious loot, discover hidden secrets, and chat with opportunistic merchants and shopkeepers to purchase powerful items to gain an edge.
+
+The Gungeon: Enter the Gungeon – a constantly evolving bullet hell fortress that elegantly blends meticulously hand-designed rooms within a procedurally-generated labyrinth bent on destroying all that enter its walls. But beware – the Gungeon responds to even the most modest victory against its sentries and traps by raising the stakes and the challenges found within!</desc>
+		<image>./images/Enter the Gungeon-image.png</image>
+		<marquee>./images/Enter the Gungeon-marquee.png</marquee>
+		<thumbnail>./images/Enter the Gungeon-thumb.png</thumbnail>
+		<releasedate>20160405T000000</releasedate>
+		<developer>Dodge Roll</developer>
+		<publisher>Devolver Digital</publisher>
+		<playcount>7</playcount>
+		<lastplayed>20220518T002659</lastplayed>
+		<md5>48b18e939fa63fa982115c2987bf8aae</md5>
+		<gametime>353</gametime>
+		<lang>en</lang>
+	</game>
+	<game id="251495">
+		<path>./HorizonChaseTurbo.bat.lnk</path>
+		<name>Horizon Chase Turbo</name>
+		<desc>Horizon Chase Turbo is a racing game inspired by the great hits of the 80's and 90's: Out Run, Lotus Turbo Challenge, Top Gear (SNES), Rush, among others. Each curve and each lap, in Horizon Chase Turbo recreates classic arcade gameplay and offers you unbound speed limits of fun. Full throttle on and enjoy!
+
+With Multiplayer Split Screen support across all game modes, to rescue the nostalgia of playing with your best friends sitting on a couch all night long. The hard time is to know who is your best friend because this one is also the one to be beaten.</desc>
+		<image>./images/Horizon Chase Turbo-image.png</image>
+		<marquee>./images/Horizon Chase Turbo-marquee.png</marquee>
+		<thumbnail>./images/Horizon Chase Turbo-thumb.png</thumbnail>
+		<releasedate>20180515T000000</releasedate>
+		<developer>Aquiris Game Studio</developer>
+		<publisher>Aquiris Game Studio</publisher>
+		<genre>Carreras, Conducción / Carreras 3ª persona</genre>
+		<players>4</players>
+		<playcount>6</playcount>
+		<lastplayed>20220518T003023</lastplayed>
+		<md5>80ff5f8af93a89e47e08390fb22b089f</md5>
+		<gametime>676</gametime>
+		<lang>en</lang>
+	</game>
+	<game id="339892">
+		<path>./SonicRoboBlast 2.lnk</path>
+		<name>Sonic Robo Blast 2</name>
+		<image>./images/Sonic Robo Blast 2-image.png</image>
+		<playcount>26</playcount>
+		<lastplayed>20220518T003208</lastplayed>
+		<md5>3cc344d1b06039bf7818b45bcd1cc3bc</md5>
+		<gametime>2727</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./loaders/epic-uplay-loader.bat.lnk</path>
+		<name>epic-uplay-loader</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./loaders/steam-loader.bat.lnk</path>
+		<name>steam-loader</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./loaders/games/Sonic Mania.bat.lnk</path>
+		<name>Sonic Mania</name>
+		<lang>en</lang>
+	</game>
+	<game id="339870">
+		<path>./SonicMania.bat.lnk</path>
+		<name>Sonic Mania</name>
+		<desc>Un homenaje definitivo al pasado y al futuro. Una nueva aventura repleta de jefes únicos, paisajes rodantes en 2D y las mecánicas más clásicas y divertidas. Sonic Mania lleva al futuro la acción vertiginosa de los juegos de plataformas retro con gráficos en 2D de pixelado perfecto a 60 fps.</desc>
+		<image>./images/Sonic Mania-image.png</image>
+		<marquee>./images/Sonic Mania-marquee.png</marquee>
+		<thumbnail>./images/Sonic Mania-thumb.png</thumbnail>
+		<releasedate>20170829T000000</releasedate>
+		<developer>Headcannon</developer>
+		<publisher>SEGA</publisher>
+		<genre>Acción</genre>
+		<playcount>42</playcount>
+		<lastplayed>20220525T221051</lastplayed>
+		<md5>1c7eb8df8727763a0a44164b250c89da</md5>
+		<gametime>5117</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./ROJO-ASpanishHorrorExperience.lnk</path>
+		<name>ROJO - A Spanish Horror Experience</name>
+		<playcount>8</playcount>
+		<lastplayed>20220525T223236</lastplayed>
+		<md5>b9db8627f3ee78ac46f1d5d3319c4e5e</md5>
+		<gametime>117</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./EntertheGungeon.bat.lnk</path>
+		<name>Enter the Gungeon</name>
+		<desc>Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past. Select a hero [or team up in co-op] and battle your way to the bottom of the Gungeon by surviving a challenging and evolving series of floors filled with the dangerously adorable Gundead and fearsome Gungeon bosses armed to the teeth. Gather precious loot, discover hidden secrets, and chat with opportunistic merchants and shopkeepers to purchase powerful items to gain an edge.
+
+The Gungeon: Enter the Gungeon – a constantly evolving bullet hell fortress that elegantly blends meticulously hand-designed rooms within a procedurally-generated labyrinth bent on destroying all that enter its walls. But beware – the Gungeon responds to even the most modest victory against its sentries and traps by raising the stakes and the challenges found within!</desc>
+		<image>./images/EntertheGungeon.bat-image.png</image>
+		<marquee>./images/EntertheGungeon.bat-marquee.png</marquee>
+		<thumbnail>./images/EntertheGungeon.bat-thumb.png</thumbnail>
+		<rating>0</rating>
+		<releasedate>20160405T000000</releasedate>
+		<developer>Dodge Roll</developer>
+		<publisher>Devolver Digital</publisher>
+		<players>1-2</players>
+		<md5>af0c6773a6bb0867884129a53b4b5a82</md5>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Broforce.lnk</path>
+		<name>Broforce</name>
+		<desc>Broforce is a 2D run-and-gun platform game with gameplay similar to the Metal Slug series and with brick-based destructible terrain. The player plays as one of the "Bros" - parodies of action movies' heroes like Rambo, Commando, Terminator, Indiana Jones, Judge Dread etc. It also has Ripley from Aliens, but the player must unlock most of characters by rescuing hostages first. The gameplay is straightforward and very fast. Each character has main weapons, a knife and a limited special weapon. They must reach the end of the level, killing various enemies on the way. When a civilian is rescued, an additional live is provided for the next Bro to use.</desc>
+		<image>./images/Broforce-image.png</image>
+		<marquee>./images/Broforce-marquee.png</marquee>
+		<thumbnail>./images/Broforce-thumb.png</thumbnail>
+		<rating>0</rating>
+		<releasedate>20140407T000000</releasedate>
+		<developer>Free Lives</developer>
+		<publisher>Devolver Digital</publisher>
+		<players>1-4</players>
+		<playcount>1</playcount>
+		<lastplayed>20220526T190430</lastplayed>
+		<md5>ce3256321f7e4469c56c3a56dbe84a0e</md5>
+		<gametime>331</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Assassins Creed II.bat.lnk</path>
+		<name>Assassin's Creed II</name>
+		<desc>Betrayed by the ruling families of Italy, a young man embarks upon an epic quest for vengeance. To eradicate corruption and restore his family's honor, he will study the secrets of an ancient Codex, written by Altair. To his allies, he will become a force for change - fighting for freedom and justice. To his enemies, he will become a dark knight - dedicated to the destruction of the tyrants abusing the people of Italy. His name is Ezio Auditore di Firenze. He is an Assassin.</desc>
+		<image>./images/Assassins Creed II.bat-image.jpg</image>
+		<marquee>./images/Assassins Creed II.bat-marquee.png</marquee>
+		<thumbnail>./images/Assassins Creed II.bat-thumb.jpg</thumbnail>
+		<rating>0</rating>
+		<releasedate>20091117T000000</releasedate>
+		<developer>Ubisoft Montreal</developer>
+		<publisher>Ubisoft Entertainment</publisher>
+		<players>1</players>
+		<playcount>1</playcount>
+		<lastplayed>20220526T201716</lastplayed>
+		<md5>5b295307e95e8cd203344b2c073cd215</md5>
+		<gametime>28</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./pes6.exe.lnk</path>
+		<name>PES 6 Actualizado</name>
+		<desc>The eFootball PES 2021 Season Update brings you all of the critically acclaimed features that won us E3 2019's "Best Sports Game" award, plus more!
+As the PES franchise celebrates a quarter of a century since its debut in 1995, we invite you to join us once again as we head out onto the pitch for a new action-packed season of football.
+Boasting all the latest player and club data, the game also comes with an exclusive UEFA EURO 2020™ mode, allowing you and your friends to simulate some of the sport's most heated rivalries.</desc>
+		<image>./images/pes6.exe-image.jpg</image>
+		<marquee>./images/pes6.exe-marquee.png</marquee>
+		<thumbnail>./images/pes6.exe-thumb.jpg</thumbnail>
+		<rating>0</rating>
+		<releasedate>20200915T000000</releasedate>
+		<developer>Konami</developer>
+		<publisher>Konami</publisher>
+		<players>2</players>
+		<playcount>2</playcount>
+		<lastplayed>20220527T194601</lastplayed>
+		<md5>d6b660066953bd26a34d13092e1d9310</md5>
+		<gametime>532</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Sonic2DBlast.lnk</path>
+		<name>Sonic 2D Blast</name>
+		<desc>Sonic 3D in 2D is a fangame that reimagines Sonic3D Blast plot and levels with style and structure closer to the games that preceeded it. What if the final Mega Drive/Genesis game never moved away from the formula established by Sonic 3 &amp; Knuckles, with bosses in every act and in game cutscenes to move the plot forward? What if it was a proper entry in the main series and a bridge between 3K and Adventure?	 Explore Flicky Island in a 2D side scrolling platformer that takes elements from the other Mega Drive/Genesis games to re-forge an adventure anew. Fight new and challenging bosses, save Flicky Island and stop Robotnik's final plan to harness the Flicky's power for himself.</desc>
+		<image>./images/Sonic 2D Blast-image.png</image>
+		<rating>0</rating>
+		<releasedate>19970930T000000</releasedate>
+		<developer>Sotaknuck</developer>
+		<publisher>Sotaknuck</publisher>
+		<players>1</players>
+		<playcount>86</playcount>
+		<lastplayed>20220529T095240</lastplayed>
+		<md5>f9c58d834e069871f8c93c44e9108895</md5>
+		<gametime>2670</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./NiGHTS into Dreams.bat - Acceso directo.lnk</path>
+		<name>NiGHTS into Dreams.bat - Acceso directo</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./gtaSanAndreas.lnk</path>
+		<name>Grand Theft Auto: San Andreas</name>
+		<desc>Grand Theft Auto: San Andreas is the fifth installment in the GTA series and takes place within the state San Andreas, which is based on sections of California &amp; Nevada. It comprises three major fictional cities: Los Santos corresponds to real-life Los Angeles; San Fierro corresponds to real-life San Francisco; and Las Venturas and the surrounding desert correspond to real-life Las Vegas and the Nevada and Arizona desert.</desc>
+		<image>./images/gtaSanAndreas-image.jpg</image>
+		<marquee>./images/gtaSanAndreas-marquee.png</marquee>
+		<thumbnail>./images/gtaSanAndreas-thumb.jpg</thumbnail>
+		<rating>0</rating>
+		<releasedate>20050607T000000</releasedate>
+		<developer>Rockstar North</developer>
+		<publisher>Rockstar Games</publisher>
+		<players>1</players>
+		<playcount>4</playcount>
+		<lastplayed>20220601T223654</lastplayed>
+		<md5>966a801854eaa7df0e8948166b6e52f4</md5>
+		<gametime>3489</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Ir a Battle.net.lnk</path>
+		<name>Ir a Battle.net</name>
+		<image>./images/battlenet.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<md5>bfe7e455754ee7d83140184d5b2de11b</md5>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Ir a Epic Games Launcher.lnk</path>
+		<name>Ir a Epic Games Launcher</name>
+		<image>./images/epicgames.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Ir a Origin.lnk</path>
+		<name>Ir a Origin</name>
+		<image>./images/origin.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>1</playcount>
+		<lastplayed>20220528T145549</lastplayed>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Ir a Steam.lnk</path>
+		<name>Ir a Steam</name>
+		<image>./images/steam.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>2</playcount>
+		<lastplayed>20220528T145502</lastplayed>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Ir a Ubisoft Connect.lnk</path>
+		<name>Ir a Ubisoft Connect</name>
+		<image>./images/uplay.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>1</playcount>
+		<lastplayed>20220528T145254</lastplayed>
+		<md5>2dc220aa614ff43041b10669b0d52d9c</md5>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./NiGHTS into Dreams.lnk</path>
+		<name>NiGHTS into Dreams...</name>
+		<desc>Nights into Dreams... (ナイツ Naitsu?, written as NiGHTS into Dreams...) is an action game released by Sega in 1996 for the Sega Saturn video game system. The game's story follows two children entering a dream world, where they are aided by the titular main character, Nights. Nights was developed by Sonic Team, with Yuji Naka as producer and lead programmer, and Naoto Ōshima as the character designer and director. The developers' intention was to make the sensation of flight the central gameplay element</desc>
+		<marquee>./images/NiGHTS into Dreams-marquee.png</marquee>
+		<thumbnail>./images/NiGHTS into Dreams-thumb.jpg</thumbnail>
+		<rating>0</rating>
+		<releasedate>20121217T000000</releasedate>
+		<developer>Sega</developer>
+		<publisher>Sega</publisher>
+		<players>1</players>
+		<playcount>3</playcount>
+		<lastplayed>20220602T180933</lastplayed>
+		<md5>25eee04a51f444bdd1a7851dfbfb5a6b</md5>
+		<gametime>455</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./DuckGame.lnk</path>
+		<name>Duck Game</name>
+		<desc>Enter the futuristic year of 1984, an age where ducks run wild in a frantic battle for glory. Win over the crowd and gain a following by blasting your feathered friends with Shotguns, Net Guns, Mind Control Rays, Saxophones, Magnet Guns, and pretty much anything else a duck could use as a weapon. One hit and you're roasted. This is DUCK GAME. Don't blink. 
+
+2 to 4 PLAYERS in either Local Multiplayer Couch Combat, or NEW Online Play! 
+Single Player challenge mode 
+Easy to pick up, emphasizing strategy over twitch reaction 
+50+ Levels, 50+ Weapons 
+Level Editor</desc>
+		<image>./images/DuckGame-image.jpg</image>
+		<marquee>./images/DuckGame-marquee.png</marquee>
+		<thumbnail>./images/DuckGame-thumb.jpg</thumbnail>
+		<rating>0</rating>
+		<releasedate>20150604T000000</releasedate>
+		<developer>Landon Podbielski</developer>
+		<publisher>Adult Swim Games</publisher>
+		<genre>Action, Shooter</genre>
+		<players>4</players>
+		<playcount>17</playcount>
+		<lastplayed>20220605T200007</lastplayed>
+		<md5>573a5fe196d74e9c78f845215eff30f2</md5>
+		<gametime>907</gametime>
+		<lang>en</lang>
+	</game>
+	<game id="316616">
+		<path>./MalditaCastilla.lnk</path>
+		<name>Maldita Castilla</name>
+		<desc>The kingdom of Castile is cursed. Thou hath been sent forth by thy King to learn of the source of this evil and rid the land of it. God be with thee, Don Ramiro!
+
+Maldita Castilla (Damn Castile) is a side scrolling action game that is, clearly, inspired by such games as Ghosts 'N Goblins, Rygar, Karnov, among others.
+
+You, as Spanish knight Don Ramiro, must move to the right, killing enemies as you go. Along the way, you encounter treasure chests that will help you. At certain points, you must defeat a boss to advance. You are trying to get through all the bosses to find and defeat the source of all this evil plaguing Castile.</desc>
+		<image>./images/Maldita Castilla-image.png</image>
+		<marquee>./images/Maldita Castilla-marquee.png</marquee>
+		<thumbnail>./images/Maldita Castilla-thumb.png</thumbnail>
+		<rating>0</rating>
+		<releasedate>20121212T000000</releasedate>
+		<developer>Locomalito</developer>
+		<publisher>Locomalito</publisher>
+		<genre>Acción</genre>
+		<playcount>17</playcount>
+		<lastplayed>20220528T145248</lastplayed>
+		<md5>b7a43783acbd508d29c9b3f2c4d54045</md5>
+		<gametime>8631</gametime>
+		<lang>es</lang>
+	</game>
+	<game id="330848">
+		<path>./RaymanLegends.bat.lnk</path>
+		<name>Rayman Legends</name>
+		<desc>Rayman Legends retains the graphical style and most gameplay elements of Rayman Origins. Up to four players can simultaneously progress though side-scrolling levels defeating enemies and collecting Lums. In each level there is a number of teensies to rescue and that opens up new levels and worlds. All the powers from the previous game (wall-running, air gliding etc.) are available to the characters from the start, but some new gimmicks are added, for example the ability to fire projectiles in some levels.  Murfy the greenbottle appears in some levels to aid the players. With a press of a button he operates machinery, pokes bigger enemies and opens up passages for the characters. In some versions of the game the fifth player can control Murphy's movement.</desc>
+		<image>./images/Rayman Legends-image.png</image>
+		<marquee>./images/Rayman Legends-marquee.png</marquee>
+		<thumbnail>./images/Rayman Legends-thumb.png</thumbnail>
+		<rating>0</rating>
+		<releasedate>20130903T000000</releasedate>
+		<developer>Ubisoft Montpellier</developer>
+		<publisher>Ubisoft</publisher>
+		<playcount>62</playcount>
+		<lastplayed>20220602T181633</lastplayed>
+		<md5>52a46c4a903895e0e79f6a8504ff22b0</md5>
+		<gametime>6087</gametime>
+		<lang>es</lang>
+	</game>
+	<game id="330850">
+		<path>./RaymanOrigins.bat.lnk</path>
+		<name>Rayman Origins</name>
+		<desc>During what appears to be a normal day, Rayman and his friends are chilling out on a giant tree in their homeland, the Glade of Dreams. Their constant snoring however disturbs an old granny from a land located in the depths below, the Land of the Livid Dead. Determined to put an end to the never ending noises she sends an army of evil creatures across the land, capturing all Electoons and Nymphs that populate the world in the process. As Rayman and his friends are captured from the creatures, they must flee their prison and attempt to bring order back to the Glade of Dreams before it's too late.</desc>
+		<image>./images/Rayman Origins-image.png</image>
+		<marquee>./images/Rayman Origins-marquee.png</marquee>
+		<thumbnail>./images/Rayman Origins-thumb.png</thumbnail>
+		<rating>0</rating>
+		<releasedate>20120329T000000</releasedate>
+		<developer>Ubisoft</developer>
+		<publisher>Ubisoft</publisher>
+		<genre>Acción</genre>
+		<playcount>26</playcount>
+		<lastplayed>20220602T181702</lastplayed>
+		<md5>bae4071a0aee17571675d3702c942287</md5>
+		<gametime>20996</gametime>
+		<lang>es</lang>
+	</game>
+	<game id="339840">
+		<path>./SonicCD.bat.lnk</path>
+		<name>Sonic CD</name>
+		<desc>Rather than a straight port or an emulated title, this version of the 1993 Sonic CD game is a completely redone version for modern platforms and based on a fanmade Retro engine. The original version was released for the SEGA CD and later also ported to Windows. This version supports a whole host of more modern platforms as well as a complete re-release for the Windows platform.
+
+It has many changes and additions, such as true 16:9 aspect ratio (instead of stretched 4:3 like the ports of other Sonic games), the choice between both the Japanese/European and American soundtracks, a constant framerate of 60 frames per second, several bugfixes, an option to select between the original CD's Spin Dash or the Sonic 2 Spin Dash and the inclusion of Tails (with his Sonic 3 abilities) as an unlockable character.
+
+The game adds leaderboards for the Single Player and Time Attack modes. It also regains the original game's extra modes, the D.A. Garden and Visual Mode, and also includes the Sound Test and Stage Select modes as unlockables, unlike the original in which you had to input a cheat code to enter them.</desc>
+		<image>./images/Sonic CD-image.png</image>
+		<marquee>./images/Sonic CD-marquee.png</marquee>
+		<thumbnail>./images/Sonic CD-thumb.png</thumbnail>
+		<rating>0</rating>
+		<releasedate>20120119T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Plataforma</genre>
+		<playcount>13</playcount>
+		<lastplayed>20220602T181812</lastplayed>
+		<md5>1e529765c6903836dfc9874b9751a914</md5>
+		<gametime>1523</gametime>
+		<lang>es</lang>
+	</game>
+	<game id="339892">
+		<path>./SonicRoboBlast2.lnk</path>
+		<name>Sonic Robo Blast 2</name>
+		<desc>Sonic Robo Blast 2 is a 3D sonic fan game made on the Doom engine.</desc>
+		<image>./images/Sonic Robo Blast 2-image.png</image>
+		<thumbnail>./images/SonicRoboBlast2-thumb.jpg</thumbnail>
+		<rating>0</rating>
+		<releasedate>20200511T000000</releasedate>
+		<players>2</players>
+		<playcount>28</playcount>
+		<lastplayed>20220602T180643</lastplayed>
+		<md5>3cc344d1b06039bf7818b45bcd1cc3bc</md5>
+		<gametime>2891</gametime>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./SonicTimeTwisted.lnk</path>
+		<name>Sonic Time Twisted</name>
+		<desc>Sonic Time Twisted is a #SonictheHedgehog #fangame inspired by #Sonic CD and Sonic 3 &amp; Knuckles. Using the best elements of both my team and I are trying to create a worthy sequel. The full game is now out!</desc>
+		<image>./images/Sonic Time Twisted-image.png</image>
+		<rating>0</rating>
+		<releasedate>20170418T000000</releasedate>
+		<developer>Overbound Game Studio</developer>
+		<publisher>Overbound Game Studio</publisher>
+		<players>1</players>
+		<playcount>31</playcount>
+		<lastplayed>20220518T002531</lastplayed>
+		<md5>18eee4c2c83df60748db89f17a61a57a</md5>
+		<gametime>1313</gametime>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./SonicGenerations.bat.lnk</path>
+		<name>Sonic Generations</name>
+		<desc>La celebración definitiva de los veinte años de videojuegos de Sonic, Sonic Generations, ofrece la experiencia de juego definitiva para los nuevos seguidores de Sonic y para los de siempre. El universo de Sonic se convierte en un caos cuando aparece un nuevo poder capaz de crear "agujeros temporales" que transportan a Sonic y a sus amigos al pasado. Allí, Sonic se encontrará con algunos personajes muy conocidos. ¡Hasta una versión más joven de sí mismo! Deberán formar equipo para derrotar a sus enemigos, salvar a sus amigos y descubrir quién está detrás de este diabólico plan. Características principales: El doble de diversión - Juega como el Sonic clásico y el Sonic moderno en la experiencia de Sonic definitiva. Domina los movimientos de cada personaje recorriendo cada nivel con pistas especialmente diseñadas para cada uno. Los mejores momentos son mucho mejores - Los escenarios más emblemáticos de la historia de los videojuegos de Sonic cobran vida en increíbles gráficos en alta definición para la aventura de Sonic definitiva. Cada uno se ha rediseñado, recreado y reimaginado con impresionantes resultados. Una experiencia totalmente nueva - Juega en algunos de los escenarios más emblemáticos de tus juegos de una manera totalmente nueva, con los famosos niveles de Sonic en un impresionante y nuevo 3D estereoscópico. Desbloquea nuevas aventuras - Una vez completado cada nivel y "liberados" los amigos de Sonic, podrás volver para enfrentarte a más retos junto a ellos. Infames jefes y rivales - Enfréntate a algunos de los personajes más famosos del pasado de Sonic y lucha por la victoria absoluta. Domina tus movimientos - Domina el famoso ataque giratorio del Sonic Clásico y utiliza el Turbo Sonic del Sonic Moderno en las nuevas pistas.</desc>
+		<image>./images/Sonic Generations-image.png</image>
+		<marquee>./images/Sonic Generations-marquee.png</marquee>
+		<releasedate>20111101T000000</releasedate>
+		<developer>Sonic Team, Devil's Details</developer>
+		<publisher>Sega</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount>28</playcount>
+		<lastplayed>20220614T142140</lastplayed>
+		<md5>16d6c804d21d2c3be7af051523d021c6</md5>
+		<gametime>2834</gametime>
+		<lang>es</lang>
+	</game>
+</gameList>
