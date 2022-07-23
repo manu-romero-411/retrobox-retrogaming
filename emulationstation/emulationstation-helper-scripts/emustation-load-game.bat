@@ -1,4 +1,4 @@
-@echo on
+@echo off
 set realpath=%~dp0
 cd %realpath%
 set retroboxroot=%realpath%\..\..
@@ -39,6 +39,12 @@ if exist "E:\Juegos\saves\%plataforma%" (
 	mkdir "E:\Juegos\saves\%plataforma%"
 )
 
+if exist "D:\Juegos\retrogaming\saves\%plataforma%" ( 
+	echo b
+) else (
+	mkdir "D:\Juegos\retrogaming\saves\%plataforma%"
+)
+
 echo %plataforma% | findstr "saturn" >NUL && (
     goto :LOADRETROARCHSATURN
 ) || (
@@ -66,7 +72,7 @@ goto :EOF
 :LOADRETROARCHNORMAL
 del %EMUDIR%\retroarch\retroarch-config.cfg
 copy %EMUDIR%\retroarch\retroarch-original.cfg %EMUDIR%\retroarch\retroarch-config.cfg
-cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "directorio" "E:\Juegos\saves\%plataforma%"
+cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "directorio" "D:\Juegos\retrogaming\saves\%plataforma%"
 %EMUDIR%\retroarch\retroarch.exe -c %EMUDIR%\retroarch\retroarch-config.cfg -L %EMUDIR%\retroarch\cores\%emu%.dll %rom%
 goto :EOF
 

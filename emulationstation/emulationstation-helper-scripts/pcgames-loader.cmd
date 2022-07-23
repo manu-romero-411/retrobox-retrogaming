@@ -16,8 +16,8 @@ for %%i in (lnk,bat) do (
 	for %%i in (%gamedir%) do set basename=%%~ni
 	for %%F in (%gamedir%) do set dirname=%%~dpF
 	cd %dirname%
-	set profiledir=%dirname:"=%xdgAntimicro\%basename:"=%.gamecontroller.amgp
-	echo %profiledir% > D:\hola.txt
+	set profiledir=%dirname:"=%..\xdgAntimicro\%basename:"=%.gamecontroller.amgp
+	rem echo %profiledir% > D:\hola.txt
 	if exist %profiledir% (
 		start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %profiledir%
 	)
