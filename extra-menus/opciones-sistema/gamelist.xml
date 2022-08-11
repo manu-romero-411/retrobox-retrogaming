@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./00windows.bat</path>
+		<name>0 - Modo Windows</name>
+		<image>./icons/windows95.png</image>
+		<rating>0</rating>
+		<releasedate>20220614T130000</releasedate>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./02recargar.bat</path>
+		<name>2 - Recargar EmulationStation</name>
+		<rating>0</rating>
+		<releasedate>20220614T130000</releasedate>
+		<hidden>true</hidden>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./04apagar.bat</path>
+		<name>3 - Apagar</name>
+		<image>./icons/system-shutdown.png</image>
+		<rating>0</rating>
+		<releasedate>20220624T225149</releasedate>
+		<playcount>3</playcount>
+		<lastplayed>20220624T232546</lastplayed>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./01standby.bat</path>
+		<name>1 - Poner en reposo</name>
+		<image>./icons/system-suspend.png</image>
+		<rating>0</rating>
+		<releasedate>20220614T130000</releasedate>
+		<playcount>23</playcount>
+		<lastplayed>20220811T204108</lastplayed>
+		<gametime>401868</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./03xubuntu.bat</path>
+		<name>2 - Salir a Xubuntu</name>
+		<image>./icons/xubuntu-logo.png</image>
+		<rating>0</rating>
+		<releasedate>20220614T130000</releasedate>
+		<playcount>22</playcount>
+		<lastplayed>20220811T205341</lastplayed>
+		<lang>es</lang>
+	</game>
+</gameList>
