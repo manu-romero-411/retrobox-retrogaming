@@ -49,7 +49,7 @@ rem ## BUCLE DE CIERRE
 	if exist C:\.winboot (
 		rem ### SI HEMOS CERRADO EMULATIONSTATION DESDE LA OPCIÓN "Modo Windows", SE CREARÁ EL ARCHIVO .noreboot.
 		rem ### DE LO CONTRARIO, AL LLEGAR AQUÍ, VOLVEREMOS A LINUX (BIEEEEEN).
-		if not exist C:\.noreboot (
+		if not exist D:\.noreboot (
 			%retroboxroot%\misc\silentcmd-windows\SilentCMD.exe %retroboxroot%\misc\reboot-linux.bat
 		)
 	)

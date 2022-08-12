@@ -1,4 +1,4 @@
-@echo on
+@echo off
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
@@ -40,7 +40,11 @@ rem ## CARGAR EMULADOR O PROGRAMA QUE HA PEDIDO EL JUEGO/APLICACIÓN
 :CONTINUE2
 echo %emu% | findstr libretro >NUL && (
 	rem ### RETROARCH
-	%retroboxroot%\emulationstation\loaders\retroarch.cmd %plataforma% %rom% %emu%
+	echo %emu% | findstr old >NUL && (
+		%retroboxroot%\emulationstation\loaders\retroarch-old.cmd %plataforma% %rom% %emu%
+	) || (
+		%retroboxroot%\emulationstation\loaders\retroarch.cmd %plataforma% %rom% %emu%
+	)
 	goto :FIN
 ) || (
 	goto :NORETROARCH
@@ -54,10 +58,8 @@ goto :FIN
 rem ## CAZAERRORES
 :ERROR
 echo ERROR
-rem exit 1
-goto :eof
+exit 1
 
 rem ## SALIDA SEGURA DEL SCRIPT
 :FIN
-rem exit 0
-goto :eof
+exit 0
