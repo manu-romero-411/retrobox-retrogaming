@@ -10,7 +10,7 @@ if [%1]==[] goto :ERROR
 set rom=%1
 
 rem ## CARGAR PERFIL DE ANTIMICRO ESPECIAL PARA CEMU
-sudo start /b cmd /c %antimicroExec% --hidden --profile %retroboxroot%\gamepad-profiles\redream.gamecontroller.amgp
+start /b cmd /c %antimicroExec% --hidden --profile %retroboxroot%\gamepad-profiles\redream.gamecontroller.amgp
 
 rem ## ASÍ CARGA CEMU LOS JUEGOS:
 rem ### 1. VA AL DIRECTORIO DE ALGÚN JUEGO EN %retroboxroot%\roms
@@ -23,7 +23,7 @@ call %1\cemu.bat
 start /WAIT %EMUDIR%/cemu/Cemu.exe -f -g %1\code\%GAMENAME%
 
 rem ## AL TERMINAR DE JUGAR, CERRAR ANTIMICRO
-sudo taskkill /IM antimicrox.exe /F
+taskkill /IM antimicrox.exe /F
 
 rem ## DEVOLVER EL CONTROL A EMULATIONSTATION
 goto :FIN

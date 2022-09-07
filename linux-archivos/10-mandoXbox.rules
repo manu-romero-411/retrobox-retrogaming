@@ -1,1 +1,0 @@
-ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="02a8", RUN+="/bin/su -l manuel -c /usr/local/bin/mando-conectado"

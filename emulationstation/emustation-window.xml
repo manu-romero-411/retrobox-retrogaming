@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SRWE Version="1.0">
+  <Profile>
+    <Window HierID="1" PosX="0" PosY="0" Width="1367" Height="768" Style="160A0000" ExStyle="20000810" />
+    <Window HierID="2" PosX="0" PosY="0" Width="0" Height="0" Style="8C000000" ExStyle="00000000" />
+    <Window HierID="3" PosX="0" PosY="0" Width="0" Height="0" Style="8C000000" ExStyle="00000000" />
+  </Profile>
+</SRWE>

@@ -1,84 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gamecontroller configversion="19" appversion="2.23">
+<gamecontroller configversion="19" appversion="3.2.4">
     <!--The SDL name for a joystick is included for informational purposes only.-->
-    <sdlname>XInput Controller</sdlname>
-    <!--The GUID for a joystick is included for informational purposes only.-->
-    <guid>78696e70757401000000000000000000</guid>
-    <names/>
+    <sdlname>Controller (Xbox One For Windows)</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>030000005e040000ff020000000072001118767</uniqueID>
+    <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
+    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
+    <vdpadButtonAssociations index="1">
+        <vdpadButtonAssociation axis="0" button="12" direction="1"/>
+        <vdpadButtonAssociation axis="0" button="13" direction="4"/>
+        <vdpadButtonAssociation axis="0" button="14" direction="8"/>
+        <vdpadButtonAssociation axis="0" button="15" direction="2"/>
+    </vdpadButtonAssociations>
+    <names>
+        <controlstickname index="2">R Stick</controlstickname>
+        <controlstickname index="1">L Stick</controlstickname>
+    </names>
+    <calibration/>
     <sets>
         <set index="1">
             <stick index="1">
                 <deadZone>4001</deadZone>
                 <maxZone>32737</maxZone>
-                <diagonalRange>80</diagonalRange>
-                <stickbutton index="1">
-                    <slots>
-                        <slot>
-                            <code>1</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
-                <stickbutton index="3">
-                    <slots>
-                        <slot>
-                            <code>4</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
-                <stickbutton index="5">
-                    <slots>
-                        <slot>
-                            <code>2</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
-                <stickbutton index="7">
-                    <slots>
-                        <slot>
-                            <code>3</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
             </stick>
-            <dpad index="1">
-                <dpadbutton index="1">
-                    <slots>
-                        <slot>
-                            <code>0x1000013</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="2">
-                    <slots>
-                        <slot>
-                            <code>0x1000014</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="4">
-                    <slots>
-                        <slot>
-                            <code>0x1000015</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="8">
-                    <slots>
-                        <slot>
-                            <code>0x1000012</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-            </dpad>
-            <trigger index="1">
+            <trigger index="5">
                 <deadZone>4000</deadZone>
                 <maxZone>26000</maxZone>
                 <throttle>normal</throttle>
@@ -87,15 +32,9 @@
                 </triggerbutton>
                 <triggerbutton index="2">
                     <wheelspeedy>30</wheelspeedy>
-                    <slots>
-                        <slot>
-                            <code>4</code>
-                            <mode>mousebutton</mode>
-                        </slot>
-                    </slots>
                 </triggerbutton>
             </trigger>
-            <trigger index="2">
+            <trigger index="6">
                 <deadZone>4000</deadZone>
                 <maxZone>26000</maxZone>
                 <throttle>normal</throttle>
@@ -104,62 +43,8 @@
                 </triggerbutton>
                 <triggerbutton index="2">
                     <wheelspeedy>30</wheelspeedy>
-                    <slots>
-                        <slot>
-                            <code>5</code>
-                            <mode>mousebutton</mode>
-                        </slot>
-                    </slots>
                 </triggerbutton>
             </trigger>
-            <button index="1">
-                <slots>
-                    <slot>
-                        <code>1</code>
-                        <mode>mousebutton</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="2">
-                <slots>
-                    <slot>
-                        <code>0x1000080</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="3">
-                <slots>
-                    <slot>
-                        <code>0x1000034</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="4">
-                <slots>
-                    <slot>
-                        <code>0x1000022</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                    <slot>
-                        <code>0x1000021</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                    <slot>
-                        <code>0x4f</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="5">
-                <slots>
-                    <slot>
-                        <code>3</code>
-                        <mode>mousebutton</mode>
-                    </slot>
-                </slots>
-            </button>
             <button index="6">
                 <slots>
                     <slot>
@@ -172,38 +57,6 @@
                 <slots>
                     <slot>
                         <code>0x1000033</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="8">
-                <slots>
-                    <slot>
-                        <code>0x1000061</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="9">
-                <slots>
-                    <slot>
-                        <code>0x1000080</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="10">
-                <slots>
-                    <slot>
-                        <code>0x1000082</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="11">
-                <slots>
-                    <slot>
-                        <code>0x1000083</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>

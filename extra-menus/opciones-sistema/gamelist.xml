@@ -32,9 +32,9 @@
 		<image>./icons/system-suspend.png</image>
 		<rating>0</rating>
 		<releasedate>20220614T130000</releasedate>
-		<playcount>23</playcount>
-		<lastplayed>20220811T204108</lastplayed>
-		<gametime>401868</gametime>
+		<playcount>25</playcount>
+		<lastplayed>20220812T231930</lastplayed>
+		<gametime>413418</gametime>
 		<lang>es</lang>
 	</game>
 	<game>
@@ -43,8 +43,8 @@
 		<image>./icons/xubuntu-logo.png</image>
 		<rating>0</rating>
 		<releasedate>20220614T130000</releasedate>
-		<playcount>22</playcount>
-		<lastplayed>20220811T205341</lastplayed>
+		<playcount>24</playcount>
+		<lastplayed>20220813T153311</lastplayed>
 		<lang>es</lang>
 	</game>
 </gameList>

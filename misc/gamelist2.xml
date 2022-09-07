@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Duck Game.lnk</path>
+		<name>Duck Game</name>
+		<desc>Enter the futuristic year of 1984, an age where ducks run wild in a frantic battle for glory. Win over the crowd and gain a following by blasting your feathered friends with Shotguns, Net Guns, Mind Control Rays, Saxophones, Magnet Guns, and pretty much anything else a duck could use as a weapon. One hit and you're roasted. This is DUCK GAME. Don't blink. 
+2 to 4 PLAYERS in either Local Multiplayer Couch Combat, or NEW Online Play! 
+Single Player challenge mode 
+Easy to pick up, emphasizing strategy over twitch reaction 
+50+ Levels, 50+ Weapons 
+Level Editor</desc>
+		<image>./images/Duck Game-image.png</image>
+		<releasedate>20150604T000000</releasedate>
+		<developer>Landon Podbielski</developer>
+		<publisher>Adult Swim Games</publisher>
+		<genre>Action, Shooter</genre>
+		<players>4</players>
+		<playcount>4</playcount>
+		<lastplayed>20210328T173939</lastplayed>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Horizon Chase Turbo.bat</path>
+		<name>Horizon Chase Turbo</name>
+		<desc>Horizon Chase Turbo es un juego de carreras inspirado en los grandes éxitos de los años 80's y 90's: Out Run, Lotus Turbo Challenge, Top Gear (SNES) y la serie Rush entre otros. Cada curva y cada vuelta en Horizon Chase Turbo recrea el gameplay de los arcades clásicos y ofrece velocidad sin límites. ¡Acelera al máximo y disfruta!</desc>
+		<image>./images/Horizon Chase Turbo-image.png</image>
+		<releasedate>20180515T000000</releasedate>
+		<developer>Aquiris Game Studio</developer>
+		<publisher>Aquiris Game Studio</publisher>
+		<genre>Racing</genre>
+		<players>4</players>
+		<playcount>1</playcount>
+		<lastplayed>20210801T192529</lastplayed>
+		<gametime>233</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Rayman Legends.bat</path>
+		<name>Rayman Legends</name>
+		<desc>Rayman, nombrado mejor juego de plataformas del año y ganador de múltiples premios a nivel artístico y musical, vuelve con una aventura totalmente nueva de la mano de Michel Ancel, aclamado creador de Rayman®, Beyond Good & Evil® y los Raving Rabbids®. Además, las mejoras del motor gráfico UbiArt han sido de gran ayuda a la hora de lograr unos gráficos y una iluminación más detallados que nunca.
+		Rayman, Barbara, Globox y los Diminutos andan vagando por un bosque encantado cuando descubren una misteriosa tienda de campaña llena de cautivadores cuadros. Al mirarlos con más atención, se dan cuenta de que cada cuadro parece contar la historia de un mundo mítico. Mientras observan un cuadro que muestra un escenario de aspecto medieval, son succionados de repente dentro del cuadro, entrando en ese mundo que representa, y es ahí donde la aventura comienza. La pandilla deberá correr, saltar y abrirse paso a través de cada mundo para seguir vivos y correteando, y descubrir los secretos de cada uno de los legendarios cuadros.</desc>
+		<image>./images/Rayman Legends-image.png</image>
+		<marquee>./images/Rayman Legends-marquee.png</marquee>
+		<releasedate>20130903T000000</releasedate>
+		<developer>Ubisoft Montpellier</developer>
+		<publisher>Ubisoft Entertainment</publisher>
+		<genre>Action, Adventure, Platform</genre>
+		<players>2</players>
+		<playcount>17</playcount>
+		<lastplayed>20210801T192013</lastplayed>
+		<gametime>923</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Sonic CD.bat</path>
+		<name>Sonic CD</name>
+		<desc>¡Es hora de encauzar el pasado hacia el futuro en esta recreación mejorada de Sonic CD!
+		Sonic viaja a la distante costa de Never Lake por la aparición anual de Little Planet; un misterioso mundo donde el pasado, el presente y el futuro chocan por el poder de las Time Stones que contiene ocultas.
+		Sonic llega sólo para encontrarse al, una vez hermoso mundo, aprisionado en una retorcida carcasa metálica. Su archienemigo, el Dr. Eggman, ha llegado para llevarse las Time Stones y con ellas ¡pronto tendrá el poder de controlar el propio tiempo!
+		Para poner fin a los malvados planes del Dr. Eggman, Sonic tendrá que utilizar el poder de Little Planet para viajar a través del tiempo y deshacer el dominio del Dr. Eggman sobre el futuro, destruyendo sus máquinas en el pasado y recuperando las Time Stones perdidas.
+		Incluyendo soporte para pantallas panorámicas 16:9, logros, marcadores y ambas bandas sonoras, estadounidense y japonesa, experimenta la aventura a través del tiempo que introdujo al mundo a Amy la erizo y la creación más diabólica de Eggman, Metal Sonic.
+			</desc>
+		<image>./images/Sonic CD-image.png</image>
+		<marquee>./images/Sonic CD-marquee.png</marquee>
+		<releasedate>20120119T000000</releasedate>
+		<developer>Sega</developer>
+		<publisher>Sega</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount>1</playcount>
+		<lastplayed>20210801T184430</lastplayed>
+		<gametime>42</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Sonic Mania.bat</path>
+		<name>Sonic Mania</name>
+		<desc>Un homenaje definitivo al pasado y al futuro. Una nueva aventura repleta de jefes únicos, paisajes rodantes en 2D y las mecánicas más clásicas y divertidas. Sonic Mania lleva al futuro la acción vertiginosa de los juegos de plataformas retro con gráficos en 2D de pixelado perfecto a 60 fps.</desc>
+		<image>./images/Sonic Mania-image.png</image>
+		<marquee>./images/Sonic Mania-marquee.png</marquee>
+		<releasedate>20170829T000000</releasedate>
+		<playcount>7</playcount>
+		<lastplayed>20210801T191855</lastplayed>
+		<gametime>477</gametime>
+		<developer>Christian Whitehead, Headcannon, PagodaWest, Hyperkinetic</developer>
+		<publisher>Sega</publisher>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Sonic Robo Blast 2.lnk</path>
+		<name>Sonic Robo Blast 2</name>
+		<desc>Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built using a modified version of the Doom Legacy port of Doom. SRB2 is closely inspired by the original Sonic games from the Sega Genesis, and attempts to recreate the design in 3D. While SRB2 isn't fully completed, it already features tons of levels, enemies, speed, and quite a lot of the fun that the original Sonic games provided.
+		Experience Sonic Robo Blast 2 today!</desc>
+		<image>./images/Sonic Robo Blast 2-image.png</image>
+		<releasedate>20200511T000000</releasedate>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount>13</playcount>
+		<lastplayed>20210801T175524</lastplayed>
+		<gametime>30</gametime>
+		<lang>en</lang>
+		<developer>Sonic Team jr.</developer>
+		<publisher>Sonic Team jr.</publisher>
+
+	</game>
+	<game>
+		<path>./Horatio Goes Snowboarding.bat</path>
+		<name>Horatio Goes Snowboarding</name>
+		<lang>en</lang>
+		<desc>Infinite State Games present "Horatio Goes Snowboarding" - an arcade game where you hire a board, go snowboarding, avoid serious injury, rinse and repeat! It is our homage to retro skiing and winter sports games from the past - no story; just pick up and play pure arcade thrills.
+		You'll start every new game with a bunch of money, and the urge to snowboard. First you'll have to hire a board en-route to the helicopter which will take you to the slopes. Avoid traffic and make a dash to the end! Don't forget to pick up a board before you get to the helicopter though. That would be embarrassing...
+		Once the chopper has taken you to the top of the mountain, you'll start your downhill descent into chaos through increasingly tricky randomly generated courses. Rack up points by going through slalom gates - the more you pass without a miss the higher your score multiplier will increase. Just look out for that Yeti...
+		At the end of the course there's a finish line you can go through for an extra cash bonus. Then back to the helicopter you go!
+		If you get into an accident through a face-plant on the slopes or a hit and run on the road, you'll be patched up in the nearby hospital to the tune of $100. Run out of money, and it's game over.
+		</desc>
+		<image>./images/Horatio Goes Snowboarding-image.png</image>
+		<releasedate>20210610T000000</releasedate>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount>13</playcount>
+		<lastplayed>20210801T175524</lastplayed>
+		<gametime>30</gametime>
+		<lang>en</lang>
+		<developer>Infinite State Games</developer>
+		<publisher>Infinite State Games</publisher>
+	</game>
+	<game>
+		<path>./Sonic 2D Blast.lnk</path>
+		<name>Sonic 2D Blast</name>
+		<desc>Sonic 3D in 2D is a fangame that reimagines Sonic3D Blast plot and levels with style and structure closer to the games that preceeded it.
+		What if the final Mega Drive/Genesis game never moved away from the formula established by Sonic 3 &amp; Knuckles, with bosses in every act and in game cutscenes to move the plot forward?
+		What if it was a proper entry in the main series and a bridge between 3K and Adventure?	
+		Explore Flicky Island in a 2D side scrolling platformer that takes elements from the other Mega Drive/Genesis games to re-forge an adventure anew. Fight new and challenging bosses, save Flicky Island and stop Robotnik's final plan to harness the Flicky's power for himself.</desc>
+		<image>./images/Sonic 2D Blast-image.png</image>
+		<rating>0</rating>
+		<releasedate>19970930T000000</releasedate>
+		<developer>Traveller's Tales Ltd.</developer>
+		<publisher>Sega</publisher>
+		<players>1</players>
+		<playcount>23</playcount>
+		<lastplayed>20210801T175439</lastplayed>
+		<gametime>228</gametime>
+		<lang>en</lang>
+		<developer>Sotaknuck</developer>
+		<publisher>Sotaknuck</publisher>
+	</game>
+	<game>
+		<path>./Sonic Time Twisted.lnk</path>
+		<name>Sonic Time Twisted</name>
+		<playcount>5</playcount>
+		<lastplayed>20210711T144934</lastplayed>
+		<lang>en</lang>
+		<desc>Sonic Time Twisted is a #SonictheHedgehog #fangame inspired by #Sonic CD and Sonic 3 &amp; Knuckles. Using the best elements of both my team and I are trying to create a worthy sequel.
+		The full game is now out!
+		Features
+		* 28 Acts to explore
+		* 8 Original Zones
+		* 10 Bosses to fight
+		* 6 elemental shields including 3 all new ones
+		* 360 physics extremely close to the Genesis/MegaDrive Sonic Games
+		* 3 Playable Characters Sonic, Tails and Knuckles
+		* 14 3D Special Stages
+		* Time Travel between the Future and Past</desc>
+		<image>./images/Sonic Time Twisted-image.png</image>
+		<rating>0</rating>
+		<releasedate>20170418T000000</releasedate>
+		<developer>Overbound Game Studio</developer>
+		<publisher>Overbound Game Studio</publisher>
+		<players>1</players>
+		<playcount>23</playcount>
+		<lastplayed>20210801T175439</lastplayed>
+		<gametime>228</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./Sonic Generations.bat</path>
+		<name>Sonic Generations</name>
+		<desc>La celebración definitiva de los veinte años de videojuegos de Sonic, Sonic Generations, ofrece la experiencia de juego definitiva para los nuevos seguidores de Sonic y para los de siempre.
+		El universo de Sonic se convierte en un caos cuando aparece un nuevo poder capaz de crear "agujeros temporales" que transportan a Sonic y a sus amigos al pasado. Allí, Sonic se encontrará con algunos personajes muy conocidos. ¡Hasta una versión más joven de sí mismo! Deberán formar equipo para derrotar a sus enemigos, salvar a sus amigos y descubrir quién está detrás de este diabólico plan.
+		Características principales:
+		El doble de diversión - Juega como el Sonic clásico y el Sonic moderno en la experiencia de Sonic definitiva. Domina los movimientos de cada personaje recorriendo cada nivel con pistas especialmente diseñadas para cada uno.
+		Los mejores momentos son mucho mejores - Los escenarios más emblemáticos de la historia de los videojuegos cobran vida en increíbles gráficos en alta definición para la aventura de Sonic definitiva. Cada uno se ha rediseñado, recreado y reimaginado con impresionantes resultados.
+		Una experiencia totalmente nueva - Juega en algunos de los escenarios más emblemáticos de tus juegos de una manera totalmente nueva, con los famosos niveles de Sonic en un impresionante y nuevo 3D estereoscópico.
+		Desbloquea nuevas aventuras - Una vez completado cada nivel y "liberados" los amigos de Sonic, podrás volver para enfrentarte a más retos junto a ellos.
+		Infames jefes y rivales - Enfréntate a algunos de los personajes más famosos del pasado de Sonic y lucha por la victoria absoluta.
+		Domina tus movimientos - Domina el famoso ataque giratorio del Sonic Clásico y utiliza el Turbo Sonic del Sonic Moderno en las nuevas pistas.
+		</desc>
+		<image>./images/Sonic Generations-image.png</image>
+		<marquee>./images/Sonic Generations-marquee.png</marquee>
+		<releasedate>20111101T000000</releasedate>
+		<developer>Sonic Team, Devil's Details</developer>
+		<publisher>Sega</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount>13</playcount>
+		<lastplayed>20210801T204807</lastplayed>
+		<gametime>678</gametime>
+		<lang>es</lang>
+	</game>
+</gameList>

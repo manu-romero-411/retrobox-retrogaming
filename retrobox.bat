@@ -6,7 +6,7 @@ set retroboxroot=%realpath%
 
 rem ## SI NO EXISTE UN .winboot EN C:\, SE DEBERÁ CARGAR EL ENTORNO DE RETROBOX DESDE EL MENÚ INICIO.
 rem ## EL ARCHIVO .winboot SE GENERA DESDE EL SISTEMA LINUX PRINCIPAL DEL PC. CONTROLA EL DESVÍO DEL ARRANQUE DE GRUB Y EL INICIO AUTOMÁTICO DE EMULATIONSTATION.
-if not exist C:\.winboot (
+if not exist D:\.wingaming (
 	if "%1" == "-b" (
 		goto :EOF
 	)
@@ -22,18 +22,16 @@ REM tasklist /nh /fi "imagename eq retrobat.exe" | find /i "retrobat.exe" && exi
 REM tasklist /nh /fi "imagename eq retroarch.exe" | find /i "retroarch.exe" && exit
 
 rem ## PARA AHORRAR ENERGÍA Y QUE EL PC NO SE CALIENTE MÁS DE LA CUENTA, APAGAR GRÁFICA NVIDIA (SE ENCENDERÁ SI ES NECESARIO EN ALGÚN JUEGO/EMULADOR).
-sudo pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
+rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 
-rem ## SI CARGAMOS RETROBOX DESDE EL MODO WINDOWS, CERRAR LAS INTERFACES DEL MODO WINDOWS.
+rem ## OCULTAR BARRA DE TAREAS E ICONOS DEL ESCRITORIO DE WINDOWS COMPLETAMENTE
 if NOT "%1" == "-b" (
-	taskkill /IM Retrobar.exe /F
-	%retroboxroot%\misc\nircmd.exe win show class Shell_TrayWnd
-	sudo powershell -command "&{$p='HKCU:SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3';$v=(Get-ItemProperty -Path $p).Settings;$v[8]=2;&Set-ItemProperty -Path $p -Name Settings -Value $v;&Stop-Process -f -ProcessName explorer}"
+	powershell -command "(New-Object -comObject Shell.Application).Windows() | foreach-object {$_.quit()}; Get-Process | Where-Object {$_.MainWindowTitle -ne \"\"} | stop-process"
 	timeout /t 2
 )
 
-rem ## OCULTAR BARRA DE TAREAS DE WINDOWS COMPLETAMENTE
 %retroboxroot%\misc\nircmd.exe win hide class Shell_TrayWnd
+%retroboxroot%\misc\HideDesktopIcons.exe
 
 rem ## BUCLE DE EJECUCIÓN
 :RUN
@@ -46,10 +44,17 @@ rem ## BUCLE DE EJECUCIÓN
 rem ## BUCLE DE CIERRE
 :FIN
 	rem ## SI HAY UN ARCHIVO .winboot, QUERRÁ DECIR QUE HEMOS INICIADO DESDE LINUX. SE INTENTA VOLVER A LINUX.
-	if exist C:\.winboot (
+	if exist D:\.wingaming (
 		rem ### SI HEMOS CERRADO EMULATIONSTATION DESDE LA OPCIÓN "Modo Windows", SE CREARÁ EL ARCHIVO .noreboot.
 		rem ### DE LO CONTRARIO, AL LLEGAR AQUÍ, VOLVEREMOS A LINUX (BIEEEEEN).
 		if not exist D:\.noreboot (
 			%retroboxroot%\misc\silentcmd-windows\SilentCMD.exe %retroboxroot%\misc\reboot-linux.bat
+		) else (
+			del D:\.noreboot
+			del D:\.wingaming
 		)
 	)
+
+	
+	%retroboxroot%\misc\nircmd.exe win show class Shell_TrayWnd
+	%retroboxroot%\misc\HideDesktopIcons.exe

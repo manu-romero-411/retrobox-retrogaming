@@ -30,15 +30,15 @@ rem ## SI EL JUEGO ES DE ALGUNA TIENDA DE JUEGOS, UTILIZAR EL SCRIPT ESPECIAL
 
 rem ## SI EL JUEGO ES PIRATA, FANGAME O NO ES DE TIENDAS, SEGUIR POR AQUÍ
 rem ## CARGAR PERFIL DE ANTIMICRO PARA EL MANDO, Y SCRIPT DE AUTOHOTKEY PARA DESVIAR PULSACIONES A LAS TECLAS -*/
-sudo start /b cmd /c %retroboxroot%\misc\new_close.exe
-sudo start /b cmd /c %antimicroexec% --profile %profiledir%			
+start /b cmd /c %retroboxroot%\misc\new_close.exe
+start /b cmd /c %antimicroexec% --profile %profiledir%			
 
 rem ## EJECUTAR JUEGO
 %gamedir%
 
 rem ## CERRAR ANTIMICRO Y SCRIPT DE AUTOHOTKEY
-tasklist /nh /fi "imagename eq antimicrox.exe" | find /i "antimicrox.exe" && sudo taskkill /IM antimicrox.exe /F
-tasklist /nh /fi "imagename eq new_close.exe" | find /i "new_close.exe" && sudo taskkill /IM new_close.exe /F
+tasklist /nh /fi "imagename eq antimicrox.exe" | find /i "antimicrox.exe" && taskkill /IM antimicrox.exe /F
+tasklist /nh /fi "imagename eq new_close.exe" | find /i "new_close.exe" && taskkill /IM new_close.exe /F
 goto :FIN
 
 rem ## CAZAERRORES

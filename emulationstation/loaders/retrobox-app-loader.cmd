@@ -4,11 +4,11 @@ if [%1]==[] goto :NOARG
 set realpath=%~dp0
 set retroboxroot=%realpath%\..\..
 
-set chromepath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-set chromexec=msedge.exe
+REM set chromepath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+REM set chromexec=msedge.exe
 
-rem set chromepath="C:\Program Files\Google\Chrome\Application\chrome.exe"
-rem set chromexec=chrome.exe
+set chromepath="C:\Program Files\Google\Chrome\Application\chrome.exe"
+set chromexec=chrome.exe
 
 tasklist /nh /fi "imagename eq %chromexec%" | find /i "%chromexec%" && taskkill /IM %chromexec% /F
 set appfile=%1

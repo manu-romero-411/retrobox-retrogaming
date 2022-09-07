@@ -11,8 +11,11 @@ call %1
 rem if [%2]==[] goto :ERROR
 set profiledir=%2
 
+rem ## EJECUTAR JOYXOFF MIENTRAS CARGA EL JUEGO (PANTALLAS UAC DE UPLAY, INICIOS DE SESIÓN, ETC.)
+rem start /b cmd /c "C:\Program Files (x86)\Joyxoff\Joyxoff.exe"
+
 rem ## ENCENDER GRÁFICA NVIDIA
-sudo pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
+rem pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 
 rem ## SI EL JUEGO ES DE EPIC, CARGARLO CON EPIC
 if NOT [%epicurl%]==[] (
@@ -30,13 +33,13 @@ rem ## SI EL JUEGO ES DE UPLAY U OTRA TIENDA, CARGARLO DESDE SU DIRECTORIO DE IN
 cd "%exedir%"
 cmd /c start "" /high "%exedir:"=%%exefile:"=%"
 
-
 rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO (PANTALLAS DE CARGA DE LA TIENDA, ETC.) 
 :PRERUN
 	tasklist | findstr %exefile% && (
 		rem ### CUANDO SE ROMPA EL BUCLE (EL JUEGO HAYA INICIADO), CARGAR ANTIMICRO Y SCRIPT DE AUTOHOTKEY PARA DESVIAR PULSACIONES A -*/
-	    sudo start /b cmd /c %retroboxroot%\misc\new_close.exe
-		sudo start /b cmd /c %antimicroExec% --profile %profiledir%
+	    rem taskkill /IM Joyxoff.exe /F
+		start /b cmd /c %retroboxroot%\misc\new_close.exe
+		start /b cmd /c %antimicroExec% --profile %profiledir%
 		goto :RUNNING
 	) || (
 		timeout /t 4
@@ -56,11 +59,11 @@ rem ## BUCLE INGAME - ESTARÁ PENDIENTE DE QUE CERREMOS EL JUEGO
 rem ## BUCLE POSTGAME - SE ENCARGA DE VOLVER A EMULATIONSTATION DE FORMA CORRECTA
 :ENDLOOP
 	rem ### CERRAR ANTIMICRO Y SCRIPT DE AUTOHOTKEY
-	sudo taskkill /IM new_close.exe /F
-	sudo taskkill /IM antimicrox.exe /F
+	taskkill /IM new_close.exe /F
+	taskkill /IM antimicrox.exe /F
 
 	rem ### APAGAR GRÁFICA NVIDIA
-	sudo pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
+	rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 	
 	rem ### DEVOLVER EL CONTROL A EMULATIONSTATION
 	goto :FIN
