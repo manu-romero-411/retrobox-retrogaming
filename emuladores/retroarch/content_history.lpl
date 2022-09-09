@@ -8,6 +8,22 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\F-ZERO X (U) [!].z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Bust-A-Move '99 (U) [!].z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Sonic & Knuckles + Sonic the Hedgehog.md",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
@@ -1588,22 +1604,6 @@
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
       "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\snes\\Super Mario World - Laser suit.smc",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\snes9x_libretro.dll",
-      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\snes\\Super Mario World.smc",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\snes9x_libretro.dll",
-      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
       "crc32": "",
       "db_name": ""
     }
