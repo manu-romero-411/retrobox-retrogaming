@@ -40,4 +40,3 @@ for %%d in ("cemu\Cemu.exe" "retroarch\retroarch.exe" "pcsx2\pcsx2x64-avx2.exe" 
         echo dependencia faltante - emulador: %%d>> %escritorio%\retrobox-deps.txt
     )
 )
-

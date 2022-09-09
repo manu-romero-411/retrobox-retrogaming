@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+autor.: Juliano Dorigão
+email.: jdorigao@gmail.com
+-->
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<carousel name="systemcarousel">
+		  <color>E7E7E7A0</color>
+		  <colorEnd>FFD79AD0</colorEnd>
+		  <systemInfoDelay>700</systemInfoDelay>
+		  <pos>0 0.3837</pos>
+		  <size>1 0.2325</size>
+		  <zIndex>20</zIndex>
+		</carousel>
+
+		<image name="carousel-inner" extra="true">
+		  <path>./art/assets/carousel.png</path>
+		  <color>FFFFFFFF</color>
+		  <origin>0 0</origin>
+		  <pos>0 0.3837</pos>
+		  <size>1 0.2325</size>
+		  <zIndex>40</zIndex>
+		</image>
+
+		<text name="systemInfo">
+		  <pos>0 0.64</pos>
+		  <size>1 0.25</size>
+		  <backgroundColor>0000FF00</backgroundColor>
+		  <color>DDDDDDD8</color>
+		  <glowColor>00000020</glowColor>
+		  <glowSize>2</glowSize>
+		  <reflexion>0.20 0.0</reflexion>
+		</text>
+	</view>
+	
+	<view name="detailed">
+		<image name="back-logo" extra="true">
+			<pos>0.02 0.02</pos>
+			<size>0.35 0.15</size>
+		</image>
+
+		<image name="logo">
+			<pos>0.19 0.095</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.3 0.12</maxSize>
+		</image>
+		
+		<image name="back-gamelist" extra="true">
+			<pos>0.02 0.19</pos>
+			<size>0.35 0.735</size>
+			<path>./art/assets/back.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.025 0.20</pos>
+			<size>0.34 0.7</size>
+			<selectorColor>ff9900</selectorColor> <!-- Selection bar -->
+			<selectedColor>262626</selectedColor> <!-- Selection letters -->
+			<primaryColor>ffffff</primaryColor> <!-- Letters -->
+			<secondaryColor>9F9F9F</secondaryColor>
+			<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<scrollSound>./art/sound/scroll.wav</scrollSound>
+		</textlist>
+
+		<image name="back-image" extra="true">
+			<pos>0.38 0.02</pos>
+			<size>0.6 0.905</size>
+			<path>./art/assets/back.png</path>
+		</image>
+
+		<video name="md_video">
+      <origin>0.5 0.5</origin>
+			<pos>0.68 0.36</pos>
+			<maxSize>0.58 0.58</maxSize>
+		</video>
+
+		<text name="md_lbl_rating">
+			<size>0.2 0.02</size>
+			<color>ececec</color>
+			<alignment>right</alignment>
+			<pos>0.43 0.745</pos>
+			<fontSize>0.04</fontSize>
+		</text>
+
+		<rating name="md_rating">
+			<pos>0.68 0.72</pos>
+			<size>0.07 0.07</size>
+			<alignment>left</alignment>
+			<filledPath>./art/assets/rating_filled.svg</filledPath>
+			<unfilledPath>./art/assets/rating_empty.svg</unfilledPath>
+		</rating>
+
+		<text name="md_lbl_gametime">
+			<size>0.2 0.02</size>			
+			<color>ececec</color>
+			<alignment>right</alignment>
+			<fontSize>0.04</fontSize>
+			<pos>0.43 0.82</pos>
+		</text>
+
+		<text name="md_gametime">
+			<size>0.2 0.02</size>
+			<color>ff9900</color>
+			<alignment>left</alignment>
+			<fontSize>0.04</fontSize>
+			<pos>0.68 0.825</pos>
+		</text>
+	</view>
+</theme>
