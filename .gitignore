@@ -108,3 +108,5 @@ misc/tools
 misc/*.exe
 roms/
 saves/
+roms
+saves

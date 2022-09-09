@@ -39,6 +39,14 @@ timeout /t 5
 
 rem ## BUCLE DE EJECUCIÓN
 :RUN
+	if NOT EXIST %retroboxroot%\roms (
+		mkdir %retroboxroot%\roms
+	)
+
+	if NOT EXIST %retroboxroot%\saves (
+		mkdir %retroboxroot%\saves
+	)
+	
 	rem ## INICIAR EMULATIONSTATION
 	start /w %retroboxroot%\emulationstation\emulationstation.exe
 	
