@@ -2,7 +2,11 @@
 
 if [%1]==[] goto :NOARG
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 
 REM set chromepath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 REM set chromexec=msedge.exe
@@ -95,6 +99,11 @@ goto :EOF
 
 :FIN
 taskkill /IM antimicrox.exe /F
+
+rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
+start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+timeout /t 1
+
 goto :EOF
 
 :NOARG

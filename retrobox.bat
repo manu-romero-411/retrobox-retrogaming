@@ -1,8 +1,12 @@
-@echo off
+@echo on
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
-set retroboxroot=%realpath%
+set rbpath=%realpath%
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 
 rem ## SI NO EXISTE UN .winboot EN C:\, SE DEBERÁ CARGAR EL ENTORNO DE RETROBOX DESDE EL MENÚ INICIO.
 rem ## EL ARCHIVO .winboot SE GENERA DESDE EL SISTEMA LINUX PRINCIPAL DEL PC. CONTROLA EL DESVÍO DEL ARRANQUE DE GRUB Y EL INICIO AUTOMÁTICO DE EMULATIONSTATION.
@@ -18,8 +22,6 @@ del D:\.noreboot
 
 rem ## ÚNICA INSTANCIA: SI SE INTENTA EJECUTAR UNA SEGUNDA INSTANCIA DEL SCRIPT, NO PASARÁ NADA.
 tasklist /nh /fi "imagename eq emulationstation.exe" | find /i "emulationstation.exe" && exit 1
-REM tasklist /nh /fi "imagename eq retrobat.exe" | find /i "retrobat.exe" && exit
-REM tasklist /nh /fi "imagename eq retroarch.exe" | find /i "retroarch.exe" && exit
 
 rem ## PARA AHORRAR ENERGÍA Y QUE EL PC NO SE CALIENTE MÁS DE LA CUENTA, APAGAR GRÁFICA NVIDIA (SE ENCENDERÁ SI ES NECESARIO EN ALGÚN JUEGO/EMULADOR).
 rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
@@ -27,11 +29,13 @@ rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&3195
 rem ## OCULTAR BARRA DE TAREAS E ICONOS DEL ESCRITORIO DE WINDOWS COMPLETAMENTE
 if NOT "%1" == "-b" (
 	powershell -command "(New-Object -comObject Shell.Application).Windows() | foreach-object {$_.quit()}; Get-Process | Where-Object {$_.MainWindowTitle -ne \"\"} | stop-process"
-	timeout /t 2
 )
 
+reg import %retroboxroot%\misc\regs\iconos-escritorio-ocultar.reg
+taskkill /IM explorer.exe /F
+start explorer.exe
+timeout /t 5
 %retroboxroot%\misc\nircmd.exe win hide class Shell_TrayWnd
-%retroboxroot%\misc\HideDesktopIcons.exe
 
 rem ## BUCLE DE EJECUCIÓN
 :RUN
@@ -48,7 +52,7 @@ rem ## BUCLE DE CIERRE
 		rem ### SI HEMOS CERRADO EMULATIONSTATION DESDE LA OPCIÓN "Modo Windows", SE CREARÁ EL ARCHIVO .noreboot.
 		rem ### DE LO CONTRARIO, AL LLEGAR AQUÍ, VOLVEREMOS A LINUX (BIEEEEEN).
 		if not exist D:\.noreboot (
-			%retroboxroot%\misc\silentcmd-windows\SilentCMD.exe %retroboxroot%\misc\reboot-linux.bat
+			%retroboxroot%\misc\tools\SilentCMD.exe %retroboxroot%\misc\reboot-linux.bat
 		) else (
 			del D:\.noreboot
 			del D:\.wingaming
@@ -57,4 +61,6 @@ rem ## BUCLE DE CIERRE
 
 	
 	%retroboxroot%\misc\nircmd.exe win show class Shell_TrayWnd
-	%retroboxroot%\misc\HideDesktopIcons.exe
+	reg import %retroboxroot%\misc\regs\iconos-escritorio-mostrar.reg
+	taskkill /IM explorer.exe /F
+	start explorer.exe

@@ -1,8 +1,13 @@
-@echo on
+@echo off
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
+
 set EMUDIR=%retroboxroot%\emuladores
 set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
 
@@ -30,6 +35,10 @@ taskkill /IM antimicrox.exe /F
 
 rem ## APAGAR GRÁFICA NVIDIA
 rem sudo pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
+
+rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
+start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+timeout /t 1
 
 rem ## DEVOLVER EL CONTROL A EMULATIONSTATION
 goto :FIN

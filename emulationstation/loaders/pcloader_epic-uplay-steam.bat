@@ -2,7 +2,11 @@
 
 rem ## VARIABLES DE ENTORNO
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 set antimicroExec=start /b cmd /c  "C:\Program Files\AntimicroX\bin\antimicrox.exe"
 
 if [%1]==[] goto :ERROR
@@ -65,6 +69,10 @@ rem ## BUCLE POSTGAME - SE ENCARGA DE VOLVER A EMULATIONSTATION DE FORMA CORRECT
 	rem ### APAGAR GRÁFICA NVIDIA
 	rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 	
+	rem ### DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
+	start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+	timeout /t 1
+
 	rem ### DEVOLVER EL CONTROL A EMULATIONSTATION
 	goto :FIN
 	

@@ -2,7 +2,11 @@
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 set EMUDIR=D:\Juegos\retrogaming\emuladores
 
 if [%1]==[] goto :ERROR
@@ -36,8 +40,8 @@ rem )
 rem ## ESTABLECER DIRECTORIOS DE GUARDADO DE PARTIDAS Y BIOS. LOS DIRECTORIOS DE PARTIDAS IRÁN SEPARADOS SEGÚN PLATAFORMA
 del %EMUDIR%\retroarch\retroarch-config.cfg
 copy %EMUDIR%\retroarch\retroarch-original.cfg %EMUDIR%\retroarch\retroarch-config.cfg
-cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "directorio" "%retroboxroot%\saves\%plataforma%"
-cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "biosdir" "%retroboxroot%\bios"
+cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "directorio" "%retroboxroot%\saves\%plataforma%"
+cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "biosdir" "%retroboxroot%\bios"
 
 rem ## INICIAR RETROARCH
 echo %emu% | findstr "parallel" >NUL && (
@@ -49,8 +53,8 @@ echo %emu% | findstr "parallel" >NUL && (
 rem ## DESHACER CONFIGURACIÓN DE DIRECTORIOS Y BIOS PARA QUE EN LA SIGUIENTE EJECUCIÓN DE RETROARCH NO HAYA CONFLICTOS
 del %EMUDIR%\retroarch\retroarch-original.cfg
 copy %EMUDIR%\retroarch\retroarch-config.cfg %EMUDIR%\retroarch\retroarch-original.cfg
-cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-original.cfg "%retroboxroot%\saves\%plataforma%" "directorio" 
-cscript %retroboxroot%\misc\replace.vbs %EMUDIR%\retroarch\retroarch-original.cfg "%retroboxroot%\bios" "biosdir"
+cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-original.cfg "%retroboxroot%\saves\%plataforma%" "directorio" 
+cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-original.cfg "%retroboxroot%\bios" "biosdir"
 
 rem ## SI SE HA NECESITADO ENCENDER, APAGAR GRÁFICA NVIDIA
 rem echo %emu% | findstr "parallel" >NUL && (

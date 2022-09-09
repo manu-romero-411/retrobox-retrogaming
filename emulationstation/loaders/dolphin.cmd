@@ -2,7 +2,11 @@
 
 rem ## VARIABLES DE ENTORNO
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 set EMUDIR=%retroboxroot%\emuladores
 
 if [%1]==[] goto :ERROR

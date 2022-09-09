@@ -8,6 +8,110 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gba\\Advance Wars (Europe) (En,Fr,De,Es).gba",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Sonic & Knuckles + Sonic the Hedgehog 3.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\o2em\\4 in 1 Row (Europe).bin",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\o2em_libretro.dll",
+      "core_name": "Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\o2em\\_info.txt",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\scummvm_libretro.dll",
+      "core_name": "ScummVM",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\vectrex\\Armor..Attack (World).vec",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\vecx_libretro.dll",
+      "core_name": "GCE - Vectrex (vecx)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gbc\\Bionic Commando - Elite Forces (USA).gbc",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\gambatte_libretro.dll",
+      "core_name": "Nintendo - Game Boy / Color (Gambatte)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\sg1000\\007 James Bond (Japan) (v2.7) (Othello Multivision).sg",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Old-Towers.bin",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\mame2003\\pacman.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\dreamcast\\Crazy Taxi (Europe).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 2.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 2.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\blastem_libretro.dll",
+      "core_name": "Sega - Mega Drive - Genesis (BlastEm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\sg1000\\007 James Bond (Japan) (v2.7) (Othello Multivision).sg",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "D:\\Juegos\\retrogaming\\roms\\atari2600\\Adventure (1980) (Atari, Warren Robinett - Sears) (CX2613 - 49-75154) ~.bin",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\stella2014_libretro.dll",
@@ -160,14 +264,6 @@
       "db_name": ""
     },
     {
-      "path": "D:\\Juegos\\retrogaming\\roms\\sg1000\\007 James Bond (Japan) (v2.7) (Othello Multivision).sg",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
       "path": "D:\\Juegos\\retrogaming\\roms\\atomiswave\\mslug6.zip",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
@@ -276,14 +372,6 @@
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
       "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\dreamcast\\Crazy Taxi (Europe).chd",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
-      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
       "crc32": "",
       "db_name": ""
     },
@@ -1516,94 +1604,6 @@
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\pcengine\\R-Type (USA).pce",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_pce_libretro.dll",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\pcengine\\Yo, Bro (USA).pce",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_pce_libretro.dll",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\dynagear.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\emeralda.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\vulgus.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\snes\\Puzzle Bobble - Bust-A-Move.smc",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\snes9x_libretro.dll",
-      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\zunkyou.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\gtmr.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mastersystem\\Alex Kidd in Miracle World (USA, Europe) (v1.1).sms",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 2.md",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\Balloon Fight (USA).nes",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
-      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
       "crc32": "",
       "db_name": ""
     }

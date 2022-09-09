@@ -43,6 +43,8 @@
         <region_width>-3</region_width>
     </GameList>
     <RecentLaunchFiles>
+        <Entry>C:/Users/Manuel/retrogaming/roms/wiiu/Super Mario 3D World.wiiu/code/RedCarpet.rpx</Entry>
+        <Entry>C:/Users/Manuel/retrogaming/roms/wiiu/Mario Kart 8.wiiu/code/Turbo.rpx</Entry>
         <Entry>D:/Juegos/retrogaming/roms/wiiu/Mario Kart 8.wiiu/code/Turbo.rpx</Entry>
         <Entry>D:/Juegos/retrogaming/roms/wiiu/New Super Mario Bros U.wiiu/code/red-pro2.rpx</Entry>
         <Entry>D:/Juegos/retrogaming/roms/wiiu/Super Mario 3D World.wiiu/code/RedCarpet.rpx</Entry>
@@ -64,8 +66,8 @@
             <version>64</version>
             <dlc_version>80</dlc_version>
             <path>D:\Juegos\retrogaming\roms\wiiu\Mario Kart 8.wiiu\code\Turbo.rpx</path>
-            <time_played>195</time_played>
-            <last_played>1655115319</last_played>
+            <time_played>456</time_played>
+            <last_played>1662647892</last_played>
             <favorite>false</favorite>
         </Entry>
         <Entry>
@@ -96,12 +98,12 @@
     <GraphicPack>
         <Entry filename="graphicPacks\downloadedGraphicPacks\MarioKart8\Graphics\rules.txt">
             <Preset>
-                <category>Shadows</category>
-                <preset>Low (50%)</preset>
-            </Preset>
-            <Preset>
                 <category>Aspect Ratio</category>
                 <preset>16:9 (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Shadows</category>
+                <preset>Low (50%)</preset>
             </Preset>
             <Preset>
                 <category>TV Resolution</category>
@@ -121,7 +123,7 @@
             </Preset>
             <Preset>
                 <category>Anti-Aliasing</category>
-                <preset>On (Default)</preset>
+                <preset>Off</preset>
             </Preset>
             <Preset>
                 <category>Bloom Intensity</category>
@@ -154,13 +156,13 @@
                 <preset>Medium</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Workarounds\CrashFix\rules.txt"/>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\SkylandersSwapForce\Workarounds\PortalStabilityFix\rules.txt"/>
         <Entry filename="graphicPacks\downloadedGraphicPacks\SuperMario3DWorld_Resolution\rules.txt">
             <Preset>
                 <preset>960x540</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks\downloadedGraphicPacks\SkylandersSwapForce\Workarounds\PortalStabilityFix\rules.txt"/>
-        <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Workarounds\CrashFix\rules.txt"/>
     </GraphicPack>
     <Graphic>
         <api>1</api>

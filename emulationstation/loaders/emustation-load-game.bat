@@ -2,10 +2,13 @@
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
-set CONFIGFILE=%retroboxroot%\defaults.conf
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
+
 set EMUDIR=%retroboxroot%\emuladores
-set ROMCONFIGDIR=%retroboxroot%\config\%1-config.conf
 
 if [%1]==[] goto :ERROR
 set plataforma=%1

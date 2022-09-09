@@ -2,7 +2,11 @@
 
 rem ## VARIABLES DE ENTORNO
 set realpath=%~dp0
-set retroboxroot=%realpath%\..\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 set EMUDIR=%retroboxroot%\emuladores
 set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
 
@@ -24,6 +28,10 @@ start /WAIT %EMUDIR%/cemu/Cemu.exe -f -g %1\code\%GAMENAME%
 
 rem ## AL TERMINAR DE JUGAR, CERRAR ANTIMICRO
 taskkill /IM antimicrox.exe /F
+
+rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
+start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+timeout /t 1
 
 rem ## DEVOLVER EL CONTROL A EMULATIONSTATION
 goto :FIN
