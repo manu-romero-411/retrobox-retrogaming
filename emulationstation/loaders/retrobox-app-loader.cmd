@@ -39,7 +39,7 @@ findstr kodi %appfile% && (
 )
 
 :CHROME
-start /b cmd /c  "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\gamepad-profiles\apps-tv.gamecontroller.amgp
+start /b cmd /c  "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
 %chromepath% /high-dpi-support=1 /force-device-scale-factor=1.50
 timeout /t 2
 goto :CHROMEISLAUNCHED
@@ -63,7 +63,7 @@ goto :EOF
 :WEBAPP
 SETLOCAL ENABLEDELAYEDEXPANSION
 for /F "usebackq tokens=*" %%A in (`type %appfile%`) do (set "app=%%~A")
-start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\gamepad-profiles\apps-tv.gamecontroller.amgp
+start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
 %chromepath% --kiosk %app%
 timeout /t 1
 goto :FIN
@@ -102,7 +102,6 @@ taskkill /IM antimicrox.exe /F
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
 start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
-timeout /t 1
 
 goto :EOF
 

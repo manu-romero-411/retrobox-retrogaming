@@ -13,7 +13,7 @@ set kodipath="C:\Program Files\Kodi\kodi.exe"
 set acestreampath="%appdata%\ACEStream\engine\ace_engine.exe"
 
 rem ## CARGAR PERFIL DE ANTIMICRO PARA PODER CERRAR KODI CON EL MANDO
-start /b cmd /c %antimicroexec% --profile %retroboxroot%\gamepad-profiles\redream.gamecontroller.amgp
+start /b cmd /c %antimicroexec% --profile %retroboxroot%\misc\gamepad-profiles\redream.gamecontroller.amgp
 
 rem ## INICIAR ACESTREAM (PARA CRISTAL AZUL, WINNER SPORTS Y BALANDRO)
 start /b cmd /c %acestreampath%
@@ -30,7 +30,6 @@ taskkill /IM antimicrox.exe /F
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
 start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
-timeout /t 1
 
 rem ### DEVOLVER EL CONTROL A EMULATIONSTATION
 goto :FIN

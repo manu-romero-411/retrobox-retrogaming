@@ -1,4 +1,7 @@
+# CARPETA DE BIOS
 bios/
+
+# EMULADOR CEMU
 emuladores/cemu/gameProfiles/
 emuladores/cemu/graphicPacks/
 emuladores/cemu/memorySearcher/
@@ -7,6 +10,8 @@ emuladores/cemu/shaderCache/
 emuladores/cemu/Cemu.exe
 emuladores/cemu/cemuhook.dll
 emuladores/cemu/cemuhook.ini
+
+# EMULADOR DOLPHIN
 emuladores/dolphin/Languages/
 emuladores/dolphin/QtPlugins/
 emuladores/dolphin/User/Backup/
@@ -29,9 +34,13 @@ emuladores/dolphin/Qt5Core.dll
 emuladores/dolphin/Qt5Gui.dll
 emuladores/dolphin/Qt5Widgets.dll
 emuladores/dolphin/Updater.exe
+
+# EMULADOR MODEL2EMU
 emuladores/model2emu/EMULATOR.EXE
 emuladores/model2emu/emulator_multicpu.exe
 emuladores/model2emu/README.TXT
+
+# EMULADOR PCSX2
 emuladores/pcsx2/bios/
 emuladores/pcsx2/cache/
 emuladores/pcsx2/cheats/
@@ -44,7 +53,18 @@ emuladores/pcsx2/snaps/
 emuladores/pcsx2/sstates/
 emuladores/pcsx2/textures/
 emuladores/pcsx2/*.exe
-emuladores/ppsspp/
+
+# EMULADOR PPSSPP
+emuladores/ppsspp/assets/
+emuladores/ppsspp/memstick/PSP/COMMON/
+emuladores/ppsspp/memstick/PSP/GAME/
+emuladores/ppsspp/memstick/PSP/SAVEDATA/
+emuladores/ppsspp/memstick/PSP/SYSTEM/CACHE/
+emuladores/ppsspp/*.dll
+emuladores/ppsspp/*.exe
+emuladores/ppsspp/README.md
+
+# EMULADOR REDREAM
 emuladores/redream/cache/
 emuladores/redream/states/
 emuladores/redream/flash.bin
@@ -54,6 +74,8 @@ emuladores/redream/vmu0.bin
 emuladores/redream/vmu1.bin
 emuladores/redream/vmu2.bin
 emuladores/redream/vmu3.bin
+
+# RETROARCH
 emuladores/retroarch/assets/
 emuladores/retroarch/autoconfig/
 emuladores/retroarch/bearer/
@@ -81,6 +103,8 @@ emuladores/retroarch/thumbnails/
 emuladores/retroarch/*.dll
 emuladores/retroarch/retroarch.exe
 emuladores/retroarch/retroarch-nvidia.exe
+
+# EMULATIONSTATION
 emulationstation/.emulationstation/music/
 emulationstation/.emulationstation/recovery/
 emulationstation/.emulationstation/scrapers/
@@ -98,10 +122,8 @@ emulationstation/emulatorLauncher.log
 emulationstation/emulatorLauncher.log.old
 emulationstation/es-checkversion.cmd
 emulationstation/es-update.cmd
-extra-menus/pcgames/emustation/images/
-extra-menus/pcgames/epiclnk/
-extra-menus/pcgames/old-profiles/
-extra-menus/pcgames/loaders/
+
+# OTROS ARCHIVOS
 kodi/
 misc/ahks/*.exe
 misc/tools

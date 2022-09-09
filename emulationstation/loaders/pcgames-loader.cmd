@@ -11,8 +11,6 @@ popd
 
 set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
 
-rem ## emustation-load-game.bat windows C:\Users\Manuel\retrogaming\extra-menus\pcgames\emustation\steam_bayonetta.cmd
-
 rem ## BUSCAR O CREAR PERFIL DE ANTIMICRO PARA EL MANDO
 set basename=""
 for %%i in (%gamedir%) do set basename=%%~ni
@@ -27,7 +25,7 @@ if NOT exist %profiledir% (
 
 rem ## SI EL JUEGO ES DE ALGUNA TIENDA DE JUEGOS, UTILIZAR EL SCRIPT ESPECIAL
 ((echo %gamedir% | findstr epic) || (echo %gamedir% | findstr steam) || (echo %gamedir% | findstr uplay)) && (
-	%realpath%\pcloader_epic-uplay-steam.bat %gamedir% %profiledir%
+	%realpath%\pcloader_epic-uplay-steam.cmd %gamedir% %profiledir%
 	goto :FIN
 )
 

@@ -12,7 +12,7 @@ sudo pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&3195
 start %steamid%
 
 :PRERUN
-	start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile D:\Juegos\retrogaming\gamepad-profiles\preload-steam-epic.gamecontroller.amgp
+	start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile D:\Juegos\retrogaming\misc\gamepad-profiles\preload-steam-epic.gamecontroller.amgp
 	tasklist|findstr %exefile% && (
 	    taskkill /IM antimicrox.exe /F
 		goto :RUNNING

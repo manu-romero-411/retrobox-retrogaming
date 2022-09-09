@@ -12,7 +12,7 @@ cd "%exepath%"
 cmd /c start "" /high "%exepath:"=%%exefile1:"=%"
 rem goto :ENDLOOP
 
-start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\gamepad-profiles\apps-tv.gamecontroller.amgp
+start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
 
 :PRERUN1
 	tasklist | findstr %exefile1% > nul

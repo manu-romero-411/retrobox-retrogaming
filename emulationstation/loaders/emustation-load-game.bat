@@ -13,7 +13,6 @@ set EMUDIR=%retroboxroot%\emuladores
 if [%1]==[] goto :ERROR
 set plataforma=%1
 
-
 if [%2]==[] goto :ERROR
 set rom=%2
 
