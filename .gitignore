@@ -109,6 +109,8 @@ emulationstation/.emulationstation/music/
 emulationstation/.emulationstation/recovery/
 emulationstation/.emulationstation/scrapers/
 emulationstation/.emulationstation/tmp/
+emulationstation/.emulationstation/es_log.txt
+emulationstation/.emulationstation/es_log.txt.bak
 emulationstation/loaders/old/
 emulationstation/plugins/
 emulationstation/resources/
