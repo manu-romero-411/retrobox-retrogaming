@@ -1,0 +1,34 @@
+{
+  "mods": [
+    {
+      "enabled": false,
+      "features": [
+        {}
+      ],
+      "groups": [],
+      "path": "All Games Bloom Removal\/metadata.json",
+      "source": "system",
+      "weight": 0
+    },
+    {
+      "enabled": false,
+      "features": [
+        {}
+      ],
+      "groups": [],
+      "path": "All Games HUD Removal\/metadata.json",
+      "source": "system",
+      "weight": 0
+    },
+    {
+      "enabled": false,
+      "features": [
+        {}
+      ],
+      "groups": [],
+      "path": "All Games Native Resolution Bloom\/metadata.json",
+      "source": "system",
+      "weight": 0
+    }
+  ]
+}
