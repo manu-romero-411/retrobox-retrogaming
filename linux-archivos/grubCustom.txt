@@ -1,0 +1,6 @@
+search --set -f /.winboot
+if [ -f /.winboot ]; then
+	search --no-floppy --fs-uuid --set=root 6692-D14E
+	chainloader /efi/Microsoft/Boot/bootmgfw-grub.efi
+	boot
+fi
