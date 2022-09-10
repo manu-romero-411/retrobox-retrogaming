@@ -8,6 +8,102 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\fba\\sonic.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\atomiswave\\claychal.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\wswan\\Anchorz Field (Japan).ws",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_wswan_libretro.dll",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Cygne)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gameandwatch\\Monkey Jump (VTech, Arcade Time & Fun).mgw",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\gw_libretro.dll",
+      "core_name": "Handheld Electronic (GW)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gameandwatch\\Pac Man (Tomytronic).mgw",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\gw_libretro.dll",
+      "core_name": "Handheld Electronic (GW)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\mastersystem\\Alex Kidd - High-Tech World (USA, Europe).sms",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Crash Bandicoot 3 - Warped (Europe) (En,Fr,De,Es,It).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\mastersystem\\California Games II (Europe).sms",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Pilotwings 64 (U) [!].z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Super Mario 64 (U) [!].z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Dance Dance Revolution - Disney Dancing Museum (J) [!].z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\atomiswave\\mslug6.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\F-ZERO X (U) [!].z64",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
@@ -1508,102 +1604,6 @@
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\gba\\Polarium Advance (USA).gba",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
-      "core_name": "Nintendo - Game Boy Advance (mGBA)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\gba\\Pokemon - Edicion Verde Hoja (Spain).gba",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
-      "core_name": "Nintendo - Game Boy Advance (mGBA)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\zookeep.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\jrpacman.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\mspacman.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\mspacman.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\nbajamte.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\outrun.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\pang.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\rtype.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\mame\\sonicbom.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
-      "core_name": "Arcade (MAME 2003-Plus)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\xmcota.zip",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
-      "core_name": "Arcade (FinalBurn Neo)",
       "crc32": "",
       "db_name": ""
     }

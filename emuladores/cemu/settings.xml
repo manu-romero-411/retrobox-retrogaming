@@ -98,12 +98,12 @@
     <GraphicPack>
         <Entry filename="graphicPacks\downloadedGraphicPacks\MarioKart8\Graphics\rules.txt">
             <Preset>
-                <category>Shadows</category>
-                <preset>Low (50%)</preset>
-            </Preset>
-            <Preset>
                 <category>Aspect Ratio</category>
                 <preset>16:9 (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Shadows</category>
+                <preset>Low (50%)</preset>
             </Preset>
             <Preset>
                 <category>TV Resolution</category>
@@ -156,13 +156,13 @@
                 <preset>Medium</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Workarounds\CrashFix\rules.txt"/>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\SkylandersSwapForce\Workarounds\PortalStabilityFix\rules.txt"/>
         <Entry filename="graphicPacks\downloadedGraphicPacks\SuperMario3DWorld_Resolution\rules.txt">
             <Preset>
                 <preset>960x540</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks\downloadedGraphicPacks\SkylandersSwapForce\Workarounds\PortalStabilityFix\rules.txt"/>
-        <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Workarounds\CrashFix\rules.txt"/>
     </GraphicPack>
     <Graphic>
         <api>1</api>
