@@ -104,6 +104,7 @@ emuladores/retroarch/styles/
 emuladores/retroarch/system/
 emuladores/retroarch/thumbnails/
 emuladores/retroarch/*.dll
+emuladores/retroarch/*.lpl
 emuladores/retroarch/retroarch.exe
 emuladores/retroarch/retroarch-nvidia.exe
 

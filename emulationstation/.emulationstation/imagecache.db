@@ -292,8 +292,22 @@
 ./roms/fba/images/scotrsht-image.png|238464|640|640
 ./roms/fba/images/seganinj-image.png|324551|640|640
 ./roms/fba/images/sonic-image.png|491102|640|640
+./roms/fds/images/Ai Senshi Nicol (Japan) [b]-image.png|186555|400|400
+./roms/fds/images/Aspic - Majaou no Noroi (Japan)-image.png|151080|400|400
+./roms/fds/images/Bio Miracle Bokutte Upa (Japan)-image.png|172276|400|400
+./roms/fds/images/Deep Dungeon - Madou Senki (Japan) [b]-image.png|216707|400|400
+./roms/fds/images/Deep Dungeon II - Yuushi no Monshou (Japan) (v1.1) [b]-image.png|145280|400|400
+./roms/fds/images/Exciting Billiard (Japan)-image.png|163406|400|400
+./roms/fds/images/Neunzehn (Japan) [b]-image.png|220163|400|400
 ./roms/gamegear/images/Aladdin (USA, Europe)-image.png|372365|640|640
+./roms/gba/images/Advance Wars (Europe) (En,Fr,De,Es)-image.png|579409|640|640
+./roms/gba/images/ChuChu Rocket! (Europe) (En,Ja,Fr,De,Es)-image.png|507464|640|640
+./roms/gba/images/Colin McRae Rally 2.0 (Europe) (En,Fr,De)-image.png|514026|640|640
+./roms/gba/images/Comix Zone (Europe) (En,Fr,De,Es,It)-image.png|542076|640|640
+./roms/gba/images/F-Zero - GP Legend (Europe) (En,Fr,De,Es,It)-image.png|587593|640|640
+./roms/gba/images/Golden Sun - La Edad Perdida (Spain)-image.png|584823|640|640
 ./roms/megadrive/images/Alex Kidd in the Enchanted Castle-image.png|200680|400|400
+./roms/n64/images/1080 TenEighty Snowboarding (Europe) (En,Ja,Fr,De)-image.png|505104|640|640
 ./roms/neogeo/images/blazstar-image.png|302342|400|400
 ./roms/neogeo/images/bstars2-image.png|219297|400|400
 ./roms/neogeo/images/crsword-image.png|462247|640|640
@@ -313,15 +327,50 @@
 ./roms/neogeo/images/sengoku-image.png|244751|400|400
 ./roms/neogeo/images/sonicwi2-image.png|246636|400|400
 ./roms/neogeo/images/sonicwi3-image.png|240683|400|400
+./roms/ngpc/images/Sonic the Hedgehog - Pocket Adventure (World)-image.png|167128|400|400
 ./roms/pcengine/images/Aero Blasters (USA)-image.png|356751|640|640
+./roms/ps2/images/DragonBall Z - Budokai Tenkaichi 3 (Europe, Australia) (En,Ja,Fr,De,Es,It)-image.png|545836|640|640
+./roms/ps2/images/FIFA 14 (Europe) (En,Es,Pt,Pl)-image.png|490237|640|640
+./roms/psp/images/Burnout Legends (Platinum) (Europe)-image.png|229461|400|400
+./roms/psp/images/Castlevania X Chronicles-image.png|265639|400|400
+./roms/psp/images/Loco Roco (Europe)-image.png|162340|400|400
+./roms/psp/images/Loco Roco 2 (Europe)-image.png|140612|400|400
+./roms/psp/images/Lumines-image.png|215911|400|400
+./roms/psp/images/Monster Hunter Freedom-image.png|253539|400|400
+./roms/psx/images/Ape Escape (Spain)-image.png|564133|640|640
+./roms/psx/images/Crash Bandicoot (Europe) (No EDC)-image.png|577158|640|640
+./roms/psx/images/Metal Gear Solid (Spain)-image.png|503737|640|640
+./roms/psx/images/Resident Evil DX (Europe) (NC)-image.png|419477|640|640
+./roms/psx/images/Ridge Racer Type 4 (Europe) (En,Fr,De,Es,It)-image.png|538021|640|640
+./roms/psx/images/Silent Hill (Europe) (En,Fr,De,Es,It)-image.png|474220|640|640
 ./roms/segamodel2/images/dayton93-image.png|477366|640|640
 ./roms/segamodel2/images/segawski-image.png|565228|640|640
 ./roms/segamodel2/images/skisuprg-image.png|572650|640|640
 ./roms/segamodel2/images/srallyc-image.png|574108|640|640
 ./roms/segamodel2/images/stcc-image.png|492771|640|640
+./roms/virtualboy/images/3D Tetris-image.png|162387|400|400
+./roms/virtualboy/images/Blox-image.png|108141|400|400
+./roms/virtualboy/images/Galactic Pinball-image.png|167030|400|400
+./roms/virtualboy/images/Golf-image.png|159935|400|400
+./roms/virtualboy/images/Waterworld-image.png|125167|400|400
+./roms/wii/images/Mario Kart Wii-image.png|472086|640|640
+./roms/wii/images/New Super Mario Bros. Wii (Europe) (En,Fr,De,Es,It) (Rev 2)-image.png|472647|640|640
+./roms/wii/images/Sonic Colours (Europe) (En,Ja,Fr,De,Es,It)-image.png|762698|640|640
+./roms/wii/images/Sonic Unleashed (Europe) (En,Ja,Fr,De,Es,It)-image.png|531325|640|640
+./roms/wii/images/Super Mario Galaxy (Europe) (En,Fr,De,Es,It)-image.png|597245|640|640
+./roms/wii/images/Super Mario Galaxy 2 (Europe) (En,Fr,De,Es,It)-image.png|523739|640|640
+./roms/wii/images/The Legend of Zelda - Skyward Sword-image.png|512387|640|640
+./roms/wiiu/images/Mario Kart 8-image.png|438941|640|640
+./roms/wiiu/images/New Super Mario Bros U-image.png|532498|640|640
+./roms/windows/images/Broforce-image.jpg|33663|300|450
+./roms/windows/images/DuckGame-image.jpg|23616|300|450
 ./roms/windows/images/SonicRoboBlast2-image.jpg|35433|300|424
+./roms/windows/images/epic_EnterTheGrungeon-image.png|345538|640|640
+./roms/windows/images/epic_FallGuys-thumb.jpg|37092|640|299
 ./roms/windows/images/epic_SonicMania-image.png|476212|640|640
 ./roms/windows/images/epic_TheAltoCollection-image.png|341745|640|853
+./roms/windows/images/gtaSanAndreas-image.jpg|37426|300|421
+./roms/windows/images/minecraft-image.png|454078|640|640
 ./roms/windows/images/steam_SonicCD-image.png|470796|640|640
 ./roms/windows/images/steam_SonicGenerations-thumb.jpg|34037|300|450
 ./roms/windows/images/steam_bayonetta-image.png|510548|640|640
