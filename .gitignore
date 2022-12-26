@@ -38,6 +38,23 @@ emuladores/dolphin/Qt5Gui.dll
 emuladores/dolphin/Qt5Widgets.dll
 emuladores/dolphin/Updater.exe
 
+# EMULADOR GENS-GS
+emuladores/gens-gs/doc/
+emuladores/gens-gs/plugins/
+emuladores/gens-gs/gens.exe
+emuladores/gens-gs/NEWS.txt
+emuladores/gens-gs/README.txt
+
+# EMULADOR KEGA FUSION
+"emuladores/kega-fusion/Video Codec/"
+emuladores/kega-fusion/Fusion.exe
+emuladores/kega-fusion/History.txt
+emuladores/kega-fusion/install.bat
+emuladores/kega-fusion/*.sdb
+emuladores/kega-fusion/readme.txt
+emuladores/kega-fusion/Readme2.txt
+emuladores/kega-fusion/uninstall.bat
+
 # EMULADOR MODEL2EMU
 emuladores/model2emu/EMULATOR.EXE
 emuladores/model2emu/emulator_multicpu.exe
@@ -77,6 +94,7 @@ emuladores/redream/vmu0.bin
 emuladores/redream/vmu1.bin
 emuladores/redream/vmu2.bin
 emuladores/redream/vmu3.bin
+emuladores/redream-linux/
 
 # RETROARCH
 emuladores/retroarch/assets/
@@ -107,6 +125,40 @@ emuladores/retroarch/*.dll
 emuladores/retroarch/*.lpl
 emuladores/retroarch/retroarch.exe
 emuladores/retroarch/retroarch-nvidia.exe
+
+# RETROARCH OLD
+emuladores/retroarch-old/assets/
+emuladores/retroarch-old/autoconfig/
+emuladores/retroarch-old/bearer/
+emuladores/retroarch-old/cheats/
+emuladores/retroarch-old/cores/
+emuladores/retroarch-old/database/
+emuladores/retroarch-old/downloads/
+emuladores/retroarch-old/filters/
+emuladores/retroarch-old/iconengines/
+emuladores/retroarch-old/imageformats/
+emuladores/retroarch-old/info/
+emuladores/retroarch-old/layouts/
+emuladores/retroarch-old/logs/
+emuladores/retroarch-old/overlays/
+emuladores/retroarch-old/platforms/
+emuladores/retroarch-old/playlists/
+emuladores/retroarch-old/recordings/
+emuladores/retroarch-old/saves/
+emuladores/retroarch-old/screenshots/ 
+emuladores/retroarch-old/shaders/ 
+emuladores/retroarch-old/states/
+emuladores/retroarch-old/styles/
+emuladores/retroarch-old/system/
+emuladores/retroarch-old/thumbnails/
+emuladores/retroarch-old/*.dll
+emuladores/retroarch-old/*.lpl
+emuladores/retroarch-old/retroarch.exe
+emuladores/retroarch-old/retroarch-nvidia.exe
+
+# OTROS EMULADORES
+emuladores/snes9x/
+emuladores/vba/
 
 # EMULATIONSTATION
 emulationstation/.emulationstation/music/
@@ -173,3 +225,9 @@ roms/
 saves/
 roms
 saves
+oldFiles/
+screenshots/
+tools/
+oldFiles
+screenshots
+tools

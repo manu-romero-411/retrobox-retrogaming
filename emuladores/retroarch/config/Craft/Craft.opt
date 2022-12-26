@@ -1,0 +1,8 @@
+craft_analog_sensitivity = "0.0150"
+craft_deadzone_radius = "0.010"
+craft_draw_distance = "10"
+craft_field_of_view = "65"
+craft_inverted_aim = "disabled"
+craft_jumping_flash_mode = "disabled"
+craft_resolution = "640x480"
+craft_show_info_text = "disabled"

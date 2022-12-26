@@ -8,6 +8,326 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gba\\Super Mario Advance 2 - Super Mario World (Europe) (En,Fr,De,Es).gba",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Castlevania - Symphony of the Night.chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Castlevania - Symphony of the Night (Europe).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\EscritorioWindows\\Castlevania - Symphony of the Night (Europe)\\Castlevania - Symphony of the Night (Europe)\\Castlevania - Symphony of the Night (Europe).cue",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Ape Escape (Spain).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\EscritorioWindows\\Bust-A-Move 4 (USA)\\Bust-A-Move 4 (USA)\\Bust-A-Move 4 (USA).cue",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Bust-A-Move 4 (Europe).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Bust-A-Move '99 (USA).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\EscritorioXubuntu\\jinjinjinij\\The Legend of Zelda - A Link to the Past.sfc",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\bsnes2014_accuracy_libretro.dll",
+      "core_name": "Nintendo - SNES / SFC (bsnes 2014 Accuracy)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\mastersystem\\Alex Kidd - High-Tech World (USA, Europe).sms",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gba\\Super Mario Advance 4 - Super Mario Bros. 3.gba",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gba\\Super Mario Advance 4 - Super Mario Bros. 3 (Europe) (En,Fr,De,Es,It) (Rev 1) (Virtual Console).gba",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\pcengine\\Aero Blasters (USA).pce",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_pce_libretro.dll",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\atomiswave\\mslug6.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Animal Crossing (T-Eng) [!].n64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Paper Mario (Europe) (En,Fr,De,Es).n64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\parallel_n64_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Conker's Bad Fur Day (Europe).n64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\parallel_n64_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Conker's Bad Fur Day (Europe).n64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\The Legend of Zelda - Ocarina of Time (Es).z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev A).z64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Crash Bandicoot (Europe) (No EDC).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\snes\\Bust-A-Move.sfc",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\snes9x2010_libretro.dll",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gba\\Advance Wars (Europe) (En,Fr,De,Es).gba",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\dreamcast\\Crazy Taxi 2 (Europe).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Animaniacs.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\snes\\Animaniacs.sfc",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\snes9x2010_libretro.dll",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\n64\\Banjo-Kazooie (Europe) (En,Fr,De).n64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Alex Kidd in the Enchanted Castle.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Crash Bandicoot (Europe) (No EDC).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_psx_libretro.dll",
+      "core_name": "Sony - PlayStation (Beetle PSX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\psx\\Crash Bandicoot (Europe) (No EDC).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\ngpc\\Sonic the Hedgehog - Pocket Adventure (World).ngc",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_ngp_libretro.dll",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\neogeo\\pbobbl2n.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\mame2003\\rainbow.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\fba\\rbisland.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\neogeo\\mslug5.zip",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\snes\\Kirby Super Star.sfc",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\snes9x2010_libretro.dll",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Sonic & Knuckles + Sonic the Hedgehog 2.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Bonanza Bros..md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\mastersystem\\Sonic The Hedgehog 2 (Europe) (v1.1).sms",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\mastersystem\\Sonic The Hedgehog (USA, Europe).sms",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "C:\\Users\\Manuel\\retrogaming\\roms\\gba\\ChuChu Rocket! (Europe) (En,Ja,Fr,De,Es).gba",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
@@ -17,14 +337,6 @@
     },
     {
       "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Darius.md",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
-      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "C:\\Users\\Manuel\\retrogaming\\roms\\megadrive\\Alex Kidd in the Enchanted Castle.md",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
       "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
