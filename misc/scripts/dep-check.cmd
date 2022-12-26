@@ -17,7 +17,7 @@ if exist %escritorio%\retrobox-deps.txt (
     del %escritorio%\retrobox-deps.txt
 )
 
-for %%d in (inifile.exe nircmd.exe replace.vbs SilentCMD.exe Sleep.exe) do (
+for %%d in (inifile.exe nircmd.exe SilentCMD.exe Sleep.exe sed.exe) do (
     if NOT EXIST %retroboxroot%\misc\tools\%%d (
         echo dependencia faltante - herramienta: %%d >> %escritorio%\retrobox-deps.txt
     )

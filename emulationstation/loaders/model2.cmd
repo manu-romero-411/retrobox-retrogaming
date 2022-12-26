@@ -28,8 +28,8 @@ rem ## ENCENDER GRÁFICA NVIDIA
 rem sudo pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 
 rem ## PONER EN MARCHA ANTIMICRO, PARA TENER ATAJOS DE TECLADO DE WINDOWS EN EL MANDO
-start /b cmd /c %retroboxroot%\misc\ahks\model2_close.exe
-start /b cmd /c %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\model2.gamecontroller.amgp
+start /b "" %retroboxroot%\misc\ahks\model2_close.exe
+start /b "" %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\model2.gamecontroller.amgp
 
 rem ## AJUSTAR DIRECTORIOS DE BIOS, MEMORY CARDS E ISOS DEL EMULADOR
 %retroboxroot%\misc\tools\inifile.exe %EMUDIR%\model2emu\EMULATOR.ini [RomDirs] Dir1=%retroboxroot%\roms\segamodel2 
@@ -42,7 +42,7 @@ taskkill /IM model2_close.exe /F
 taskkill /IM antimicrox.exe /F
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
-start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+start /b "" %retroboxroot%\misc\ahks\alt_key_unhang.exe
 
 rem ## APAGAR GRÁFICA NVIDIA
 rem sudo pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"

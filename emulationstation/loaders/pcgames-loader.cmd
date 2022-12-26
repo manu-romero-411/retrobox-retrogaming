@@ -31,8 +31,8 @@ rem ## SI EL JUEGO ES DE ALGUNA TIENDA DE JUEGOS, UTILIZAR EL SCRIPT ESPECIAL
 
 rem ## SI EL JUEGO ES PIRATA, FANGAME O NO ES DE TIENDAS, SEGUIR POR AQUÍ
 rem ## CARGAR PERFIL DE ANTIMICRO PARA EL MANDO, Y SCRIPT DE AUTOHOTKEY PARA DESVIAR PULSACIONES A LAS TECLAS -*/
-start /b cmd /c %retroboxroot%\misc\ahks\new_close.exe
-start /b cmd /c %antimicroexec% --profile %profiledir%			
+start /b "" %retroboxroot%\misc\ahks\new_close.exe
+start /b "" %antimicroexec% --profile %profiledir%			
 
 rem ## EJECUTAR JUEGO
 %gamedir%
@@ -42,7 +42,7 @@ tasklist /nh /fi "imagename eq antimicrox.exe" | find /i "antimicrox.exe" && tas
 tasklist /nh /fi "imagename eq new_close.exe" | find /i "new_close.exe" && taskkill /IM new_close.exe /F
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
-start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+start /b "" %retroboxroot%\misc\ahks\alt_key_unhang.exe
 timeout /t 1
 
 rem ## DEVOLVER EL CONTROL A EMULATIONSTATION

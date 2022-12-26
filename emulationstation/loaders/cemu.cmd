@@ -14,8 +14,8 @@ if [%1]==[] goto :ERROR
 set rom=%1
 
 rem ## CARGAR ANTIMICRO Y UN SCRIPT DE AUTOHOTKEY ESPECIALMENTE DISEÑADO PARA SALIR DEL EMULADOR
-start /b cmd /c %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\cemu.gamecontroller.amgp
-start /b cmd /c %retroboxroot%\misc\ahks\cemu_close.exe
+start /b "" %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\cemu.gamecontroller.amgp
+start /b "" %retroboxroot%\misc\ahks\cemu_close.exe
 
 rem ## ASÍ CARGA CEMU LOS JUEGOS:
 rem ### 1. VA AL DIRECTORIO DE ALGÚN JUEGO EN %retroboxroot%\roms
@@ -32,7 +32,7 @@ taskkill /IM antimicrox.exe /F
 taskkill /IM cemu_close.exe /F
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
-start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+start /b "" %retroboxroot%\misc\ahks\alt_key_unhang.exe
 
 rem ## DEVOLVER EL CONTROL A EMULATIONSTATION
 goto :FIN

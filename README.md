@@ -11,6 +11,8 @@ Se necesita usar como base **Windows 10** o posterior. Pronto se traducirán los
 * [Nircmd](https://www.nirsoft.net/utils/nircmd-x64.zip)
 * [Sleep.exe]()
 * [SilentCMD](https://github.com/stbrenner/SilentCMD)
+* [Inifile](https://www.horstmuc.de/div.htm#inifile)
+* [Sed for Windows](https://github.com/mbuilov/sed-windows/)
 * [Kodi](https://kodi.tv)
 * [Acestream](https://wiki.acestream.media)
 

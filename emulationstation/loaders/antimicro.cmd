@@ -1,3 +1,3 @@
 @echo off
 
-start /b cmd /c "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %1
+start /b "" "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %1

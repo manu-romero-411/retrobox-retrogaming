@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./dolphin.cmd</path>
+		<name>dolphin</name>
+		<playcount>1</playcount>
+		<lastplayed>20221226T185602</lastplayed>
+	</game>
+	<game>
+		<path>./flash.cmd</path>
+		<name>flash</name>
+		<playcount>1</playcount>
+		<lastplayed>20221226T185556</lastplayed>
+	</game>
+</gameList>

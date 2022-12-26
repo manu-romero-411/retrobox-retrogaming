@@ -1,0 +1,30 @@
+# SOUE01, SOUJ01, SOUK01, SOUP01 - The Legend of Zelda Skyward Sword
+
+[Core]
+# Values set here will override the main Dolphin settings.
+
+[OnLoad]
+# Add memory patches to be loaded once on boot here.
+
+[OnFrame]
+
+[ActionReplay]
+
+[Video_Hacks]
+EFBAccessEnable = True
+EFBEmulateFormatChanges = True
+
+[Video_Enhancements]
+ArbitraryMipmapDetection = True
+
+[Controls]
+PadType0 = 0
+PadType1 = 0
+PadType2 = 0
+PadType3 = 0
+WiimoteSource0 = 1
+WiimoteSource1 = 1
+WiimoteSource2 = 0
+WiimoteSource3 = 0
+WiimoteProfile1 = zerudaP1
+WiimoteProfile2 = zerudaP2

@@ -40,8 +40,9 @@ rem )
 rem ## ESTABLECER DIRECTORIOS DE GUARDADO DE PARTIDAS Y BIOS. LOS DIRECTORIOS DE PARTIDAS IRÁN SEPARADOS SEGÚN PLATAFORMA
 del %EMUDIR%\retroarch-old\retroarch-config.cfg
 copy %EMUDIR%\retroarch-old\retroarch-original.cfg %EMUDIR%\retroarch-old\retroarch-config.cfg
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch-old\retroarch-config.cfg "directorio" "%retroboxroot%\saves\%plataforma%"
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch-old\retroarch-config.cfg "biosdir" "%retroboxroot%\bios"
+%retroboxroot%\misc\tools\sed.exe -i s#directorio#%rbroot%\\saves\\%plataforma%#g %EMUDIR%\retroarch-old\retroarch-config.cfg 
+%retroboxroot%\misc\tools\sed.exe -i s#biosdir#%rbroot%\\bios#g %EMUDIR%\retroarch-old\retroarch-config.cfg 
+
 
 rem ## INICIAR RETROARCH
 echo %emu% | findstr "parallel" >NUL && (
@@ -53,8 +54,8 @@ echo %emu% | findstr "parallel" >NUL && (
 rem ## DESHACER CONFIGURACIÓN DE DIRECTORIOS Y BIOS PARA QUE EN LA SIGUIENTE EJECUCIÓN DE RETROARCH NO HAYA CONFLICTOS
 del %EMUDIR%\retroarch-old\retroarch-original.cfg
 copy %EMUDIR%\retroarch-old\retroarch-config.cfg %EMUDIR%\retroarch-old\retroarch-original.cfg
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch-old\retroarch-original.cfg "%retroboxroot%\saves\%plataforma%" "directorio" 
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch-old\retroarch-original.cfg "%retroboxroot%\bios" "biosdir"
+%retroboxroot%\misc\tools\sed.exe -i s#%rbroot%\\saves\\%plataforma%#directorio#g %EMUDIR%\retroarch-old\retroarch-original.cfg 
+%retroboxroot%\misc\tools\sed.exe -i s#%rbroot%\\bios#biosdir#g %EMUDIR%\retroarch-old\retroarch-original.cfg 
 
 rem ## SI SE HA NECESITADO ENCENDER, APAGAR GRÁFICA NVIDIA
 rem echo %emu% | findstr "parallel" >NUL && (

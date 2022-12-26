@@ -7,7 +7,7 @@ set retroboxroot=
 pushd %rbpath%
 set retroboxroot=%CD%
 popd
-set antimicroExec=start /b cmd /c  "C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec=start /b ""  "C:\Program Files\AntimicroX\bin\antimicrox.exe"
 
 if [%1]==[] goto :ERROR
 call %1
@@ -16,7 +16,7 @@ rem if [%2]==[] goto :ERROR
 set profiledir=%2
 
 rem ## EJECUTAR JOYXOFF MIENTRAS CARGA EL JUEGO (PANTALLAS UAC DE UPLAY, INICIOS DE SESIÓN, ETC.)
-rem start /b cmd /c "C:\Program Files (x86)\Joyxoff\Joyxoff.exe"
+rem start /b "" "C:\Program Files (x86)\Joyxoff\Joyxoff.exe"
 
 rem ## ENCENDER GRÁFICA NVIDIA
 rem pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
@@ -42,8 +42,8 @@ rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO (PANTALLAS DE CARGA DE LA TIENDA, 
 	tasklist | findstr %exefile% && (
 		rem ### CUANDO SE ROMPA EL BUCLE (EL JUEGO HAYA INICIADO), CARGAR ANTIMICRO Y SCRIPT DE AUTOHOTKEY PARA DESVIAR PULSACIONES A -*/
 	    rem taskkill /IM Joyxoff.exe /F
-		start /b cmd /c %retroboxroot%\misc\new_close.exe
-		start /b cmd /c %antimicroExec% --profile %profiledir%
+		start /b "" %retroboxroot%\misc\new_close.exe
+		start /b "" %antimicroExec% --profile %profiledir%
 		goto :RUNNING
 	) || (
 		timeout /t 4
@@ -70,7 +70,7 @@ rem ## BUCLE POSTGAME - SE ENCARGA DE VOLVER A EMULATIONSTATION DE FORMA CORRECT
 	rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 	
 	rem ### DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
-	start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+	start /b "" %retroboxroot%\misc\ahks\alt_key_unhang.exe
 
 	rem ### DEVOLVER EL CONTROL A EMULATIONSTATION
 	goto :FIN

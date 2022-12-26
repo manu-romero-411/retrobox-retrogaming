@@ -9,6 +9,9 @@ set retroboxroot=%CD%
 popd
 set EMUDIR=%retroboxroot%\emuladores
 
+rem # variable especial para el funcionamiento de sed
+set rbroot=%retroboxroot:\=\\%
+
 if [%1]==[] goto :ERROR
 set plataforma=%1
 
@@ -40,8 +43,8 @@ rem )
 rem ## ESTABLECER DIRECTORIOS DE GUARDADO DE PARTIDAS Y BIOS. LOS DIRECTORIOS DE PARTIDAS IRÁN SEPARADOS SEGÚN PLATAFORMA
 del %EMUDIR%\retroarch\retroarch-config.cfg
 copy %EMUDIR%\retroarch\retroarch-original.cfg %EMUDIR%\retroarch\retroarch-config.cfg
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "directorio" "%retroboxroot%\saves\%plataforma%"
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-config.cfg "biosdir" "%retroboxroot%\bios"
+%retroboxroot%\misc\tools\sed.exe -i s#directorio#%rbroot%\\saves\\%plataforma%#g %EMUDIR%\retroarch\retroarch-config.cfg 
+%retroboxroot%\misc\tools\sed.exe -i s#biosdir#%rbroot%\\bios#g %EMUDIR%\retroarch\retroarch-config.cfg 
 
 rem ## INICIAR RETROARCH
 echo %emu% | findstr "parallel" >NUL && (
@@ -53,8 +56,8 @@ echo %emu% | findstr "parallel" >NUL && (
 rem ## DESHACER CONFIGURACIÓN DE DIRECTORIOS Y BIOS PARA QUE EN LA SIGUIENTE EJECUCIÓN DE RETROARCH NO HAYA CONFLICTOS
 del %EMUDIR%\retroarch\retroarch-original.cfg
 copy %EMUDIR%\retroarch\retroarch-config.cfg %EMUDIR%\retroarch\retroarch-original.cfg
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-original.cfg "%retroboxroot%\saves\%plataforma%" "directorio" 
-cscript %retroboxroot%\misc\tools\replace.vbs %EMUDIR%\retroarch\retroarch-original.cfg "%retroboxroot%\bios" "biosdir"
+%retroboxroot%\misc\tools\sed.exe -i s#%rbroot%\\saves\\%plataforma%#directorio#g %EMUDIR%\retroarch\retroarch-original.cfg 
+%retroboxroot%\misc\tools\sed.exe -i s#%rbroot%\\bios#biosdir#g %EMUDIR%\retroarch\retroarch-original.cfg 
 
 rem ## SI SE HA NECESITADO ENCENDER, APAGAR GRÁFICA NVIDIA
 rem echo %emu% | findstr "parallel" >NUL && (

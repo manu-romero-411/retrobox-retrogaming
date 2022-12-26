@@ -25,7 +25,7 @@ rem ## ENCENDER GRÁFICA NVIDIA
 rem sudo pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 
 rem ## PONER EN MARCHA ANTIMICRO, PARA TENER ATAJOS DE TECLADO DE WINDOWS EN EL MANDO
-start /b cmd /c %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\redream.gamecontroller.amgp
+start /b "" %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\redream.gamecontroller.amgp
 
 rem ## INICIAR REDREAM
 start /wait %EMUDIR%\redream\redream.exe %rom%
@@ -37,7 +37,7 @@ rem ## APAGAR GRÁFICA NVIDIA
 rem sudo pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
-start /b cmd /c %retroboxroot%\misc\ahks\alt_key_unhang.exe
+start /b "" %retroboxroot%\misc\ahks\alt_key_unhang.exe
 
 rem ## DEVOLVER EL CONTROL A EMULATIONSTATION
 goto :FIN

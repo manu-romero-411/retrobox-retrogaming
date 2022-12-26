@@ -287,6 +287,7 @@
 ./roms/apps-tv/app-logos/rtveplay.png|41066|512|512
 ./roms/apps-tv/app-logos/steam.png|51224|512|512
 ./roms/apps-tv/app-logos/uplay.png|177369|512|512
+./roms/atomiswave/images/anmlbskt-image.png|412285|640|640
 ./roms/atomiswave/images/basschal-image.png|616955|640|640
 ./roms/atomiswave/images/claychal-image.png|532454|640|640
 ./roms/atomiswave/images/dolphin-image.png|623591|640|640
@@ -298,14 +299,31 @@
 ./roms/atomiswave/images/rangrmsn-image.png|682088|640|640
 ./roms/dreamcast/images/Crazy Taxi (Europe)-image.png|537108|640|640
 ./roms/dreamcast/images/Crazy Taxi 2 (Europe)-image.png|573696|640|640
+./roms/dreamcast/images/Daytona USA (USA)-image.png|590946|640|640
+./roms/dreamcast/images/Dead or Alive 2 (Europe)-image.png|654977|640|640
+./roms/dreamcast/images/Dolphin Blue (Atomiswave Port)-image.png|586376|640|640
+./roms/dreamcast/images/Jet Set Radio (Europe) (En,Fr,De,Es)-image.png|545895|640|640
+./roms/dreamcast/images/Phantasy Star Online (Europe) (En,Ja,Fr,De,Es)-image.png|615956|640|640
+./roms/dreamcast/images/Volgarr-image.png|439333|640|640
 ./roms/fba/images/1941-image.png|397958|640|640
+./roms/fba/images/1942-image.png|412742|640|640
 ./roms/fba/images/1943-image.png|450084|640|640
 ./roms/fba/images/1945kiii-image.png|427318|640|640
+./roms/fba/images/4dwarrio-image.png|499322|640|640
 ./roms/fba/images/88games-image.png|481493|640|640
 ./roms/fba/images/abcop-image.png|503841|640|640
 ./roms/fba/images/aburner2-image.png|372416|640|640
+./roms/fba/images/acrobatm-image.png|259672|640|640
+./roms/fba/images/actfancr-image.png|515241|640|640
 ./roms/fba/images/aerofgt-image.png|398927|640|640
+./roms/fba/images/airattck-image.png|419406|640|640
+./roms/fba/images/aliencha-image.png|509022|640|640
+./roms/fba/images/aliensec-image.png|531714|640|640
+./roms/fba/images/altbeast-image.png|521272|640|640
+./roms/fba/images/ambush-image.png|212296|640|640
 ./roms/fba/images/anteater-image.png|385756|640|640
+./roms/fba/images/arabian-image.png|245857|640|640
+./roms/fba/images/arbalest-image.png|420723|640|640
 ./roms/fba/images/arkanoid-image.png|294663|640|640
 ./roms/fba/images/bbmanw-image.png|572225|640|640
 ./roms/fba/images/choko-image.png|488135|640|640
@@ -447,6 +465,7 @@
 ./roms/fba/images/srumbler-image.png|405197|640|640
 ./roms/fba/images/ssf2t-image.png|464764|640|640
 ./roms/fba/images/ssriders-image.png|494436|640|640
+./roms/fba/images/superbon-image.png|231145|640|640
 ./roms/fba/images/svcpcb-image.png|575063|640|640
 ./roms/fba/images/tazmania-image.png|195356|640|640
 ./roms/fba/images/theend-image.png|192164|640|640
@@ -489,10 +508,28 @@
 ./roms/gamecube/images/Asterix & Obelix XXL-image.png|525792|640|640
 ./roms/gamecube/images/Burnout 2 - Point of Impact (Europe) (En,Fr,De,Es,It)-image.png|577024|640|640
 ./roms/gamecube/images/F-Zero GX (Europe) (En,Fr,De,Es,It)-image.png|581855|640|640
+./roms/gamecube/images/Fire Emblem - Path of Radiance (Europe) (En,Fr,De,Es,It)-image.png|563710|640|640
+./roms/gamecube/images/Legend of Zelda, The - Twilight Princess (Europe) (En,Fr,De,Es,It)-image.png|630167|640|640
 ./roms/gamecube/images/Mario Kart - Double Dash!! (Europe) (En,Fr,De,Es,It)-image.png|546879|640|640
 ./roms/gamecube/images/Mario Party 5 (Europe) (En,Fr,De,Es,It)-image.png|549883|640|640
+./roms/gamecube/images/Mario Party 6 (Europe) (En,Fr,De,Es,It)-image.png|505641|640|640
+./roms/gamecube/images/Mario Party 7 (Europe) (En,Fr,De,Es,It)-image.png|549711|640|640
+./roms/gamecube/images/Mario Power Tennis (Europe) (En,Fr,De,Es,It)-image.png|521561|640|640
+./roms/gamecube/images/Metroid Prime (Europe) (En,Fr,De,Es,It)-image.png|478852|640|640
+./roms/gamecube/images/Paper Mario - The Thousand-Year Door (Europe) (En,Fr,De,Es,It)-image.png|497993|640|640
+./roms/gamecube/images/Pikmin (Europe) (En,Fr,De,Es,It)-image.png|680088|640|640
+./roms/gamecube/images/Rayman 3 - Hoodlum Havoc (Europe) (En,Fr,De,Es,It)-image.png|571221|640|640
+./roms/gamecube/images/Resident Evil 2 (Europe) (En,Fr,De,Es,It)-image.png|425739|640|640
+./roms/gamecube/images/Resident Evil 4 (Europe) (En,Fr,De,Es,It)-image.png|418790|640|640
+./roms/gamecube/images/Resident Evil Zero (Europe) (En,Fr,De,Es,It)-image.png|442487|640|640
 ./roms/gamecube/images/Sonic Gems Collection (Europe) (En,Fr,De,Es,It)-image.png|475239|640|640
 ./roms/gamecube/images/Sonic Heroes (Europe) (En,Ja,Fr,De,Es,It)-image.png|668423|640|640
+./roms/gamecube/images/Super Mario Sunshine (Europe) (En,Fr,De,Es,It)-image.png|563048|640|640
+./roms/gamecube/images/Super Smash Bros. Melee (Europe) (En,Fr,De,Es,It)-image.png|618212|640|640
+./roms/gamecube/images/Tales of Symphonia (Spain)-image.png|553650|640|640
+./roms/gamecube/images/Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It)-image.png|447507|640|640
+./roms/gamecube/images/Tom Clancy's Splinter Cell - Chaos Theory (Europe)-image.png|432708|640|640
+./roms/gamecube/images/Tony Hawk's Pro Skater 3 (Europe)-image.png|469940|640|640
 ./roms/gamecube/images/Viewtiful Joe (Europe) (En,Fr,De,Es,It)-image.png|470289|640|640
 ./roms/gamegear/images/5 in 1 Funpak (USA, Europe)-image.png|242123|640|640
 ./roms/gamegear/images/Aerial Assault (World) (v1.1)-image.png|272204|640|640
@@ -523,6 +560,10 @@
 ./roms/gamegear/images/Wimbledon (Japan, Europe)-image.png|420085|640|640
 ./roms/gamegear/images/Wolfchild (USA, Europe)-image.png|308027|640|640
 ./roms/gamegear/images/World Class Leader Board (USA)-image.png|197352|640|640
+./roms/gb/images/Balloon Kid (World)-image.png|177489|400|400
+./roms/gb/images/WWF Superstars (USA, Europe)-image.png|162524|400|400
+./roms/gb/images/WWF Superstars 2 (USA, Europe)-image.png|165611|400|400
+./roms/gb/images/Zoop (USA, Europe)-image.png|111477|400|400
 ./roms/gba/images/007 - Everything or Nothing (USA, Europe) (En,Fr,De)-image.png|585523|640|640
 ./roms/gba/images/007 - Everything or Nothing (USA, Europe) (En,Fr,De)-marquee.png|105482|600|250
 ./roms/gba/images/007 - Everything or Nothing (USA, Europe) (En,Fr,De)-thumb.png|442868|494|640
@@ -811,13 +852,20 @@
 ./roms/gba/images/Yu-Gi-Oh! GX - Duel Academy (Europe)-image.png|606167|640|640
 ./roms/gba/images/Zapper (USA)-image.png|613713|640|640
 ./roms/gba/images/Zatchbell! - Electric Arena (USA)-image.png|526667|640|640
+./roms/gba/images/Zoids Legacy (USA)-image.png|563307|640|640
 ./roms/gba/images/Zone of the Enders - The Fist of Mars (USA)-image.png|501145|640|640
 ./roms/gba/images/ZooCube (USA)-image.png|485417|640|640
 ./roms/gba/images/Zooo (Europe) (En,Fr,De,Es,It)-image.png|542527|640|640
+./roms/gbc/images/Bionic Commando - Elite Forces (USA)-image.png|273465|400|400
 ./roms/mame2003/images/1944-image.png|479508|640|640
+./roms/mame2003/images/apb-image.png|255798|640|640
+./roms/mame2003/images/appoooh-image.png|322217|640|640
+./roms/mame2003/images/arabfgt-image.png|579121|640|640
+./roms/mame2003/images/archrivl-image.png|339684|640|640
 ./roms/mame2003/images/argus-image.png|452878|640|640
 ./roms/mame2003/images/arknoid2-image.png|305164|640|640
 ./roms/mame2003/images/astyanax-image.png|560033|640|640
+./roms/mame2003/images/avsp-image.png|460807|640|640
 ./roms/mame2003/images/dblewing-image.png|429197|640|640
 ./roms/mame2003/images/domino-image.png|242456|640|640
 ./roms/mame2003/images/dragngun-image.png|453662|640|640
@@ -919,6 +967,7 @@
 ./roms/mame2003/images/sfposeid-image.png|318801|640|640
 ./roms/mame2003/images/sgladiat-image.png|399347|640|640
 ./roms/mame2003/images/shollow-image.png|334284|640|640
+./roms/mame2003/images/sicv-image.png|234960|640|640
 ./roms/mame2003/images/sinistar-image.png|204031|640|640
 ./roms/mame2003/images/smashtv-image.png|333610|640|640
 ./roms/mame2003/images/snakepit-image.png|373749|640|640
@@ -993,36 +1042,82 @@
 ./roms/megadrive/images/Air Diver-image.png|236676|400|400
 ./roms/megadrive/images/Alex Kidd in the Enchanted Castle-image.png|200680|400|400
 ./roms/megadrive/images/Alisia Dragoon-image.png|296971|400|400
+./roms/megadrive/images/Altered Beast-image.png|225812|400|400
 ./roms/megadrive/images/Andre Agassi Tennis-image.png|262256|400|400
 ./roms/megadrive/images/Animaniacs-image.png|181486|400|400
+./roms/megadrive/images/Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage-image.png|264211|400|400
 ./roms/megadrive/images/Bonanza Bros.-image.png|176015|400|400
 ./roms/megadrive/images/Castle of Illusion Starring Mickey Mouse-image.png|282089|400|400
 ./roms/megadrive/images/Castlevania - Bloodlines-image.png|218808|400|400
+./roms/megadrive/images/Columns III - Revenge of Columns-image.png|205098|400|400
 ./roms/megadrive/images/Columns-image.png|206803|400|400
+./roms/megadrive/images/Comix Zone-image.png|458769|640|640
+./roms/megadrive/images/Crusader of Centy-image.png|321069|400|400
 ./roms/megadrive/images/Darius-image.png|496003|640|640
+./roms/megadrive/images/Dr. Robotnik's Mean Bean Machine-image.png|344291|400|400
+./roms/megadrive/images/Dynamite Headdy-image.png|301980|400|400
+./roms/megadrive/images/Earthworm Jim 2-image.png|204153|400|400
+./roms/megadrive/images/Earthworm Jim-image.png|189925|400|400
+./roms/megadrive/images/Ecco - The Tides of Time-image.png|216849|400|400
 ./roms/megadrive/images/Ecco Jr.-image.png|184028|400|400
 ./roms/megadrive/images/Ecco the Dolphin-image.png|191804|400|400
 ./roms/megadrive/images/Eternal Champions-image.png|299230|400|400
 ./roms/megadrive/images/Fix-It Felix Jr-image.png|170493|400|400
 ./roms/megadrive/images/Flicky-image.png|174847|400|400
 ./roms/megadrive/images/Ghouls 'n Ghosts-image.png|206276|400|400
+./roms/megadrive/images/Golden Axe II-image.png|292191|400|400
+./roms/megadrive/images/Golden Axe III-image.png|270552|400|400
 ./roms/megadrive/images/Golden Axe-image.png|255003|400|400
+./roms/megadrive/images/Gunstar Heroes-image.png|225688|400|400
+./roms/megadrive/images/Kid Chameleon-image.png|276518|400|400
+./roms/megadrive/images/Landstalker-image.png|283918|400|400
+./roms/megadrive/images/Light Crusader-image.png|289385|400|400
+./roms/megadrive/images/Lightening Force - Quest for the Darkstar-image.png|299734|400|400
 ./roms/megadrive/images/Megaman - The Wily Wars-image.png|262467|400|400
+./roms/megadrive/images/Monster World IV (USA, Europe) (En,Ja) (Virtual Console)-image.png|483802|640|640
+./roms/megadrive/images/Old-Towers-image.png|492624|640|640
 ./roms/megadrive/images/OutRun 2019-image.png|215277|400|400
 ./roms/megadrive/images/OutRun-image.png|177587|400|400
 ./roms/megadrive/images/Phantasy Star II-image.png|254708|400|400
+./roms/megadrive/images/Phantasy Star III - Generations of Doom-image.png|290573|400|400
+./roms/megadrive/images/Phantasy Star IV-image.png|370709|400|400
+./roms/megadrive/images/Ristar-image.png|286772|400|400
 ./roms/megadrive/images/Road Rash 3-image.png|219473|400|400
+./roms/megadrive/images/Road Rash II-image.png|212650|400|400
+./roms/megadrive/images/Road Rash-image.png|223051|400|400
+./roms/megadrive/images/Rock n' Roll Racing-image.png|190811|400|400
+./roms/megadrive/images/Shining Force II-image.png|288287|400|400
+./roms/megadrive/images/Shining Force-image.png|279265|400|400
+./roms/megadrive/images/Shinobi III - Return of the Ninja Master-image.png|263243|400|400
 ./roms/megadrive/images/Sonic & Knuckles + Sonic the Hedgehog 2-image.png|186426|400|400
 ./roms/megadrive/images/Sonic & Knuckles + Sonic the Hedgehog 3-image.png|243425|400|400
 ./roms/megadrive/images/Sonic & Knuckles + Sonic the Hedgehog-image.png|163379|400|400
+./roms/megadrive/images/Sonic 3D Blast DX-image.png|534731|640|640
+./roms/megadrive/images/Sonic Spinball-image.png|257106|400|400
 ./roms/megadrive/images/Sonic the Hedgehog 1-image.png|390531|640|640
 ./roms/megadrive/images/Sonic the Hedgehog 2-image.png|200245|400|400
 ./roms/megadrive/images/Space Harrier II-image.png|158799|400|400
+./roms/megadrive/images/Street Fighter II' - Special Champion Edition-image.png|283130|400|400
+./roms/megadrive/images/Streets of Rage 2-image.png|259686|400|400
+./roms/megadrive/images/Streets of Rage 3-image.png|217446|400|400
+./roms/megadrive/images/Strider Returns - Journey from Darkness-image.png|212988|400|400
+./roms/megadrive/images/Strider-image.png|147167|400|400
+./roms/megadrive/images/Super Fantasy Zone-image.png|267176|400|400
 ./roms/megadrive/images/Teenage Mutant Ninja Turtles - The Hyperstone Heist-image.png|266185|400|400
 ./roms/megadrive/images/Teenage Mutant Ninja Turtles - Tournament Fighters-image.png|249913|400|400
 ./roms/megadrive/images/Tetris-image.png|191864|400|400
 ./roms/megadrive/images/The Ooze-image.png|231120|400|400
+./roms/megadrive/images/The Revenge of Shinobi-image.png|237198|400|400
+./roms/megadrive/images/Thunder Force II-image.png|308523|400|400
+./roms/megadrive/images/Thunder Force III-image.png|251774|400|400
+./roms/megadrive/images/Toe Jam & Earl-image.png|241874|400|400
 ./roms/megadrive/images/Vectorman 2-image.png|155799|400|400
+./roms/megadrive/images/Vectorman-image.png|184364|400|400
+./roms/megadrive/images/Zero Wing-image.png|215275|400|400
+./roms/megadrive/images/Zombies Ate My Neighbors-image.png|274954|400|400
+./roms/megadrive/images/Zool - Ninja of the 'Nth' Dimension-image.png|221060|400|400
+./roms/megadrive/images/Zoom!-image.png|178522|400|400
+./roms/megadrive/images/Zoop-image.png|105330|400|400
 ./roms/n64/images/1080 TenEighty Snowboarding (Europe) (En,Ja,Fr,De)-image.png|505104|640|640
 ./roms/n64/images/40 Winks (Europe) (En,Es,It) (Proto)-image.png|448488|640|640
 ./roms/n64/images/Animal Crossing (T-Eng) [!]-image.jpg|40839|640|360
@@ -1033,11 +1128,20 @@
 ./roms/n64/images/Bust-A-Move 2 - Arcade Edition (U) [!]-image.png|578642|640|640
 ./roms/n64/images/Conker's Bad Fur Day (Europe)-image.png|571294|640|640
 ./roms/n64/images/Diddy Kong Racing (Europe) (En,Fr,De)-image.png|459112|640|640
+./roms/n64/images/Donkey Kong 64 (Europe) (En,Fr,De,Es)-image.png|454393|640|640
+./roms/n64/images/Doom 64 (Europe)-image.png|579270|640|640
+./roms/n64/images/Excitebike 64 (Europe)-image.png|432552|640|640
 ./roms/n64/images/F-ZERO X (U) [!]-image.png|450648|640|640
 ./roms/n64/images/GoldenEye 007 (U) [!]-image.png|402405|640|640
+./roms/n64/images/Jet Force Gemini (U) [!]-image.png|522709|640|640
+./roms/n64/images/Killer Instinct Gold (U) (V1.2) [!]-image.png|571277|640|640
 ./roms/n64/images/Kirby 64 - The Crystal Shards (U) [!]-image.png|474413|640|640
 ./roms/n64/images/Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev A)-image.png|510306|640|640
 ./roms/n64/images/Mario Golf (Europe)-image.png|443966|640|640
+./roms/n64/images/Mario Kart 64 (U) [!]-image.png|425933|640|640
+./roms/n64/images/Mario Party (Europe) (En,Fr,De)-image.png|511743|640|640
+./roms/n64/images/Mario Party 2 (Europe) (En,Fr,De,Es,It)-image.png|471063|640|640
+./roms/n64/images/Mario Party 3 (Europe) (En,Fr,De,Es)-image.png|426282|640|640
 ./roms/n64/images/Mario Tennis (Europe)-image.png|511414|640|640
 ./roms/n64/images/New Tetris, The (U) [!]-image.png|540903|640|640
 ./roms/n64/images/Paper Mario (Europe) (En,Fr,De,Es)-image.png|456267|640|640
@@ -1060,6 +1164,7 @@
 ./roms/n64/images/Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)-image.png|335546|640|640
 ./roms/n64/images/Yoshi's Story (Europe) (En,Fr,De)-image.png|460017|640|640
 ./roms/n64/images/Zool - Majou Tsukai Densetsu (J) [!]-image.png|525149|640|640
+./roms/neogeo/images/aodk-image.png|240262|400|400
 ./roms/neogeo/images/blazstar-image.png|302342|400|400
 ./roms/neogeo/images/bstars2-image.png|219297|400|400
 ./roms/neogeo/images/crsword-image.png|462247|640|640
@@ -1151,6 +1256,8 @@
 ./roms/psp/images/Loco Roco 2 (Europe)-image.png|140612|400|400
 ./roms/psp/images/Lumines-image.png|215911|400|400
 ./roms/psp/images/Monster Hunter Freedom-image.png|253539|400|400
+./roms/psp/images/Need For Speed Carbon Own The City-image.png|237117|400|400
+./roms/psp/images/Need for Speed - Underground Rivals (Europe) (En,Fr,De,Es,It)-image.png|220719|400|400
 ./roms/psx/images/Ape Escape (Spain)-image.png|564133|640|640
 ./roms/psx/images/Bust-A-Move '99 (USA)-image.png|597083|640|640
 ./roms/psx/images/CTR - Crash Team Racing (Europe) (En,Fr,De,Es,It,Nl) (EDC)-image.png|506913|640|640
@@ -1180,6 +1287,12 @@
 ./roms/psx/images/Tekken 3 (Europe)-image.png|541985|640|640
 ./roms/psx/images/Tomb Raider (Europe)-image.png|565884|640|640
 ./roms/psx/images/Tombi (Europe)-image.png|485295|640|640
+./roms/sega32x/images/After Burner Complete (32X) (JU) [!]-image.png|177987|400|400
+./roms/sega32x/images/BC Racers (32X) (W) [c][!]-image.png|213767|400|400
+./roms/sega32x/images/Blackthorne (32X) (U) [!]-image.png|226929|400|400
+./roms/sega32x/images/Brutal Unleashed - Above the Claw (32X) (U) [!]-image.png|240599|400|400
+./roms/sega32x/images/Cosmic Carnage (32X) (JU) [!]-image.png|226236|400|400
+./roms/sega32x/images/FIFA International Soccer 96 (32X) (UE) (M6) [c][!]-image.png|196206|400|400
 ./roms/segamodel2/images/dayton93-image.png|477366|640|640
 ./roms/segamodel2/images/dynabb97-image.png|556894|640|640
 ./roms/segamodel2/images/fvipers-image.png|291493|640|640
@@ -1233,6 +1346,9 @@
 ./roms/wiiu/images/Super Mario 3D World-image.png|546395|640|640
 ./roms/windows/images/Broforce-image.jpg|33663|300|450
 ./roms/windows/images/DuckGame-image.jpg|23616|300|450
+./roms/windows/images/MalditaCastilla-image.png|483359|640|640
+./roms/windows/images/Sonic2DBlast-image.jpg|24460|300|414
+./roms/windows/images/SonicAllStarsRacingTransformed-image.jpg|41631|640|360
 ./roms/windows/images/SonicRoboBlast2-image.jpg|35433|300|424
 ./roms/windows/images/epic_EnterTheGrungeon-image.png|345538|640|640
 ./roms/windows/images/epic_FallGuys-thumb.jpg|37092|640|299
@@ -1244,3 +1360,4 @@
 ./roms/windows/images/steam_SonicGenerations-thumb.jpg|34037|300|450
 ./roms/windows/images/steam_bayonetta-image.png|510548|640|640
 ./roms/windows/images/steam_nightsIntoDreams-thumb.jpg|28674|300|417
+./roms/windows/images/uplay_RaymanOrigins-image.png|479155|640|640

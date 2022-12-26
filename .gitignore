@@ -38,6 +38,9 @@ emuladores/dolphin/Qt5Gui.dll
 emuladores/dolphin/Qt5Widgets.dll
 emuladores/dolphin/Updater.exe
 
+# FLASH PLAYER
+emuladores/flashplayer/flash.exe
+
 # EMULADOR GENS-GS
 emuladores/gens-gs/doc/
 emuladores/gens-gs/plugins/
