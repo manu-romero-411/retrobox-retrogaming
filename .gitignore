@@ -153,8 +153,7 @@ emuladores/retroarch-old/system/
 emuladores/retroarch-old/thumbnails/
 emuladores/retroarch-old/*.dll
 emuladores/retroarch-old/*.lpl
-emuladores/retroarch-old/retroarch.exe
-emuladores/retroarch-old/retroarch-nvidia.exe
+emuladores/retroarch-old/*.exe
 
 # OTROS EMULADORES
 emuladores/snes9x/
