@@ -8,8 +8,9 @@ pushd %rbpath%
 set retroboxroot=%CD%
 popd
 
-REM set chromepath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-REM set chromexec=msedge.exe
+REM ## CAMBIAR ESTAS LÍNEAS PARA PONER A CHROME O EDGE RESPECTIVAMENTE
+rem set chromepath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+rem set chromexec=msedge.exe
 
 set chromepath="C:\Program Files\Google\Chrome\Application\chrome.exe"
 set chromexec=chrome.exe
@@ -39,7 +40,7 @@ findstr kodi %appfile% && (
 )
 
 :CHROME
-start /b ""  "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
+start /b ""  "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
 %chromepath% /high-dpi-support=1 /force-device-scale-factor=1.50
 timeout /t 2
 goto :CHROMEISLAUNCHED
@@ -63,7 +64,7 @@ goto :EOF
 :WEBAPP
 SETLOCAL ENABLEDELAYEDEXPANSION
 for /F "usebackq tokens=*" %%A in (`type %appfile%`) do (set "app=%%~A")
-start /b "" "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
+start /b "" "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
 %chromepath% --kiosk %app%
 timeout /t 1
 goto :FIN

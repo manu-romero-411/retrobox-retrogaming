@@ -9,7 +9,7 @@ pushd %rbpath%
 set retroboxroot=%CD%
 popd
 
-set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 rem ## BUSCAR O CREAR PERFIL DE ANTIMICRO PARA EL MANDO
 set basename=""

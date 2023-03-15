@@ -1,3 +1,3 @@
 @echo off
 
-start /b "" "C:\Program Files\AntimicroX\bin\antimicrox.exe" --profile %1
+start /b "" "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %1

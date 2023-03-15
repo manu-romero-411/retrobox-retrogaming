@@ -9,7 +9,7 @@ set retroboxroot=%CD%
 popd
 
 set EMUDIR=%retroboxroot%\emuladores
-set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 rem ## AJUSTAR DIRECTORIOS DE BIOS, MEMORY CARDS E ISOS DEL EMULADOR
 %retroboxroot%\misc\tools\inifile.exe %EMUDIR%\pcsx2\inis\PCSX2_ui.ini [Folders] Bios=..\\..\\bios

@@ -9,7 +9,7 @@ set retroboxroot=%CD%
 popd
 
 set EMUDIR=%retroboxroot%\emuladores
-set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 rem ## CREAR DIRECTORIOS DE GUARDADO DE PARTIDAS
 if exist "%retroboxroot%\saves\dreamcast" ( 

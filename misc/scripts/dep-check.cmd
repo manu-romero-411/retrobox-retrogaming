@@ -23,9 +23,9 @@ for %%d in (inifile.exe nircmd.exe SilentCMD.exe Sleep.exe sed.exe) do (
     )
 )
 
-if NOT EXIST "C:\Program Files\AntimicroX\bin\antimicrox.exe" (
-    echo dependencia faltante - herramienta: antimicro >> %escritorio%\retrobox-deps.txt
-)
+    if NOT EXIST %retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe (
+        echo dependencia faltante - herramienta: antimicrox >> %escritorio%\retrobox-deps.txt
+    )
 
 if NOT EXIST "C:\Program Files\Kodi\kodi.exe" (
     echo dependencia faltante - herramienta: kodi >> %escritorio%\retrobox-deps.txt

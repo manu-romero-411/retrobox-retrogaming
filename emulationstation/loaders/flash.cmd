@@ -9,7 +9,7 @@ pushd %rbpath%
 set retroboxroot=%CD%
 popd
 set EMUDIR=%retroboxroot%\emuladores
-set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 if [%1]==[] goto :ERROR
 set rom=%1
@@ -42,8 +42,7 @@ start /b %EMUDIR%/flashplayer/flash.exe "%rom:"=%\%GAMENAME:"=%"
 rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO. WORKAROUND PARA PANTALLA COMPLETA
 :PRERUN
 	tasklist | findstr flash.exe && (
-		rem start /b "" %retroboxroot%\misc\new_close.exe
-		rem start /b "" %antimicroExec% --profile %profiledir%
+		sleep 2
 		start /b "" %retroboxroot%\misc\ahks\ctrl-f.exe
 		goto :RUNNING
 	) || (

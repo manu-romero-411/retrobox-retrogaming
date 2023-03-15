@@ -9,7 +9,31 @@
 	<game>
 		<path>./flash.cmd</path>
 		<name>flash</name>
+		<playcount>4</playcount>
+		<lastplayed>20221226T205445</lastplayed>
+		<gametime>2276</gametime>
+	</game>
+	<game>
+		<path>./cemu.cmd</path>
+		<name>cemu</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./model2.cmd</path>
+		<name>model2</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./ppsspp.cmd</path>
+		<name>ppsspp</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./retroarch-old.cmd</path>
+		<name>retroarch-old</name>
 		<playcount>1</playcount>
-		<lastplayed>20221226T185556</lastplayed>
+		<lastplayed>20230129T162713</lastplayed>
+		<gametime>13</gametime>
+		<lang>en</lang>
 	</game>
 </gameList>

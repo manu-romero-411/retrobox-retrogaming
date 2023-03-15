@@ -1,2 +1,0 @@
-2022-09-10 14:50:16	ERROR	es_systems.cfg file does not exist!
-2022-09-10 14:50:16	ERROR	Error while parsing systems configuration file!

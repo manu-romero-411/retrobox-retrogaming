@@ -164,6 +164,7 @@ emuladores/snes9x/
 emuladores/vba/
 
 # EMULATIONSTATION
+emulationstation-old/
 emulationstation/.emulationstation/music/
 emulationstation/.emulationstation/recovery/
 emulationstation/.emulationstation/scrapers/

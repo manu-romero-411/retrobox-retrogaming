@@ -15,7 +15,7 @@ for %%f in ("%rom%") do set rom=%%~nf
 set EMUDIR=%retroboxroot%\emuladores
 CD %EMUDIR%\model2emu\
 
-set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 rem ## CREAR DIRECTORIOS DE GUARDADO DE PARTIDAS
 if exist "%retroboxroot%\saves\model2" ( 

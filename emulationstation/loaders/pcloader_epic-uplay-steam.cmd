@@ -7,7 +7,7 @@ set retroboxroot=
 pushd %rbpath%
 set retroboxroot=%CD%
 popd
-set antimicroExec=start /b ""  "C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec=start /b ""  "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 if [%1]==[] goto :ERROR
 call %1

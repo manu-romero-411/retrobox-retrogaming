@@ -8,7 +8,7 @@ pushd %rbpath%
 set retroboxroot=%CD%
 popd
 
-set antimicroExec="C:\Program Files\AntimicroX\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 set kodipath="C:\Program Files\Kodi\kodi.exe"
 set acestreampath="%appdata%\ACEStream\engine\ace_engine.exe"
 

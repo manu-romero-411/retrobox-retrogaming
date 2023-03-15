@@ -1,4 +1,4 @@
-@echo on
+@echo off
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
@@ -17,15 +17,6 @@ if exist %escritorio%\retrobox-deps.txt (
     exit 1
 )
 
-
-rem ## SI NO EXISTE UN .winboot EN C:\, SE DEBERÁ CARGAR EL ENTORNO DE RETROBOX DESDE EL MENÚ INICIO.
-rem ## EL ARCHIVO .winboot SE GENERA DESDE EL SISTEMA LINUX PRINCIPAL DEL PC. CONTROLA EL DESVÍO DEL ARRANQUE DE GRUB Y EL INICIO AUTOMÁTICO DE EMULATIONSTATION.
-if not exist D:\.wingaming (
-	if "%1" == "-b" (
-		goto :EOF
-	)
-)
-
 rem ## EL ARCHIVO .noreboot ES GENERADO SI USAMOS LA OPCIÓN "Modo Windows" DEL MENÚ "Opciones del sistema".
 REM ## IMPIDE QUE SE VUELVA A LINUX AL SELECCIONAR TAL OPCIÓN.
 del D:\.noreboot
@@ -41,10 +32,12 @@ if NOT "%1" == "-b" (
 	powershell -command "(New-Object -comObject Shell.Application).Windows() | foreach-object {$_.quit()}; Get-Process | Where-Object {$_.MainWindowTitle -ne \"\"} | stop-process"
 )
 
-reg import %retroboxroot%\misc\regs\iconos-escritorio-ocultar.reg
-taskkill /IM explorer.exe /F
-start explorer.exe
-timeout /t 3
+rem reg import %retroboxroot%\misc\regs\iconos-escritorio-ocultar.reg
+rem taskkill /IM explorer.exe /F
+rem start explorer.exe
+rem timeout /t 3
+taskkill /IM RetroBar.exe /F
+timeout /t 2
 %retroboxroot%\misc\tools\nircmd.exe win hide class Shell_TrayWnd
 
 rem ## BUCLE DE EJECUCIÓN
@@ -65,8 +58,7 @@ rem ## BUCLE DE EJECUCIÓN
 
 rem ## BUCLE DE CIERRE
 :FIN
-	rem ## SI HAY UN ARCHIVO .winboot, QUERRÁ DECIR QUE HEMOS INICIADO DESDE LINUX. SE INTENTA VOLVER A LINUX.
-	if exist D:\.wingaming (
+	if "%1" == "-b" (
 		rem ### SI HEMOS CERRADO EMULATIONSTATION DESDE LA OPCIÓN "Modo Windows", SE CREARÁ EL ARCHIVO .noreboot.
 		rem ### DE LO CONTRARIO, AL LLEGAR AQUÍ, VOLVEREMOS A LINUX (BIEEEEEN).
 		if not exist D:\.noreboot (
@@ -76,9 +68,10 @@ rem ## BUCLE DE CIERRE
 			del D:\.wingaming
 		)
 	)
-
 	
 	%retroboxroot%\misc\tools\nircmd.exe win show class Shell_TrayWnd
-	reg import %retroboxroot%\misc\regs\iconos-escritorio-mostrar.reg
-	taskkill /IM explorer.exe /F
-	start explorer.exe
+	timeout /t 1
+	rem reg import %retroboxroot%\misc\regs\iconos-escritorio-mostrar.reg
+	rem taskkill /IM explorer.exe /F
+	rem start explorer.exe
+	start %retroboxroot%\misc\tools\RetroBar.exe

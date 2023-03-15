@@ -1,5 +1,8 @@
 @echo off
 
+rem ## sleep arbitrario para que a la pantalla le dé tiempo a que los emuladores carguen
+timeout /t 4
+
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
 set rbpath=%realpath%\..\..
