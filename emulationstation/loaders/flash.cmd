@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem ## VARIABLES DE ENTORNO
 set gamedir=%1
@@ -41,7 +41,7 @@ start /b %EMUDIR%/flashplayer/flash.exe "%rom:"=%\%GAMENAME:"=%"
 
 rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO. WORKAROUND PARA PANTALLA COMPLETA
 :PRERUN
-	tasklist | findstr flash.exe && (
+	tasklist /nh /fi "imagename eq %exefile%" | findstr flash.exe && (
 		sleep 2
 		start /b "" %retroboxroot%\misc\ahks\ctrl-f.exe
 		goto :RUNNING
@@ -52,7 +52,7 @@ rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO. WORKAROUND PARA PANTALLA COMPLETA
 
 rem ## BUCLE INGAME - ESTARÁ PENDIENTE DE QUE CERREMOS EL JUEGO
 :RUNNING
-	tasklist | findstr flash.exe > nul
+	tasklist /nh /fi "imagename eq %exefile%" | findstr flash.exe > nul
 	if %errorlevel%==1 (
 		timeout /t 1
 		GOTO :ENDLOOP

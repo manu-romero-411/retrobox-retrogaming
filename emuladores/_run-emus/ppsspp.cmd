@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem ## VARIABLES DE ENTORNO
 set realpath=%~dp0

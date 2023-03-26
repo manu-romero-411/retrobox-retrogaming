@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gamecontroller configversion="19" appversion="3.2.5">
+<gamecontroller configversion="19" appversion="3.3.3">
     <!--The SDL name for a joystick is included for informational purposes only.-->
     <sdlname>Controller (Xbox One For Windows)</sdlname>
     <!--The Unique ID for a joystick is included for informational purposes only.-->
@@ -24,14 +24,6 @@
             <trigger index="5">
                 <throttle>positivehalf</throttle>
             </trigger>
-            <button index="4">
-                <slots>
-                    <slot>
-                        <code>0x1000002f</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
             <button index="6">
                 <slots>
                     <slot>

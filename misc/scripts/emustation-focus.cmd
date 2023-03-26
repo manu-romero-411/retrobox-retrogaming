@@ -1,7 +1,12 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
+rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
-set retroboxroot=%realpath%\..
+set rbpath=%realpath%\..\..
+set retroboxroot=
+pushd %rbpath%
+set retroboxroot=%CD%
+popd
 
-%retroboxroot%\misc\nircmd.exe win activate stitle "EmulationStation"
+%retroboxroot%\misc\tools\nircmd.exe win activate stitle "EmulationStation"
 exit

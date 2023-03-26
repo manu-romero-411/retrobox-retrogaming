@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 set realpath=%~dp0
 set exefile=%2
@@ -16,7 +16,7 @@ start /b "" "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %
 
 :PRERUN
 	echo hola
-	tasklist | findstr %exefile% > nul
+	tasklist /nh /fi "imagename eq %exefile%" | findstr %exefile% > nul
 	if %errorlevel%==1 (
 		timeout /t 4
 		GOTO :PRERUN
@@ -25,7 +25,7 @@ start /b "" "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %
 	)
 :RUNNING
 	taskkill /IM antimicrox.exe /F
-	tasklist | findstr %exefile% > nul
+	tasklist /nh /fi "imagename eq %exefile%" | findstr %exefile% > nul
 	if %errorlevel%==1 (
 		timeout /t 2
 		GOTO :ENDLOOP

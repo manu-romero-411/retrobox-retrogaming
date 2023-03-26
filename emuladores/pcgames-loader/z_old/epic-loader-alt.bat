@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 set realpath=%~dp0
 set exefile1=%2

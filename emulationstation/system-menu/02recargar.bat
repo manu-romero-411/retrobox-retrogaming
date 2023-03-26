@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 echo " " > D:\.no-reboot
 taskkill /IM emulationstation.exe /F

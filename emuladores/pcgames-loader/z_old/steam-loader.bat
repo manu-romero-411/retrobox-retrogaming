@@ -1,4 +1,4 @@
-@echo OFF
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 set realpath=%~dp0
 set retroboxroot=%realpath%\..\..

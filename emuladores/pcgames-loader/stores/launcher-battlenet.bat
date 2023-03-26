@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 echo " " > D:\.noreboot
 cd /d "C:\Program Files (x86)\Battle.net\"

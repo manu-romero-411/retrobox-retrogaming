@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem ## VARIABLES DE ENTORNO
 set gamedir=%1
@@ -25,7 +25,7 @@ if NOT exist %profiledir% (
 
 rem ## SI EL JUEGO ES DE ALGUNA TIENDA DE JUEGOS, UTILIZAR EL SCRIPT ESPECIAL
 ((echo %gamedir% | findstr epic) || (echo %gamedir% | findstr steam) || (echo %gamedir% | findstr uplay)) && (
-	%realpath%\pcloader_epic-uplay-steam.cmd %gamedir% %profiledir%
+	call %realpath%\pcloader_epic-uplay-steam.cmd %gamedir% %profiledir%
 	goto :FIN
 )
 
@@ -55,4 +55,4 @@ exit 1
 
 rem ## SALIDA SEGURA DEL SCRIPT
 :FIN
-exit 0
+@exit 0

@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 if [%1]==[] goto :NOARG
 set realpath=%~dp0

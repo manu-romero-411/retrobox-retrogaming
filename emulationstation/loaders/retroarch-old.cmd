@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
@@ -7,7 +7,7 @@ set retroboxroot=
 pushd %rbpath%
 set retroboxroot=%CD%
 popd
-set EMUDIR=D:\Juegos\retrogaming\emuladores
+set EMUDIR=%retroboxroot%\emuladores
 
 if [%1]==[] goto :ERROR
 set plataforma=%1

@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 set realpath=%~dp0
 call %1
@@ -10,7 +10,7 @@ REM HERE MODIFY YOUR EXE PATH TO UPLAY GAME:
 cd "%exepath%"
 
 :PRERUN
-	tasklist | findstr %exefile% > nul
+	tasklist /nh /fi "imagename eq %exefile%" | findstr %exefile% > nul
 	if %errorlevel%==1 (
 		timeout /t 4
 		GOTO :PRERUN
@@ -18,7 +18,7 @@ cd "%exepath%"
 		goto :RUNNING
 	)
 :RUNNING
-	tasklist | findstr %exefile% > nul
+	tasklist /nh /fi "imagename eq %exefile%" | findstr %exefile% > nul
 	if %errorlevel%==1 (
 		timeout /t 2
 		GOTO :ENDLOOP

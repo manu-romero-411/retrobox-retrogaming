@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
@@ -28,17 +28,15 @@ rem ## PARA AHORRAR ENERGÍA Y QUE EL PC NO SE CALIENTE MÁS DE LA CUENTA, APAGA
 rem pnputil /disable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955350&0&00E0"
 
 rem ## OCULTAR BARRA DE TAREAS E ICONOS DEL ESCRITORIO DE WINDOWS COMPLETAMENTE
+
 if NOT "%1" == "-b" (
 	powershell -command "(New-Object -comObject Shell.Application).Windows() | foreach-object {$_.quit()}; Get-Process | Where-Object {$_.MainWindowTitle -ne \"\"} | stop-process"
 )
 
-rem reg import %retroboxroot%\misc\regs\iconos-escritorio-ocultar.reg
-rem taskkill /IM explorer.exe /F
-rem start explorer.exe
-rem timeout /t 3
-taskkill /IM RetroBar.exe /F
-timeout /t 2
-%retroboxroot%\misc\tools\nircmd.exe win hide class Shell_TrayWnd
+call %retroboxroot%\misc\scripts\desktop_hide.cmd
+timeout /t 3
+call %retroboxroot%\misc\scripts\taskbar_hide.cmd
+python %retroboxroot%\misc\scripts\fondo_quitar.py
 
 rem ## BUCLE DE EJECUCIÓN
 :RUN
@@ -58,6 +56,11 @@ rem ## BUCLE DE EJECUCIÓN
 
 rem ## BUCLE DE CIERRE
 :FIN
+	python %retroboxroot%\misc\scripts\fondo_poner.py
+	del %retroboxroot%\.isUserWp
+	call %retroboxroot%\misc\scripts\taskbar_show.cmd
+	call %retroboxroot%\misc\scripts\desktop_show.cmd
+
 	if "%1" == "-b" (
 		rem ### SI HEMOS CERRADO EMULATIONSTATION DESDE LA OPCIÓN "Modo Windows", SE CREARÁ EL ARCHIVO .noreboot.
 		rem ### DE LO CONTRARIO, AL LLEGAR AQUÍ, VOLVEREMOS A LINUX (BIEEEEEN).
@@ -69,9 +72,4 @@ rem ## BUCLE DE CIERRE
 		)
 	)
 	
-	%retroboxroot%\misc\tools\nircmd.exe win show class Shell_TrayWnd
-	timeout /t 1
-	rem reg import %retroboxroot%\misc\regs\iconos-escritorio-mostrar.reg
-	rem taskkill /IM explorer.exe /F
-	rem start explorer.exe
-	start %retroboxroot%\misc\tools\RetroBar.exe
+	exit 0

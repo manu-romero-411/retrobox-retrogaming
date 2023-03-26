@@ -1,4 +1,4 @@
-@echo off
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 set realpath=%~dp0
 cd %realpath%
@@ -13,7 +13,7 @@ set exefile=Minecraft.Windows.exe
 start %realpath%\lnk\Minecraft.lnk
 
 :LOOP
-	tasklist|findstr %exefile% && (
+	tasklist /nh /fi "imagename eq %exefile%" | find /I %exefile% && (
 		timeout /t 4
 		goto :LOOP
     	) || (

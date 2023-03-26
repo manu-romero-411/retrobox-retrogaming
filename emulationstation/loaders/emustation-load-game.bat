@@ -1,5 +1,5 @@
-@echo off
-
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
+setlocal ENABLEDELAYEDEXPANSION
 rem ## sleep arbitrario para que a la pantalla le dé tiempo a que los emuladores carguen
 timeout /t 4
 
@@ -43,7 +43,7 @@ echo %emu% | findstr libretro >NUL && (
 
 rem ### EMULADOR/PROGRAMA EXTERNO A RETROARCH
 :NORETROARCH
-%retroboxroot%\emulationstation\loaders\%emu%.cmd %rom%
+call %retroboxroot%\emulationstation\loaders\%emu%.cmd %rom%
 goto :FIN
 
 rem ## CAZAERRORES
@@ -53,4 +53,5 @@ exit 1
 
 rem ## SALIDA SEGURA DEL SCRIPT
 :FIN
-exit 0
+echo Control devuelto a emustation 
+@exit 0

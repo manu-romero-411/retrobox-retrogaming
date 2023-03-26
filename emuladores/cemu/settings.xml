@@ -43,6 +43,7 @@
         <region_width>-3</region_width>
     </GameList>
     <RecentLaunchFiles>
+        <Entry>C:/users/manuel/retrogaming/roms/wiiu/Mario Kart 8.wiiu/code/Turbo.rpx</Entry>
         <Entry>D:/Juegos/retrogaming/roms/wiiu/Mario Kart 8.wiiu/code/Turbo.rpx</Entry>
         <Entry>C:/Users/Manuel/retrogaming/roms/wiiu/New Super Mario Bros U.wiiu/code/red-pro2.rpx</Entry>
         <Entry>C:/Users/Manuel/retrogaming/roms/wiiu/Mario Kart 8.wiiu/code/Turbo.rpx</Entry>
@@ -99,16 +100,16 @@
     <GraphicPack>
         <Entry filename="graphicPacks\downloadedGraphicPacks\MarioKart8\Graphics\rules.txt">
             <Preset>
-                <category>Aspect Ratio</category>
-                <preset>16:9 (Default)</preset>
-            </Preset>
-            <Preset>
                 <category>Shadows</category>
                 <preset>Low (50%)</preset>
             </Preset>
             <Preset>
+                <category>Aspect Ratio</category>
+                <preset>16:9 (Default)</preset>
+            </Preset>
+            <Preset>
                 <category>TV Resolution</category>
-                <preset>640x360</preset>
+                <preset>854x480</preset>
             </Preset>
             <Preset>
                 <category>Gamepad Resolution</category>
@@ -139,6 +140,7 @@
                 <preset>Low</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\MarioKart8\Mods\60FPSMultiplayer\rules.txt"/>
         <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Graphics\rules.txt">
             <Preset>
                 <category>TV Resolution</category>
@@ -157,13 +159,13 @@
                 <preset>Medium</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Workarounds\CrashFix\rules.txt"/>
-        <Entry filename="graphicPacks\downloadedGraphicPacks\SkylandersSwapForce\Workarounds\PortalStabilityFix\rules.txt"/>
         <Entry filename="graphicPacks\downloadedGraphicPacks\SuperMario3DWorld_Resolution\rules.txt">
             <Preset>
                 <preset>960x540</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\SkylandersSwapForce\Workarounds\PortalStabilityFix\rules.txt"/>
+        <Entry filename="graphicPacks\downloadedGraphicPacks\NewSuperMarioBrosU\Workarounds\CrashFix\rules.txt"/>
     </GraphicPack>
     <Graphic>
         <api>1</api>

@@ -1,5 +1,5 @@
 @if (@X)==(@Y) @end /* JScript comment 
-        @echo off 
+        @echo off &SETLOCAL ENABLEDELAYEDEXPANSION 
        
         rem :: the first argument is the script name as it will be used for proper help message 
         cscript //E:JScript //nologo "%~f0" "%~nx0" %* 

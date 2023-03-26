@@ -1,69 +1,67 @@
-[23:22:49] ------- Init Cemu 1.26.2f -------
-[23:22:49] Init Wii U memory space (base: 0x000002468c2e0000)
-[23:22:49] mlc01 path: D:/Juegos/retrogaming/saves/wiiu
-[23:22:49] Cemuhook version: 0.5.7.7
-[23:22:49] CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
-[23:22:49] RAM: 16265MB
-[23:22:49] Used CPU extensions: SSSE3, SSE4.1, AVX2, AES-NI
-[23:22:51] IOSU_CRYPTO: No otp.bin found. Online mode cannot be used
-[23:22:51] IOSU_CRYPTO: No Seeprom.bin found. Online mode cannot be used
-[23:22:51] Loading RedCarpet.rpx
-[23:22:52] COS: System fonts found. Generated shareddata (26609KB)
-[23:22:52] Loaded RPL module redcarpet (checksum 0x37445E5F)
-[23:22:52] ------- Loaded title -------
-[23:22:52] TitleId: 00050000-10145d00
-[23:22:52] TitleVersion: v0
-[23:22:52] Update path: D:/Juegos/retrogaming/saves/wiiu/usr/title/0005000e/10145d00/ (not present)
-[23:22:52] DLC path:    D:/Juegos/retrogaming/saves/wiiu/usr/title/0005000c/10145d00/ (not present)
-[23:22:52] Save path:   D:/Juegos/retrogaming/saves/wiiu/usr/save/00050000/10145D00/user/
-[23:22:52] Shader cache file: shaderCache/transferable/0005000010145d00.bin
-[23:22:52] gameprofile path: gameProfiles/0005000010145d00.ini
-[23:22:52] RPX hash (updated): 7bba927a
-[23:22:52] RPX hash (base): 7bba927a
-[23:22:52] ------- Init Vulkan graphics backend -------
-[23:22:54] Vulkan instance version: 1.3
-[23:22:55] Using GPU: Intel(R) HD Graphics 620
-[23:22:55] Driver version: Intel driver
-[23:22:55] VulkanLimits: UBAlignment 64 nonCoherentAtomSize 1
-[23:22:55] Using available debug function: vkCreateDebugUtilsMessengerEXT()
-[23:22:55] Vulkan device memory info:
-[23:22:55] Heap 0 - Size 8132MB Flags 0x00000001
-[23:22:55] Memory 0 - HeapIndex 0 Flags 0x00000001
-[23:22:55] Memory 1 - HeapIndex 0 Flags 0x00000007
-[23:22:55] Memory 2 - HeapIndex 0 Flags 0x0000000f
-[23:22:55] VK_FORMAT_R4G4_UNORM_PACK8 not supported
-[23:22:56] Loaded module 'redcarpet' with checksum 0xd2308838
-[23:22:56] RPL link time: 31ms
-[23:22:56] Patching SM3DW dynamic resolution scaling at: 0x024906f4
-[23:22:56] HLE scan time: 31ms
-[23:22:56] ------- Active settings -------
-[23:22:56] CPU-Mode: Single-core recompiler (gameprofile)
-[23:22:56] Load shared libraries: true (gameprofile)
-[23:22:56] Use precompiled shaders: auto (gameprofile)
-[23:22:56] Full sync at GX2DrawDone: false
-[23:22:56] Async compile: true
-[23:22:56] Console language: Spanish
-[23:22:56] Vulkan-Info: Allocated additional memory for textures from device-local memory
-[23:22:56] ------- Activate graphic packs -------
-[23:22:56] Applying patch group 'RedCarpetAspectUW'
-[23:22:56] Activate graphic pack: Super Mario 3D World/Graphics/Resolution [Presets: 960x540]
-[23:22:56] ------- Init Audio backend -------
-[23:22:56] DirectSound: available
-[23:22:56] XAudio 2.8: available
-[23:22:56] ------- Run title -------
-[23:22:58] Shader cache loaded with 1538 shaders. Commited mem 148MB. Took 1294ms
-[23:23:00] Recompiler initialized. CPU extensions: LZCNT MOVBE AVX 
-[23:23:00] Custom timer mode: none
-[23:23:00] IOSU_ACT: using account default in first slot
-[23:23:04] Invalid CA certificate (102)
-[23:23:04] Invalid CA certificate (105)
-[23:23:04] Certificate not found (verify required files for online mode or disable online mode)
-[23:23:04] Certificate error
-[23:23:05] CURL web request failed with error 60. Retrying...
-[23:23:06] Vulkan-Info: Allocated additional memory for textures from device-local memory
-[23:23:06] Invalid CA certificate (102)
-[23:23:06] Invalid CA certificate (105)
-[23:23:06] Certificate not found (verify required files for online mode or disable online mode)
-[23:23:06] Certificate error
-[23:23:06] Failed request /oauth20/access_token/generate
-[23:23:06] ACT_GetNexToken(): Failed to retrieve OAuth token
+[14:54:47] ------- Init Cemu 1.26.2f -------
+[14:54:47] Init Wii U memory space (base: 0x000002a3c1e70000)
+[14:54:47] mlc01 path: D:/Juegos/retrogaming/saves/wiiu
+[14:54:47] Cemuhook version: 0.5.7.7
+[14:54:47] CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+[14:54:47] RAM: 16265MB
+[14:54:47] Used CPU extensions: SSSE3, SSE4.1, AVX2, AES-NI
+[14:54:48] Loading Turbo.rpx
+[14:54:48] IOSU_CRYPTO: No otp.bin found. Online mode cannot be used
+[14:54:48] IOSU_CRYPTO: No Seeprom.bin found. Online mode cannot be used
+[14:54:50] COS: System fonts found. Generated shareddata (26609KB)
+[14:54:50] Loaded RPL module turbo (checksum 0x7D581BBA)
+[14:54:50] ------- Loaded title -------
+[14:54:50] TitleId: 00050000-1010ed00
+[14:54:50] TitleVersion: v64
+[14:54:50] Update path: D:/Juegos/retrogaming/saves/wiiu/usr/title/0005000e/1010ed00/
+[14:54:50] DLC path:    D:/Juegos/retrogaming/saves/wiiu/usr/title/00050000/1010ed00/aoc
+[14:54:50] Save path:   D:/Juegos/retrogaming/saves/wiiu/usr/save/00050000/1010ED00/user/
+[14:54:50] Shader cache file: shaderCache/transferable/000500001010ed00.bin
+[14:54:50] gameprofile path: gameProfiles/000500001010ed00.ini
+[14:54:50] RPX hash (updated): 85887bc1
+[14:54:50] RPX hash (base): 9708a1d3
+[14:54:50] ------- Init Vulkan graphics backend -------
+[14:54:51] Vulkan instance version: 1.3
+[14:54:52] Using GPU: Intel(R) HD Graphics 620
+[14:54:52] Driver version: Intel driver
+[14:54:52] VulkanLimits: UBAlignment 64 nonCoherentAtomSize 1
+[14:54:52] Using available debug function: vkCreateDebugUtilsMessengerEXT()
+[14:54:52] Vulkan device memory info:
+[14:54:52] Heap 0 - Size 8132MB Flags 0x00000001
+[14:54:52] Memory 0 - HeapIndex 0 Flags 0x00000001
+[14:54:52] Memory 1 - HeapIndex 0 Flags 0x00000007
+[14:54:52] Memory 2 - HeapIndex 0 Flags 0x0000000f
+[14:54:52] VK_FORMAT_R4G4_UNORM_PACK8 not supported
+[14:54:52] Loaded RPL module mvplayer (checksum 0x905334D8)
+[14:54:52] Loaded module 'turbo' with checksum 0xd09700ce
+[14:54:52] Loaded module 'mvplayer' with checksum 0x1e5181e7
+[14:54:52] RPL link time: 63ms
+[14:54:52] HLE scan time: 62ms
+[14:54:52] ------- Active settings -------
+[14:54:52] CPU-Mode: Single-core recompiler (gameprofile)
+[14:54:52] Load shared libraries: true (gameprofile)
+[14:54:52] Use precompiled shaders: auto (gameprofile)
+[14:54:52] Full sync at GX2DrawDone: false
+[14:54:52] Async compile: true
+[14:54:52] Console language: Spanish
+[14:54:52] Vulkan-Info: Allocated additional memory for textures from device-local memory
+[14:54:52] ------- Activate graphic packs -------
+[14:54:52] Applying patch group 'MK8AspectVer4_1' (Codecave: 01800000-01800018)
+[14:54:52] Applying patch group 'MK8FXAAVer4_1'
+[14:54:52] Applying patch group 'MK8LODVer4_1'
+[14:54:52] Activate graphic pack: Mario Kart 8/Graphics [Presets: 16:9 (Default),854x480,320x180,Low (50%),1x (Default),Enabled,Off,0%,Off,Low]
+[14:54:52] Applying patch group 'MK8FullDrawVer4_1'
+[14:54:52] Activate graphic pack: Mario Kart 8/Mods/60FPS Splitscreen
+[14:54:52] ------- Init Audio backend -------
+[14:54:52] DirectSound: available
+[14:54:52] XAudio 2.8: available
+[14:54:52] ------- Run title -------
+[14:54:56] Shader cache loaded with 7248 shaders. Commited mem 357MB. Took 3934ms
+[14:54:58] Recompiler initialized. CPU extensions: LZCNT MOVBE AVX 
+[14:54:58] Custom timer mode: none
+[14:54:58] IOSU_ACT: using account default in first slot
+[14:54:58] Loaded RPL module mw_shamo (checksum 0x9DE51BE4)
+[14:54:58] Loaded module 'mw_shamo' with checksum 0x6778fb86
+[14:54:58] Loaded RPL module mw_shamo_sbc (checksum 0xC2EC0B3D)
+[14:54:58] Loaded module 'mw_shamo_sbc' with checksum 0xa594053c
+[14:54:59] Vulkan-Info: Allocated additional memory for textures from device-local memory

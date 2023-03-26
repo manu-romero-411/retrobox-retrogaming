@@ -1,4 +1,4 @@
-@echo off
+@echo on
 
 rem ## VARIABLES DE ENTORNO
 set realpath=%~dp0
@@ -7,7 +7,7 @@ set retroboxroot=
 pushd %rbpath%
 set retroboxroot=%CD%
 popd
-set antimicroExec=start /b ""  "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
+set antimicroExec="%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe"
 
 if [%1]==[] goto :ERROR
 call %1
@@ -37,15 +37,41 @@ rem ## SI EL JUEGO ES DE UPLAY U OTRA TIENDA, CARGARLO DESDE SU DIRECTORIO DE IN
 cd "%exedir%"
 cmd /c start "" /high "%exedir:"=%%exefile:"=%"
 
+echo %1 | findstr uplay
+if NOT errorlevel 1 (
+	set count=1
+	goto :UBIRUN
+) else (
+	goto :PRERUN
+)
+
 rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO (PANTALLAS DE CARGA DE LA TIENDA, ETC.) 
+:UBIRUN	
+	@echo on
+	echo %count%
+	timeout /t 4
+	tasklist | findstr %exefile%
+	if NOT errorlevel 1 (
+		if NOT %count% == 0 (
+			set count=0
+		) else (
+			start /b "" %retroboxroot%\misc\ahks\new_close.exe
+			start /b "" %antimicroExec% --profile %profiledir%
+			goto :RUNNING
+		)
+	)
+	
+	goto :UBIRUN
+
 :PRERUN
-	tasklist | findstr %exefile% && (
+	tasklist | findstr %exefile%
+	if NOT errorlevel 1 (
 		rem ### CUANDO SE ROMPA EL BUCLE (EL JUEGO HAYA INICIADO), CARGAR ANTIMICRO Y SCRIPT DE AUTOHOTKEY PARA DESVIAR PULSACIONES A -*/
-	    rem taskkill /IM Joyxoff.exe /F
-		start /b "" %retroboxroot%\misc\new_close.exe
+	    	rem taskkill /IM Joyxoff.exe /F
+		start /b "" %retroboxroot%\misc\ahks\new_close.exe
 		start /b "" %antimicroExec% --profile %profiledir%
 		goto :RUNNING
-	) || (
+	) else (
 		timeout /t 4
 		goto :PRERUN
 	)
@@ -53,12 +79,12 @@ rem ## BUCLE PREVIO A LA EJECUCIÓN DEL JUEGO (PANTALLAS DE CARGA DE LA TIENDA, 
 rem ## BUCLE INGAME - ESTARÁ PENDIENTE DE QUE CERREMOS EL JUEGO
 :RUNNING
 	tasklist | findstr %exefile% > nul
-	if %errorlevel%==1 (
-		timeout /t 2
-		GOTO :ENDLOOP
+	if NOT errorlevel 1 (
+		timeout /t 3
+		GOTO :RUNNING
 	)
 	timeout /t 3
-	GOTO :RUNNING
+	GOTO :ENDLOOP
 
 rem ## BUCLE POSTGAME - SE ENCARGA DE VOLVER A EMULATIONSTATION DE FORMA CORRECTA
 :ENDLOOP
@@ -78,8 +104,8 @@ rem ## BUCLE POSTGAME - SE ENCARGA DE VOLVER A EMULATIONSTATION DE FORMA CORRECT
 rem ## CAZAERRORES
 :ERROR
 echo ERROR
-exit 1
+exit /b 1
 
 rem ## SALIDA SEGURA DEL SCRIPT
 :FIN
-exit 0
+exit /b 0

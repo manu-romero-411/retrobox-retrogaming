@@ -1,4 +1,4 @@
-@echo on
+@echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem ## ESTE SCRIPT CONTROLARÁ QUE TODAS LAS DEPENDENCIAS DE RETROBOX ESTÉN EN SU CARPETA CORRECTAMENTE
 
@@ -23,9 +23,9 @@ for %%d in (inifile.exe nircmd.exe SilentCMD.exe Sleep.exe sed.exe) do (
     )
 )
 
-    if NOT EXIST %retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe (
-        echo dependencia faltante - herramienta: antimicrox >> %escritorio%\retrobox-deps.txt
-    )
+if NOT EXIST %retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe (
+    echo dependencia faltante - herramienta: antimicrox >> %escritorio%\retrobox-deps.txt
+)
 
 if NOT EXIST "C:\Program Files\Kodi\kodi.exe" (
     echo dependencia faltante - herramienta: kodi >> %escritorio%\retrobox-deps.txt
@@ -34,6 +34,20 @@ if NOT EXIST "C:\Program Files\Kodi\kodi.exe" (
 if NOT EXIST "%appdata%\ACEStream\engine\ace_engine.exe" (
     echo dependencia faltante - herramienta: acestream >> %escritorio%\retrobox-deps.txt
 )
+
+if NOT EXIST "C:\Program Files\Nefarius Software Solutions\HidHide\x64\HidHideClient.exe" (
+	echo dependencia faltante - herramienta: hidhide >> %escritorio%\retrobox-deps.txt
+)
+
+if NOT EXIST "C:\Program Files\Nefarius Software Solutions\ViGEm Bus Driver\ViGEmBus.sys" (
+	echo dependencia faltante - herramienta: vigembus >> %escritorio%\retrobox-deps.txt
+)
+
+
+if NOT EXIST %retroboxroot%\misc\tools\XOutput\XOutput.exe (
+    echo dependencia faltante - herramienta: xoutput >> %escritorio%\retrobox-deps.txt
+)
+
 
 for %%d in ("cemu\Cemu.exe" "retroarch\retroarch.exe" "pcsx2\pcsx2x64-avx2.exe" "dolphin\Dolphin.exe" "model2emu\EMULATOR.EXE" "ppsspp\PPSSPPWindows.exe" "redream\redream.exe") do (
     if NOT EXIST %retroboxroot%\emuladores\%%d (
