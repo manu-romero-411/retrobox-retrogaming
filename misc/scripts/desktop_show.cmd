@@ -9,5 +9,7 @@ set retroboxroot=%CD%
 popd
 
 reg import %retroboxroot%\misc\regs\iconos-escritorio-mostrar.reg
+cd %USERPROFILE%
+C:
 taskkill /IM explorer.exe /F
 start explorer.exe

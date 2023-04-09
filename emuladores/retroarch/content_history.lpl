@@ -8,6 +8,86 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\Super Mario Bros. (Japan, USA).nes",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\Castlevania (USA) (Rev A).nes",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic & Knuckles + Sonic the Hedgehog 3.md",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 2.md",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Alex Kidd in the Enchanted Castle.md",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\users\\manuel\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 2.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\users\\manuel\\retrogaming\\roms\\megadrive\\Sonic & Knuckles + Sonic the Hedgehog 3.md",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\users\\manuel\\retrogaming\\roms\\n64\\Yoshi's Story (Europe) (En,Fr,De).n64",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\users\\manuel\\retrogaming\\roms\\psx\\Spyro - Year of the Dragon (Europe).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "C:\\users\\manuel\\retrogaming\\roms\\psx\\Medievil 2 (Europe) (Es,It,Pt).chd",
+      "label": "",
+      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "C:\\Users\\Manuel\\retrogaming\\roms\\psx\\Tekken 3 (Europe).chd",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\pcsx_rearmed_libretro.dll",
@@ -201,14 +281,6 @@
     },
     {
       "path": "C:\\users\\manuel\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 3.md",
-      "label": "",
-      "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
-      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "C:\\users\\manuel\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 2.md",
       "label": "",
       "core_path": "C:\\Users\\Manuel\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
       "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
@@ -436,14 +508,6 @@
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\snes9x2010_libretro.dll",
       "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\Super Mario Bros. (Japan, USA).nes",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
-      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
       "crc32": "",
       "db_name": ""
     },

@@ -247,7 +247,9 @@
 ./roms/gamegear/images/Wolfchild (USA, Europe)-thumb.png|840659|496|680
 ./roms/gb/images/Amazing Tater (USA)-image.png|539966|640|640
 ./roms/gb/images/Amazing Tater (USA)-thumb.png|721811|640|640
+./roms/gb/images/Balloon Kid (World)-image.png|477873|640|640
 ./roms/gb/images/Balloon Kid (World)-thumb.png|767529|640|640
+./roms/gb/images/Batman (World)-image.png|509049|640|640
 ./roms/gb/images/Batman (World)-thumb.png|598331|640|640
 ./roms/gb/images/Battletoads (USA, Europe)-thumb.png|883575|640|640
 ./roms/gb/images/Bionic Commando (USA)-thumb.png|785624|640|640
@@ -486,6 +488,7 @@
 ./roms/megadrive/images/Alex Kidd in the Enchanted Castle-thumb.png|474449|484|680
 ./roms/megadrive/images/Alisia Dragoon-image.png|795960|640|640
 ./roms/megadrive/images/Alisia Dragoon-thumb.png|573928|484|680
+./roms/megadrive/images/Altered Beast-image.png|729452|640|640
 ./roms/megadrive/images/Altered Beast-thumb.png|572478|484|680
 ./roms/megadrive/images/Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage-image.png|761691|640|640
 ./roms/megadrive/images/Bare Knuckle - Ikari no Tetsuken ~ Streets of Rage-thumb.png|653874|484|680
@@ -507,9 +510,11 @@
 ./roms/megadrive/images/Dr. Robotnik's Mean Bean Machine-thumb.png|467286|484|680
 ./roms/megadrive/images/Dynamite Headdy-image.png|824675|640|640
 ./roms/megadrive/images/Dynamite Headdy-thumb.png|625106|484|680
+./roms/megadrive/images/Earthworm Jim 2-image.png|702276|640|640
 ./roms/megadrive/images/Earthworm Jim 2-thumb.png|784518|484|680
 ./roms/megadrive/images/Earthworm Jim-image.png|667719|640|640
 ./roms/megadrive/images/Earthworm Jim-thumb.png|724133|484|680
+./roms/megadrive/images/Ecco - The Tides of Time-image.png|702020|640|640
 ./roms/megadrive/images/Ecco - The Tides of Time-thumb.png|712806|484|680
 ./roms/megadrive/images/Ecco Jr.-thumb.png|426253|484|680
 ./roms/megadrive/images/Ecco the Dolphin-image.png|660826|640|640
@@ -524,6 +529,7 @@
 ./roms/megadrive/images/Golden Axe III-thumb.png|521767|484|680
 ./roms/megadrive/images/Golden Axe-image.png|762039|640|640
 ./roms/megadrive/images/Golden Axe-thumb.png|520059|484|680
+./roms/megadrive/images/Gunstar Heroes-image.png|712553|640|640
 ./roms/megadrive/images/Gunstar Heroes-thumb.png|441491|484|680
 ./roms/megadrive/images/Kid Chameleon-thumb.png|479037|484|680
 ./roms/megadrive/images/Landstalker-image.png|792817|640|640
@@ -541,7 +547,9 @@
 ./roms/megadrive/images/OutRun-thumb.png|411161|484|680
 ./roms/megadrive/images/Phantasy Star II-image.png|792728|640|640
 ./roms/megadrive/images/Phantasy Star II-thumb.png|504340|484|680
+./roms/megadrive/images/Phantasy Star III - Generations of Doom-image.png|777936|640|640
 ./roms/megadrive/images/Phantasy Star III - Generations of Doom-thumb.png|525239|484|680
+./roms/megadrive/images/Phantasy Star IV-image.png|864165|640|640
 ./roms/megadrive/images/Phantasy Star IV-thumb.png|497316|484|680
 ./roms/megadrive/images/Ristar-image.png|774654|640|640
 ./roms/megadrive/images/Ristar-thumb.png|405856|484|680
@@ -592,6 +600,7 @@
 ./roms/megadrive/images/Teenage Mutant Ninja Turtles - The Hyperstone Heist-thumb.png|643417|484|680
 ./roms/megadrive/images/Teenage Mutant Ninja Turtles - Tournament Fighters-image.png|768558|640|640
 ./roms/megadrive/images/Teenage Mutant Ninja Turtles - Tournament Fighters-thumb.png|674231|484|680
+./roms/megadrive/images/Tetris-image.png|691287|640|640
 ./roms/megadrive/images/Tetris-thumb.png|558191|484|680
 ./roms/megadrive/images/The Ooze-thumb.png|416443|484|680
 ./roms/megadrive/images/The Revenge of Shinobi-image.png|726358|640|640
@@ -779,7 +788,9 @@
 ./roms/neogeo/images/sonicwi3-thumb.png|325133|496|680
 ./roms/neogeo/images/turfmast-image.png|438277|640|640
 ./roms/neogeo/images/turfmast-thumb.png|311836|496|680
+./roms/neogeo/images/wakuwak7-image.png|661462|640|640
 ./roms/neogeo/images/whp-image.png|573500|640|640
+./roms/neogeo/images/wjammers-image.png|586609|640|640
 ./roms/neogeo/images/zupapa-image.png|573864|640|640
 ./roms/nes/images/2048 (tsone)-image.png|531778|640|640
 ./roms/nes/images/2048 (tsone)-marquee.png|15993|600|146
@@ -1008,8 +1019,11 @@
 ./roms/pcengine/images/Bonk III - Bonk's Big Adventure (USA)-thumb.png|671258|517|680
 ./roms/pcengine/images/Bonk's Adventure (USA)-image.png|627926|640|640
 ./roms/pcengine/images/Bonk's Adventure (USA)-thumb.png|654902|517|680
+./roms/pcengine/images/Bonk's Revenge (USA)-image.png|776121|640|640
 ./roms/pcengine/images/Bonk's Revenge (USA)-thumb.png|711925|517|680
+./roms/pcengine/images/Cadash (USA)-image.png|727947|640|640
 ./roms/pcengine/images/Cadash (USA)-thumb.png|653017|517|680
+./roms/pcengine/images/Devil's Crush - Naxat Pinball (USA)-image.png|782828|640|640
 ./roms/pcengine/images/Devil's Crush - Naxat Pinball (USA)-thumb.png|601536|517|680
 ./roms/pcengine/images/Dungeon Explorer (USA)-image.png|722419|640|640
 ./roms/pcengine/images/Dungeon Explorer (USA)-thumb.png|677394|517|680
@@ -1017,7 +1031,9 @@
 ./roms/pcengine/images/Galaga '90 (USA)-thumb.png|625754|517|680
 ./roms/pcengine/images/Gekisha Boy (Japan) [En by Zatos v0.99] (~Photograph Boy)-image.png|707807|640|640
 ./roms/pcengine/images/Gekisha Boy (Japan) [En by Zatos v0.99] (~Photograph Boy)-thumb.png|947851|640|640
+./roms/pcengine/images/Keith Courage in Alpha Zones (USA)-image.png|642568|640|640
 ./roms/pcengine/images/Keith Courage in Alpha Zones (USA)-thumb.png|512306|517|680
+./roms/pcengine/images/Magical Chase (USA)-image.png|661365|640|640
 ./roms/pcengine/images/Magical Chase (USA)-thumb.png|560601|517|680
 ./roms/pcengine/images/Neutopia (USA)-image.png|703523|640|640
 ./roms/pcengine/images/Neutopia (USA)-thumb.png|492167|517|680
@@ -1045,10 +1061,13 @@
 ./roms/psp/images/DiRT 2-image.png|427370|640|640
 ./roms/psp/images/God of War - Chains of Olympus (Europe) (En,Fr,De,Es,It) (PSN)-image.png|455247|640|640
 ./roms/psp/images/God of War - Ghost of Sparta (Europe) (En,Fr,De,Es,It) (PSN)-image.png|431800|640|640
+./roms/psp/images/Killzone Liberation-image.png|457307|640|640
 ./roms/psp/images/Kingdom Hearts - Birth by Sleep (Europe)-image.png|468482|640|640
 ./roms/psp/images/Loco Roco (Europe)-image.png|386824|640|640
 ./roms/psp/images/Loco Roco 2 (Europe)-image.png|389469|640|640
 ./roms/psp/images/Lumines-image.png|434021|640|640
+./roms/psp/images/Need For Speed Carbon Own The City-image.png|455013|640|640
+./roms/psp/images/Need for Speed - Underground Rivals (Europe) (En,Fr,De,Es,It)-image.png|453961|640|640
 ./roms/psp/images/Valkyria Chronicles II (Europe)-image.png|491427|640|640
 ./roms/psx/images/Ape Escape (Spain)-image.png|564133|640|640
 ./roms/psx/images/Bust-A-Move 3 DX (Europe)-image.png|574296|640|640
@@ -1289,7 +1308,9 @@
 ./roms/windows/images/epic_HorizonChaseTurbo-thumb.png|399848|517|680
 ./roms/windows/images/epic_SonicMania-image.png|476212|640|640
 ./roms/windows/images/epic_SonicMania-thumb.png|467148|600|900
-./roms/windows/images/epic_TheAltoCollection-image.png|341745|640|853
+./roms/windows/images/epic_TheAltoCollection-image.png|281681|640|640
+./roms/windows/images/epic_TheAltoCollection-marquee.png|60401|527|300
+./roms/windows/images/epic_TheAltoCollection-thumb.png|341745|640|853
 ./roms/windows/images/epic_fallGuys-image.png|725068|1280|743
 ./roms/windows/images/gtaSanAndreas-image.jpg|37426|300|421
 ./roms/windows/images/gtaSanAndreas-image.png|769529|1280|743
@@ -1301,7 +1322,7 @@
 ./roms/windows/images/sonicTripleTrouble-image.png|607973|1280|743
 ./roms/windows/images/sonicTripleTrouble16-box.png|881199|600|900
 ./roms/windows/images/steam_SonicCD-image.png|470796|640|640
-./roms/windows/images/steam_SonicGenerations-thumb.jpg|73807|267|400
+./roms/windows/images/steam_SonicGenerations-thumb.jpg|34037|300|450
 ./roms/windows/images/steam_bayonetta-image.png|510548|640|640
 ./roms/windows/images/steam_bayonetta-thumb.png|945010|600|900
 ./roms/windows/images/steam_horatio-box.jpg|39192|267|400
@@ -1311,6 +1332,76 @@
 ./roms/windows/images/uplay_RaymanLegends-thumb.png|675184|516|680
 ./roms/windows/images/uplay_RaymanOrigins-image.png|479155|640|640
 ./roms/windows/images/uplay_RaymanOrigins-thumb.png|702619|516|680
+Z:/juegos/roms/dos/images/Castlevania-image.png|171136|320|320
+Z:/juegos/roms/dos/images/Civilization-image.png|121437|320|320
+Z:/juegos/roms/dos/images/Command and Conquer - Red Alert-image.png|164989|320|320
+Z:/juegos/roms/dos/images/Command and Conquer-image.png|161620|320|320
+Z:/juegos/roms/dos/images/Commander Keen 4 - Secret Of The Oracle-image.png|183036|320|320
+Z:/juegos/roms/dos/images/Commander Keen 4 - Secret Of The Oracle-thumb.png|63166|146|171
+Z:/juegos/roms/dos/images/DOOM (1993)-image.png|170047|320|320
+Z:/juegos/roms/dos/images/DOOM II-image.png|186910|320|320
+Z:/juegos/roms/dos/images/Death Rally-image.png|168883|320|320
+Z:/juegos/roms/dos/images/Duke Nukem 3D - Atomic Edition-image.png|175987|320|320
+Z:/juegos/roms/dos/images/Dune 2 - The Building of a Dynasty (1992)-image.png|174586|320|320
+Z:/juegos/roms/dos/images/Dune-image.png|138466|320|320
+Z:/juegos/roms/dos/images/Elder Scrolls - Arena, The-image.png|177220|320|320
+Z:/juegos/roms/dos/images/Elder Scrolls - Daggerfall, The-image.png|185771|320|320
+Z:/juegos/roms/dos/images/Epic Pinball-image.png|180849|320|320
+Z:/juegos/roms/dos/images/Ghosts 'n Goblins-image.png|174933|320|320
+Z:/juegos/roms/dos/images/Heroes Of Might And Magic 2-image.png|205982|320|320
+Z:/juegos/roms/dos/images/Heroes Of Might And Magic-image.png|197924|320|320
+Z:/juegos/roms/dos/images/Jazz Jackrabbit CD-ROM (1994)-image.png|146009|320|320
+Z:/juegos/roms/dos/images/La Vuelta Ciclista 2000 (2000)-image.png|113348|320|320
+Z:/juegos/roms/dos/images/PC Futbol (1993)-image.png|151461|320|320
+Z:/juegos/roms/dos/images/PC Futbol 3.0 (1994)-image.png|152066|320|320
+Z:/juegos/roms/dos/images/PC Futbol 4.0-image.png|129277|320|320
+Z:/juegos/roms/dos/images/PC Futbol 5.0-image.png|156977|320|320
+Z:/juegos/roms/dos/images/PC Seleccion Espanola de Futbol Eurocopa '96-image.png|154496|320|320
+Z:/juegos/roms/dos/images/Pool of Radiance-image.png|163409|320|320
+Z:/juegos/roms/dos/images/Prince of Persia 2 - The Shadow & The Flame-image.png|175796|320|320
+Z:/juegos/roms/dos/images/Prince of Persia-image.png|133307|320|320
+Z:/juegos/roms/dos/images/Quake-image.png|154912|320|320
+Z:/juegos/roms/dos/images/Quake-thumb.png|149796|259|340
+Z:/juegos/roms/dos/images/Shadow Warrior-image.png|169806|320|320
+Z:/juegos/roms/dos/images/Sid Meier's Colonization-image.png|138712|320|320
+Z:/juegos/roms/dos/images/Sid Meier's Railroad Tycoon Deluxe-image.png|191323|320|320
+Z:/juegos/roms/dos/images/Sid Meier's Railroad Tycoon-image.png|166681|320|320
+Z:/juegos/roms/dos/images/SimAnt - The Electronic Ant Colony-image.png|145712|320|320
+Z:/juegos/roms/dos/images/SimCity 2000-image.png|170969|320|320
+Z:/juegos/roms/dos/images/SimCity-image.png|136179|320|320
+Z:/juegos/roms/dos/images/Under A Killing Moon-image.png|151760|320|320
+Z:/juegos/roms/dos/images/Warcraft - Orcs And Humans-image.png|196579|320|320
+Z:/juegos/roms/dos/images/Warcraft 2 - Tides Of Darkness-image.png|194247|320|320
+Z:/juegos/roms/dos/images/Warcraft 2 - Tides Of Darkness-thumb.png|248375|320|404
+Z:/juegos/roms/dos/images/Wasteland-image.png|150047|320|320
+Z:/juegos/roms/dos/images/Wolfenstein 3D-image.png|136948|320|320
+Z:/juegos/roms/dos/images/Xcom Ufo Defense-image.png|154667|320|320
+Z:/juegos/roms/dos/images/another world-image.png|144902|320|320
+Z:/juegos/roms/dos/images/lemmings-image.png|148887|320|320
+Z:/juegos/roms/scummvm/images/atlantis-image.png|186476|320|320
+Z:/juegos/roms/scummvm/images/comi-image.png|163406|320|320
+Z:/juegos/roms/scummvm/images/ft-image.png|178043|320|320
+Z:/juegos/roms/scummvm/images/kq1sci-image.png|164203|320|320
+Z:/juegos/roms/scummvm/images/kq2-image.png|168875|320|320
+Z:/juegos/roms/scummvm/images/kq3-image.png|159064|320|320
+Z:/juegos/roms/scummvm/images/kq4sci-image.png|181709|320|320
+Z:/juegos/roms/scummvm/images/kq5-image.png|193011|320|320
+Z:/juegos/roms/scummvm/images/kq6-image.png|183260|320|320
+Z:/juegos/roms/scummvm/images/kq7-image.png|191332|320|320
+Z:/juegos/roms/scummvm/images/loom-image.png|169032|320|320
+Z:/juegos/roms/scummvm/images/monkey-image.png|772429|640|640
+Z:/juegos/roms/scummvm/images/monkey-marquee.png|78818|600|260
+Z:/juegos/roms/scummvm/images/monkey-thumb.png|571981|517|680
+Z:/juegos/roms/scummvm/images/monkey2-image.png|179876|320|320
+Z:/juegos/roms/scummvm/images/rosetattoo-image.png|171625|320|320
+Z:/juegos/roms/scummvm/images/samnmax-image.png|169746|320|320
+Z:/juegos/roms/scummvm/images/simon1-image.png|180513|320|320
+Z:/juegos/roms/scummvm/images/simon2-image.png|197390|320|320
+Z:/juegos/roms/scummvm/images/sq1sci-image.png|181139|320|320
+Z:/juegos/roms/scummvm/images/sq2-image.png|140834|320|320
+Z:/juegos/roms/scummvm/images/sq3-image.png|142291|320|320
+Z:/juegos/roms/scummvm/images/sq4-image.png|163521|320|320
+Z:/juegos/roms/scummvm/images/tentacle-image.png|187328|320|320
 d:/juegos/retrogaming/roms/gamecube/images/Asterix & Obelix XXL-image.png|525792|640|640
 d:/juegos/retrogaming/roms/gamecube/images/Asterix & Obelix XXL-thumb.png|393579|489|680
 d:/juegos/retrogaming/roms/gamecube/images/Burnout 2 - Point of Impact (Europe) (En,Fr,De,Es,It)-image.png|577024|640|640

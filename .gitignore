@@ -14,6 +14,14 @@ emuladores/cemu/Cemu.exe
 emuladores/cemu/cemuhook.dll
 emuladores/cemu/cemuhook.ini
 
+# EMULADOR DOSBOX
+emuladores/dosbox/Documentation/
+"emuladores/dosbox/Video Codec/"
+emuladores/dosbox/*.txt
+emuladores/dosbox/*.exe
+emuladores/dosbox/*.bat
+emuladores/dosbox/*.dll
+
 # EMULADOR DOLPHIN
 emuladores/dolphin/Languages/
 emuladores/dolphin/QtPlugins/
@@ -99,6 +107,18 @@ emuladores/redream/vmu1.bin
 emuladores/redream/vmu2.bin
 emuladores/redream/vmu3.bin
 emuladores/redream-linux/
+
+# EMULADOR SCUMMVM
+emuladores/scummvm/AUTHORS
+emuladores/scummvm/*.md
+emuladores/scummvm/COPYING
+emuladores/scummvm/COPYRIGHT
+emuladores/scummvm/TODO
+emuladores/scummvm/*.dll
+emuladores/scummvm/*.exe
+emuladores/scummvm/*.txt
+emuladores/scummvm/*.html
+emuladores/scummvm/*.pdf
 
 # RETROARCH
 emuladores/retroarch/assets/

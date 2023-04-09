@@ -23,7 +23,7 @@ rem pnputil /enable-device "PCI\VEN_10DE&DEV_1299&SUBSYS_18D01043&REV_A1\4&31955
 
 rem ## SI EL JUEGO ES DE EPIC, CARGARLO CON EPIC
 if NOT [%epicurl%]==[] (
-	start %epicurl%
+	start "" "%retroboxroot:"=%\emuladores\pcgames-loader\epicgames_links\%epicurl:"=%"
 	goto :PRERUN
 ) 
 
