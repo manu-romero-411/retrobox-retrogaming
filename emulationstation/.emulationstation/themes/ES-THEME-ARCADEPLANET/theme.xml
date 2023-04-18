@@ -356,8 +356,13 @@ originally based on: "carbon"
 
 	<!-- COMMON ELEMENTS in Gamelist Views -->
 
-	<view name="basic,detailed,video,gamecarousel,grid">
+	<view name="basic,video,gamecarousel,grid">
+		<image name="md_image">
+			<visible>false</visible>
+		</image>
+	</view>
 
+	<view name="basic,detailed,video,gamecarousel,grid">
 		<helpsystem name="help">
 			<pos>0.01 0.952</pos>
 			<size>1 0.01</size>
@@ -470,10 +475,6 @@ originally based on: "carbon"
 
 		<image name="md_marquee">
 			<default>./art/assets/nologo.png</default>
-		</image>
-
-		<image name="md_image">
-			<visible>false</visible>
 		</image>
 
 		<video name="md_video">
@@ -1060,9 +1061,9 @@ originally based on: "carbon"
 	<view name="detailed,video">
 
 		<image name="logo">
-			<path>./art/wheelv/${system.theme}.png</path>
-			<path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
-			<path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
+			<path>./art/Colorlogos/${system.theme}.png</path>
+			<path ifSubset="artworkregion:US">./art/Colorlogos/US/${system.theme}.png</path>
+			<path ifSubset="neogeostyle:mvs">./art/Colorlogos/special/${system.theme}.png</path>
 			<size>0.164 0</size>
 			<pos ifSubset="animatedgamelistopenings:no">0.7203125 0.06574074074</pos>
 			<storyboard ifSubset="animatedgamelistopenings:yes">
@@ -1093,7 +1094,7 @@ originally based on: "carbon"
 			<primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 			<primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<scrollSound>./art/sounds/scroll.wav</scrollSound>
+			<scrollSound>./art/sounds/scroll3.wav</scrollSound>
 			<origin>0 0.5</origin>
 			<lines>13</lines>
 			<selectorOffsetY>-0.0018</selectorOffsetY>
@@ -1116,7 +1117,7 @@ originally based on: "carbon"
 
 		<textlist name="gamelist" ifSubset="selectorstyle:cursor">
 			<pos>0.5 0.5333333</pos>
-			<size>0.44 0.77</size>
+			<size>0.42 0.77</size>
 			<horizontalMargin>0.022</horizontalMargin>
 			<selectorImagePath>./art/assets/cursor.png</selectorImagePath>
 		</textlist>
@@ -1148,25 +1149,20 @@ originally based on: "carbon"
 		<image name="background">
 			<path>./art/backgrounds/bgdetailed.jpg</path>
 		</image>
-
 		<image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+		<image name="md_image">
 			<pos>0.244 0.36</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.36 0.61</maxSize>
-			<reflexion>0.05 0</reflexion>
-			<storyboard event="activate">
-				<animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint" />
-				<animation property="opacity" from="1" to="1" duration="" mode="Linear" />
-			</storyboard>
-			<storyboard event="deactivate">
-				<animation property="opacity" from="1" to="0" duration="250" mode="Linear" />
-				<animation property="scale" from="1" to="0" duration="250" mode="EaseIn" />
-				<animation property="offsetX" from="0.0" to="0.1" duration="250" mode="EaseOut" />
-			</storyboard>
+
 		</image>
 
 		<image name="md_marquee,bigtv">
 			<visible>false</visible>
+			<snapshotSource>image</snapshotSource>
+
 		</image>
 
 		<video name="md_video">

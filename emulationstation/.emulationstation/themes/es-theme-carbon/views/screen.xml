@@ -10,15 +10,12 @@ originally based on: "simple" by nils bonenberger
   <formatVersion>7</formatVersion>
   <view name="screen">
     <text name="clock">
-      <color>777777FF</color>
-      <fontSize>0.035</fontSize>
+      <fontPath>./art/fonts/ds-digib.ttf</fontPath>
+
+      <color>FFFFFF</color>
+      <fontSize>0.04</fontSize>
       <pos>0.90 0.94</pos>
       <size>0.09 0.058</size>
-      <fontSize verticalScreen="true">0.028</fontSize>
-      <pos verticalScreen="true">0.90 0.012</pos>
-      <size verticalScreen="true">0.09 0.0275</size>
-      <color verticalScreen="true">FFFFFFA0</color>
-      <alignment>right</alignment>
       <verticalAlignment>center</verticalAlignment>
     </text>
     <controllerActivity name="controllerActivity">

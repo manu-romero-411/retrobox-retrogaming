@@ -21,10 +21,10 @@ rem ## PONER EN MARCHA ANTIMICRO, PARA TENER ATAJOS DE TECLADO DE WINDOWS EN EL 
 start /b "" %antimicroExec% --hidden --profile %retroboxroot%\misc\gamepad-profiles\redream.gamecontroller.amgp
 
 rem ## INICIAR SCUMMVM
-for /F %%i in ("%rom:"=%") do set rom=^"%%~ni^"
-start /wait %EMUDIR%\scummvm\scummvm.exe %rom%
+rem for /F %%i in ("%rom:"=%") do set rom=^"%%~ni^"
+start /wait %EMUDIR%\scummvm\scummvm.exe -p %rom% --auto-detect
 
-rem ## AL HABER ABANDONADO REDREAM, CERRAR ANTIMICRO
+rem ## AL HABER ABANDONADO SCUMMVM, CERRAR ANTIMICRO
 taskkill /IM antimicrox.exe /F
 
 rem ## APAGAR GRÁFICA NVIDIA

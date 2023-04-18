@@ -5,7 +5,5 @@ CONFIG:Loading primary settings from config file C:\Users\Manuel\AppData\Local\D
 CONFIG:Loading additional settings from config file D:\Juegos\retrogaming\emuladores\dosbox\doscfg.conf
 MIDI:Opened device:win32
 DOS keyboard layout loaded with main language code SP for layout sp
-Two or more joysticks reported, initializing with 2axis
+One joystick reported, initializing with 4axis
 Using joystick Controller (Xbox One For Windows) with 5 axes, 16 buttons and 1 hat(s)
-Using joystick Controller (XBOX 360 For Windows) with 5 axes, 10 buttons and 1 hat(s)
-DOSBox switched to max cycles, because of the setting: cycles=auto. If the game runs too fast try a fixed cycles amount in DOSBox's options.

@@ -56,10 +56,10 @@ originally based on: "simple" by nils bonenberger
       <forceUppercase>0</forceUppercase>
       <scrollSound>./../art/sounds/scroll.wav</scrollSound>
       
-      <selectorColor>${centerFadeColor}</selectorColor>      
+      <selectorColor>AAAAAAAA</selectorColor>      
       <selectedColor>FFFFFFFF</selectedColor>
 
-      <scrollbarColor>96969620</scrollbarColor>
+      <scrollbarColor>969696aa</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
       <scrollbarSize>0.0065</scrollbarSize>            
       <scrollbarAlignment>outerright</scrollbarAlignment> <!-- innerleft -->

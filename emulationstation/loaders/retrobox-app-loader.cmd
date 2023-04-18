@@ -1,6 +1,7 @@
 @echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 
 if [%1]==[] goto :NOARG
+if [%2]==[] goto :NOARG
 set realpath=%~dp0
 set rbpath=%realpath%\..\..
 set retroboxroot=
@@ -8,14 +9,11 @@ pushd %rbpath%
 set retroboxroot=%CD%
 popd
 
-REM ## CAMBIAR ESTAS LÍNEAS PARA PONER A CHROME O EDGE RESPECTIVAMENTE
-rem set chromepath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-rem set chromexec=msedge.exe
+if [%2]==[] goto :CONTINUA
+%realpath%\%2.cmd %1
+goto :EOF
 
-set chromepath="C:\Program Files\Google\Chrome\Application\chrome.exe"
-set chromexec=chrome.exe
-
-tasklist /nh /fi "imagename eq %chromexec%" | find /i "%chromexec%" && taskkill /IM %chromexec% /F
+:CONTINUA
 set appfile=%1
 findstr kodi %appfile% && (
 	goto :KODI
@@ -39,12 +37,6 @@ findstr kodi %appfile% && (
 	)
 )
 
-:CHROME
-start /b ""  "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
-%chromepath% /high-dpi-support=1 /force-device-scale-factor=1.50
-timeout /t 2
-goto :CHROMEISLAUNCHED
-
 :KODI
 %realpath%\kodi.cmd
 goto :EOF
@@ -61,37 +53,6 @@ goto :EOF
 %realpath%\telegram.cmd
 goto :EOF
 
-:WEBAPP
-SETLOCAL ENABLEDELAYEDEXPANSION
-for /F "usebackq tokens=*" %%A in (`type %appfile%`) do (set "app=%%~A")
-start /b "" "%retroboxroot%\misc\tools\antimicro\bin\antimicrox.exe" --profile %retroboxroot%\misc\gamepad-profiles\apps-tv.gamecontroller.amgp
-%chromepath% --kiosk %app%
-timeout /t 1
-goto :FIN
-
-:CHROMEISLAUNCHED
-tasklist /nh /fi "imagename eq %chromexec%" | find /i "%chromexec%" && (
- 	goto :WHILE
-) || (
-	goto :FIN
-)
-
-:NOTWHILE
-tasklist /nh /fi "imagename eq %chromexec%" | find /i "%chromexec%" && (
- 	goto :WHILE
-) || (
-	timeout /t 3
-	goto :NOTWHILE
-)
-
-:WHILE
-tasklist /nh /fi "imagename eq %chromexec%" | find /i "%chromexec%" && (
-	timeout 4
- 	goto :WHILE
-) || (
-	goto :FIN
-)
-
 :KILLKODI
 taskkill /IM ace_engine.exe /F
 taskkill /IM ace_update.exe /F
@@ -103,7 +64,6 @@ taskkill /IM antimicrox.exe /F
 
 rem ## DESENGANCHAR TECLA ALT, QUE SE QUEDA COMO "BLOQUEADA"
 start /b "" %retroboxroot%\misc\ahks\alt_key_unhang.exe
-
 goto :EOF
 
 :NOARG

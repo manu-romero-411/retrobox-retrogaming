@@ -8,10 +8,330 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "Z:\\juegos\\roms\\megadrive\\Alex Kidd in the Enchanted Castle.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Sonic & Knuckles.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\ngp\\Neo Geo Cup '98 (Japan, Europe) (En,Ja).ngp",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_ngp_libretro.dll",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Vectorman.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Vectorman.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Blue Sphere.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Alisia Dragoon.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\gamegear\\5 in 1 Funpak (USA).gg",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\mastersystem\\Golden Axe (USA, Europe).sms",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Alex Kidd in the Enchanted Castle.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\o2em\\4 in 1 Row (Europe).bin",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\o2em_libretro.dll",
+      "core_name": "Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\atari2600\\Adventure (1980) (Atari, Warren Robinett - Sears) (CX2613 - 49-75154) ~.bin",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\stella2014_libretro.dll",
+      "core_name": "Atari - 2600 (Stella 2014)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\neogeo\\magdrop2.zip",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\atomiswave\\dolphin.zip",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\neogeo\\sonicwi2.zip",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Bonanza Bros..gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\mastersystem\\Wonder Boy III - The Dragon's Trap (USA, Europe).sms",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\mastersystem\\Alex Kidd - The Lost Stars (World).sms",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\mastersystem\\Alex Kidd - High-Tech World (USA, Europe).sms",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\mastersystem\\Zool - Ninja of the 'Nth' Dimension (Europe).sms",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Ecco the Dolphin.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\dreamcast\\Skies of Arcadia (Europe) (En,Fr,De,Es).m3u",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\megadrive\\Rock n' Roll Racing.gen",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\gba\\Pac-Man Collection (Europe).gba",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\gba\\Metroid Fusion (Europe) (En,Fr,De,Es,It).gba",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\ngpc\\Sonic the Hedgehog Pocket Adventure.ngc",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_ngp_libretro.dll",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\ngpc\\Pocket Love if (Japan).ngc",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_ngp_libretro.dll",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\ngpc\\Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan).ngc",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mednafen_ngp_libretro.dll",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\vectrex\\WebWarp (Europe).vec",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\vecx_libretro.dll",
+      "core_name": "GCE - Vectrex (vecx)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\scummvm\\tentacle.scummvm\\tentacle.scummvm",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\scummvm_libretro.dll",
+      "core_name": "ScummVM",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\fbneo\\hook.zip",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\snes\\On the Ball.sfc",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\snes9x2010_libretro.dll",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\mame2003\\marble.zip",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\fba\\1941.zip",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fbneo_libretro.dll",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 1.md",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\snes\\ActRaiser.sfc",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\snes9x2010_libretro.dll",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\2048 (tsone).nes",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "D:\\Juegos\\retrogaming\\roms\\nes\\Super Mario Bros. (Japan, USA).nes",
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
       "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\Blades of Steel (USA).nes",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\n64\\Donkey Kong 64 (Europe) (En,Fr,De,Es).n64",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Juegos\\retrogaming\\roms\\n64\\Pokemon Stadium (Spain).n64",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mupen64plus_next_libretro.dll",
+      "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
       "crc32": "",
       "db_name": ""
     },
@@ -416,14 +736,6 @@
       "db_name": ""
     },
     {
-      "path": "D:\\Juegos\\retrogaming\\roms\\nes\\2048 (tsone).nes",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
-      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
       "path": "D:\\Juegos\\retrogaming\\roms\\mame2003\\galaga88.zip",
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\mame2003_plus_libretro.dll",
@@ -489,14 +801,6 @@
     },
     {
       "path": "D:\\Juegos\\retrogaming\\roms\\atomiswave\\mslug6.zip",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\atomiswave\\dolphin.zip",
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\flycast_libretro.dll",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -724,14 +1028,6 @@
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\parallel_n64_libretro.dll",
       "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "D:\\Juegos\\retrogaming\\roms\\megadrive\\Sonic the Hedgehog 1.md",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
-      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "",
       "db_name": ""
     },

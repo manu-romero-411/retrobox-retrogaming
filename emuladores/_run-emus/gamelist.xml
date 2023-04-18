@@ -36,4 +36,11 @@
 		<gametime>13</gametime>
 		<lang>en</lang>
 	</game>
+	<game>
+		<path>./retroarch.cmd</path>
+		<name>retroarch</name>
+		<playcount>1</playcount>
+		<lastplayed>20230416T130538</lastplayed>
+		<gametime>37</gametime>
+	</game>
 </gameList>

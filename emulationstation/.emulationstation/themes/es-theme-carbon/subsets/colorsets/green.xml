@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   <variables>
-    <baseColor>208b20</baseColor>
+    <baseColor>108b20</baseColor>
     <gradientEndColor>005b00</gradientEndColor>
     <centerFadeColor>208b2035</centerFadeColor>
     <bottomBarColor>208b20c0</bottomBarColor>

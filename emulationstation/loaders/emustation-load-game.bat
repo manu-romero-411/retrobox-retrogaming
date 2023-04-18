@@ -1,7 +1,7 @@
 @echo off &SETLOCAL ENABLEDELAYEDEXPANSION
 setlocal ENABLEDELAYEDEXPANSION
 rem ## sleep arbitrario para que a la pantalla le dé tiempo a que los emuladores carguen
-timeout /t 4
+timeout /t 1
 
 rem ## DECLARACIÓN DE VARIABLES
 set realpath=%~dp0
@@ -19,16 +19,24 @@ set plataforma=%1
 if [%2]==[] goto :ERROR
 set rom=%2
 
+if [%3]==[] goto :ERROR
+set emu=%3
+
 cd %realpath%
 
-rem ## BUSCAR EMULADOR POR DEFECTO: FORMA NUEVA (EMULATIONSTATION)
-if NOT [%3]==[] (
-	set emu=%3
-) else (
-	exit 1
+rem ## CARGAR EMULADOR O PROGRAMA QUE HA PEDIDO EL JUEGO/APLICACIÓN
+
+call %retroboxroot%\misc\mandoHelp\mandoHelp_load.cmd %plataforma% %rom%
+echo %help% | findstr none >NUL && GOTO :LOADEMU
+
+start /b "" %retroboxroot%\misc\ahks\pressA.exe
+python %retroboxroot%\misc\mandoHelp\mandoHelp2.py "%retroboxroot%\misc\mandoHelp\%help:"=%.png"
+tasklist | findstr "pressA.exe"
+if NOT errorlevel 1 (
+	taskkill /IM pressA.exe /F
 )
 
-rem ## CARGAR EMULADOR O PROGRAMA QUE HA PEDIDO EL JUEGO/APLICACIÓN
+:LOADEMU
 echo %emu% | findstr libretro >NUL && (
 	rem ### RETROARCH
 	echo %emu% | findstr old >NUL && (
@@ -43,15 +51,20 @@ echo %emu% | findstr libretro >NUL && (
 
 rem ### EMULADOR/PROGRAMA EXTERNO A RETROARCH
 :NORETROARCH
-call %retroboxroot%\emulationstation\loaders\%emu%.cmd %rom%
+echo %plataforma% | findstr apps-tv >NUL && (
+	call %retroboxroot%\emulationstation\loaders\retrobox-app-loader.cmd %rom% %emu% 
+) || (
+	call %retroboxroot%\emulationstation\loaders\%emu%.cmd %rom%
+)
 goto :FIN
 
 rem ## CAZAERRORES
 :ERROR
 echo ERROR
+
 exit 1
 
 rem ## SALIDA SEGURA DEL SCRIPT
 :FIN
 echo Control devuelto a emustation 
-@exit 0
+exit 0

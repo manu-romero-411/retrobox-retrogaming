@@ -47,4 +47,14 @@
 		<lastplayed>20221029T121258</lastplayed>
 		<lang>es</lang>
 	</game>
+	<game>
+		<path>./05enable2p.bat</path>
+		<name>05enable2p</name>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./06disable2p.bat</path>
+		<name>06disable2p</name>
+		<lang>en</lang>
+	</game>
 </gameList>
