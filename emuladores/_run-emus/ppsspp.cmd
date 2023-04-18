@@ -16,7 +16,8 @@ rem ## AJUSTAR DIRECTORIOS DE BIOS, MEMORY CARDS E ISOS DEL EMULADOR
 %retroboxroot%\misc\tools\sed.exe -i s#directorio#%dirname%#g %EMUDIR%\ppsspp\memstick\PSP\SYSTEM\ppsspp.ini
 
 REM ## INICIAR EMULADOR
-%EMUDIR%\ppsspp\PPSSPPWindows64.exe %1 --escape-exit
+%EMUDIR%\ppsspp\PPSSPPWindows64.exe %1
+rem --escape-exit
 
 REM ## PARA ASEGURAR QUE TODA LA CONFIGURACIÓN ES PORTABLE, VOLVER A COLOCAR EL VALOR CENTINELA EN LA CONFIG DE PPSSPP
 set "dirname=%dirname:~0,-1%"

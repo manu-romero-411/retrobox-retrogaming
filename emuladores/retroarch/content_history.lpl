@@ -8,6 +8,30 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "Z:\\juegos\\roms\\o2em\\4 in 1 Row (Europe).bin",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\o2em_libretro.dll",
+      "core_name": "Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\nes\\Super Mario Bros. (Japan, USA).nes",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "Z:\\juegos\\roms\\nes\\Battletoads (USA).nes",
+      "label": "",
+      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "Z:\\juegos\\roms\\megadrive\\Alex Kidd in the Enchanted Castle.gen",
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\genesis_plus_gx_libretro.dll",
@@ -84,14 +108,6 @@
       "label": "",
       "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\picodrive_libretro.dll",
       "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
-      "crc32": "",
-      "db_name": ""
-    },
-    {
-      "path": "Z:\\juegos\\roms\\o2em\\4 in 1 Row (Europe).bin",
-      "label": "",
-      "core_path": "D:\\Juegos\\retrogaming\\emuladores\\retroarch\\cores\\o2em_libretro.dll",
-      "core_name": "Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)",
       "crc32": "",
       "db_name": ""
     },
