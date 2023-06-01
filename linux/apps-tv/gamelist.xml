@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./AnimeFLV.apptv</path>
+		<name>AnimeFLV</name>
+		<image>./app-logos/AnimeFLV.png</image>
+		<rating>0.7</rating>
+		<publisher>AnimeFLV</publisher>
+		<genre>Anime</genre>
+		<players>1</players>
+		<playcount>20</playcount>
+		<lastplayed>20220814T235421</lastplayed>
+		<gametime>294</gametime>
+		<lang>jp</lang>
+	</game>
+	<game>
+		<path>./RTVE play.apptv</path>
+		<name>RTVE Play</name>
+		<image>./app-logos/rtveplay.png</image>
+		<rating>0.8</rating>
+		<releasedate>20080501T000000</releasedate>
+		<publisher>Radiotelevisión Española - RTVE</publisher>
+		<genre>TV / Directos</genre>
+		<players>1</players>
+		<playcount>22</playcount>
+		<lastplayed>20220908T154725</lastplayed>
+		<gametime>1879</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Atresplayer.apptv</path>
+		<name>Atresplayer</name>
+		<image>./app-logos/atresplayer.png</image>
+		<rating>0.6</rating>
+		<releasedate>20140505T000000</releasedate>
+		<publisher>Atresmedia Corporación</publisher>
+		<genre>TV / Directos / Series / Películas</genre>
+		<players>1</players>
+		<playcount>7</playcount>
+		<lastplayed>20230127T222029</lastplayed>
+		<gametime>34</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Crunchyroll.apptv</path>
+		<name>Crunchyroll</name>
+		<image>./app-logos/crunchyroll.png</image>
+		<rating>0.8</rating>
+		<releasedate>20060515T000000</releasedate>
+		<publisher>Crunchyroll</publisher>
+		<genre>Anime</genre>
+		<players>1</players>
+		<hidden>true</hidden>
+		<playcount>4</playcount>
+		<lastplayed>20230416T214455</lastplayed>
+		<lang>jp</lang>
+	</game>
+	<game>
+		<path>./r-battle.net.lnk</path>
+		<name>® Battle.net</name>
+		<image>./app-logos/battlenet.png</image>
+		<rating>0.7</rating>
+		<releasedate>19700101T010000</releasedate>
+		<publisher>Blizzard Entertainment</publisher>
+		<genre>Gaming</genre>
+		<hidden>true</hidden>
+		<playcount>3</playcount>
+		<lastplayed>20230129T162203</lastplayed>
+		<gametime>13</gametime>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./r-epicGamesLauncher.lnk</path>
+		<name>® Epic Games Launcher</name>
+		<image>./app-logos/epicgames.png</image>
+		<rating>0.7</rating>
+		<releasedate>19700101T010000</releasedate>
+		<publisher>Epic Games</publisher>
+		<genre>Gaming</genre>
+		<hidden>true</hidden>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./r-origin.lnk</path>
+		<name>® Origin</name>
+		<image>./app-logos/origin.png</image>
+		<rating>0.4</rating>
+		<releasedate>19700101T010000</releasedate>
+		<publisher>EA</publisher>
+		<genre>Gaming</genre>
+		<hidden>true</hidden>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./r-steam.lnk</path>
+		<name>® Steam</name>
+		<image>./app-logos/steam.png</image>
+		<rating>0.7</rating>
+		<releasedate>20030912T000000</releasedate>
+		<publisher>Valve Corporation</publisher>
+		<genre>Gaming</genre>
+		<hidden>true</hidden>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./r-ubisoftConnect.lnk</path>
+		<name>® Ubisoft Connect</name>
+		<image>./app-logos/uplay.png</image>
+		<rating>0.7</rating>
+		<releasedate>19700101T010000</releasedate>
+		<publisher>Ubisoft</publisher>
+		<genre>Gaming</genre>
+		<hidden>true</hidden>
+		<playcount>2</playcount>
+		<lastplayed>20220810T163141</lastplayed>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./chrome.apptv</path>
+		<name>Microsoft Edge</name>
+		<image>./app-logos/msedge.png</image>
+		<rating>1</rating>
+		<releasedate>20200115T195133</releasedate>
+		<developer>Microsoft</developer>
+		<publisher>Microsoft</publisher>
+		<players>1</players>
+		<hidden>true</hidden>
+		<playcount>26</playcount>
+		<lastplayed>20230102T182445</lastplayed>
+		<gametime>6551</gametime>
+		<lang>eu</lang>
+		<region>eu</region>
+	</game>
+	<game>
+		<path>./Twitch.apptv</path>
+		<name>Twitch</name>
+		<image>./app-logos/Twitch.png</image>
+		<rating>0.8</rating>
+		<releasedate>20110606T000000</releasedate>
+		<publisher>Amazon</publisher>
+		<genre>Directos</genre>
+		<players>1</players>
+		<playcount>11</playcount>
+		<lastplayed>20230423T152018</lastplayed>
+		<gametime>3827</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Spotify.apptv</path>
+		<name>Spotify</name>
+		<image>./app-logos/Spotify.png</image>
+		<rating>0.8</rating>
+		<releasedate>20081007T000000</releasedate>
+		<publisher>Spotify LTD.</publisher>
+		<genre>Música / Podcasts</genre>
+		<players>1</players>
+		<playcount>42</playcount>
+		<lastplayed>20230423T154419</lastplayed>
+		<gametime>17828</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./YouTube Music.apptv</path>
+		<name>YouTube Music</name>
+		<image>./app-logos/YouTubeMusic.png</image>
+		<rating>0.8</rating>
+		<releasedate>20151112T000000</releasedate>
+		<publisher>Google LLC</publisher>
+		<genre>Música</genre>
+		<players>1</players>
+		<playcount>9</playcount>
+		<lastplayed>20230423T154512</lastplayed>
+		<gametime>147</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./plutoTV.apptv</path>
+		<name>Pluto TV</name>
+		<image>./app-logos/plutoTV.png</image>
+		<rating>0.7</rating>
+		<releasedate>20201026T000000</releasedate>
+		<publisher>ViacomCBS</publisher>
+		<genre>TV / Directos</genre>
+		<players>1</players>
+		<playcount>10</playcount>
+		<lastplayed>20230528T010455</lastplayed>
+		<gametime>319</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./kodi.apptv</path>
+		<name>Kodi</name>
+		<emulator>retrobox-app-loader</emulator>
+		<image>./app-logos/Kodi.png</image>
+		<rating>0.9</rating>
+		<releasedate>20040629T000000</releasedate>
+		<publisher>The XBMC Project</publisher>
+		<genre>Series / Películas / TV / Música / Fotos / Vídeos / Directos</genre>
+		<players>1</players>
+		<playcount>74</playcount>
+		<lastplayed>20230531T022559</lastplayed>
+		<gametime>15569</gametime>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./HBO.apptv</path>
+		<name>HBO</name>
+		<image>./app-logos/hbo.png</image>
+		<rating>0.7</rating>
+		<releasedate>20161116T000000</releasedate>
+		<publisher>HBO Europe</publisher>
+		<genre>Series / Películas</genre>
+		<players>1</players>
+		<playcount>33</playcount>
+		<lastplayed>20230531T125050</lastplayed>
+		<gametime>51991</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./Mitele.apptv</path>
+		<name>Mitele</name>
+		<image>./app-logos/mitele.png</image>
+		<rating>0.4</rating>
+		<releasedate>20120913T000000</releasedate>
+		<publisher>Mediaset España</publisher>
+		<genre>Series / Películas / TV / Directos</genre>
+		<players>1</players>
+		<playcount>6</playcount>
+		<lastplayed>20230531T152222</lastplayed>
+		<gametime>20</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./YouTube.apptv</path>
+		<name>YouTube</name>
+		<emulator>google-chrome</emulator>
+		<image>./app-logos/YouTube.png</image>
+		<rating>0.9</rating>
+		<releasedate>20050214T000000</releasedate>
+		<publisher>Google LLC</publisher>
+		<genre>Vídeos / Directos</genre>
+		<players>1</players>
+		<playcount>44</playcount>
+		<lastplayed>20230531T153024</lastplayed>
+		<gametime>17595</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./canalSurMas.apptv</path>
+		<name>Canal Sur Más</name>
+		<image>./app-logos/canalSurMas.png</image>
+		<rating>0.8</rating>
+		<releasedate>20220315T101010</releasedate>
+		<publisher>RTVA</publisher>
+		<genre>TV / Directos</genre>
+		<players>1</players>
+		<playcount>14</playcount>
+		<lastplayed>20230531T202908</lastplayed>
+		<gametime>4219</gametime>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./vfio-win7.apptv</path>
+		<name>_Windows 7 VM</name>
+		<image>./app-logos/win7.png</image>
+		<rating>0</rating>
+		<releasedate>20091026T192748</releasedate>
+		<playcount>2</playcount>
+		<lastplayed>20230531T101655</lastplayed>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./batocera.apptv</path>
+		<name>_Retrogaming - Batocera</name>
+		<image>./app-logos/game.png</image>
+		<rating>0</rating>
+		<releasedate>20180610T202819</releasedate>
+		<lang>en</lang>
+		<region>fr</region>
+	</game>
+	<game>
+		<path>./vfio-android.apptv</path>
+		<name>_Android VM</name>
+		<image>./app-logos/android.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<lang>es</lang>
+	</game>
+	<game>
+		<path>./kahvibreak.apptv</path>
+		<name>Kahvibreak J2ME</name>
+		<image>./app-logos/java.png</image>
+		<rating>0</rating>
+		<releasedate>19700101T010000</releasedate>
+		<playcount>11</playcount>
+		<lastplayed>20230531T205341</lastplayed>
+		<gametime>4332</gametime>
+		<lang>eu</lang>
+	</game>
+	<game>
+		<path>./Amazon Prime Video.apptv</path>
+		<name>Amazon Prime Video</name>
+		<emulator>google-chrome</emulator>
+		<image>./app-logos/AmazonPrimeVideo.png</image>
+		<rating>0.9</rating>
+		<releasedate>20161214T000000</releasedate>
+		<publisher>Amazon</publisher>
+		<genre>Series / Películas</genre>
+		<players>1</players>
+		<playcount>80</playcount>
+		<lastplayed>20230531T203347</lastplayed>
+		<md5>233b6597739798f689a4fae6188abbe6</md5>
+		<gametime>6744</gametime>
+		<lang>es</lang>
+	</game>
+</gameList>
