@@ -1,11 +1,11 @@
 # Proyecto Retrobox
 
-Proyecto de desarrollo de un centro de **emulación**, **gaming** y **multimedia** en #pcgrande.
+Proyecto de desarrollo de un centro de **emulación**, **gaming** y **multimedia**. Testeado en equipo Asus VivoBook F541UJ.
 
 ## Requisitos
-Se necesita usar como base **Windows 10** o posterior. Pronto se traducirán los scripts para que funcionen en GNU/Linux.
+Se necesita usar como base **Windows 10** o posterior (batch), así como **Debian** (python3 con `numpy`, `screeninfo` y `opencv`).
 
-## Aplicaciones y dependencias necesarias
+## Aplicaciones y dependencias necesarias (Windows)
 * [EmulationStation de RetroBat]()
 * [AntimicroX](https://github.com/AntiMicroX/antimicrox)
 * [Nircmd](https://www.nirsoft.net/utils/nircmd-x64.zip)
